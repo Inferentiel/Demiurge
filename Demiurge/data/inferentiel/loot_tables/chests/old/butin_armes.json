@@ -1,0 +1,266 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+	    {
+          "type": "item",
+          "name": "minecraft:iron_pickaxe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"One Shot\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\"},ench:[{id:\"minecraft:sweeping\",lvl:10}],Damage:250,RepairCost:100,AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:100,Operation:0,UUIDMost:95275,UUIDLeast:448575,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-0.99,Operation:1,UUIDMost:95276,UUIDLeast:448575,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:wooden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Épine\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Acide I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}\"]},RepairCost:20}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:stone_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Claymore\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Frénésie I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}\"]},RepairCost:20}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Épée bâtarde\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Inspiration I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}\"]},RepairCost:20}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:golden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Katana\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Vampirique I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}\"]},RepairCost:20}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Espadon\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Intimidation I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}\"]},RepairCost:20}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Main gauche\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":\\\"false\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.2,Operation:1,UUIDMost:15211,UUIDLeast:249745,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:golden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Percemaille\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.4,Operation:1,UUIDMost:15211,UUIDLeast:249746,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Kandjar\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.6,Operation:1,UUIDMost:15211,UUIDLeast:249747,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Petite hache\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":\\\"false\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:2,Operation:0,UUIDMost:15210,UUIDLeast:249745,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:golden_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Tomahawk\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:4,Operation:0,UUIDMost:15210,UUIDLeast:249746,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:diamond_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Francisque\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:6,Operation:0,UUIDMost:15210,UUIDLeast:249747,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:feather",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Plume enchantée\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":\\\"false\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.2,Operation:1,UUIDMost:15220,UUIDLeast:249745,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:feather",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Plume enchantée légère\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.4,Operation:1,UUIDMost:15220,UUIDLeast:249746,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:feather",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Plume enchantée ultra-légère\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.6,Operation:1,UUIDMost:15220,UUIDLeast:249747,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Page de la connaissance\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1,Operation:0,UUIDMost:14220,UUIDLeast:249746,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Livre de la connaissance\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:2,Operation:0,UUIDMost:14319,UUIDLeast:249746,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:shield",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Écu\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":\\\"false\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:14319,UUIDLeast:249846,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:shield",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Rondache\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:3,Operation:0,UUIDMost:14319,UUIDLeast:249446,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:shield",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Égide\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:4,Operation:0,UUIDMost:14319,UUIDLeast:249346,Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:shield",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Aspis\\\",\\\"color\\\":\\\"blue\\\",\\\"italic\\\":\\\"false\\\"}\"},ench:[{id:\"minecraft:thorns\",lvl:12}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:shield",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Targe\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\"},ench:[{id:\"minecraft:thorns\",lvl:14}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:shield",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Pavois\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":\\\"false\\\",\\\"bold\\\":\\\"true\\\"}\"},ench:[{id:\"minecraft:thorns\",lvl:16}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
