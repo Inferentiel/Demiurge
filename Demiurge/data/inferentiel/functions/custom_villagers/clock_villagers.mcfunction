@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:villager] run function inferentiel:custom_villagers/filter_villagers
+execute as @e[type=minecraft:wandering_trader, tag=!getrdm] run function inferentiel:custom_villagers/wandering_trader_improved

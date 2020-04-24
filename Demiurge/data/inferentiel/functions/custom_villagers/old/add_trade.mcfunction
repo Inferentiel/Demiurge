@@ -1,0 +1,2 @@
+execute if entity @s[nbt={VillagerData:{profession:"minecraft:nitwit",level:1,type:"minecraft:snow"}}] run data modify entity @s Offers.Recipes append value {maxUses:999999,buy:{id:"minecraft:emerald",Count:64b},sell:{id:"minecraft:emerald_block",Count:1b},uses:0,rewardExp: 0b}
+tag @s add addtrade

@@ -1,0 +1,335 @@
+Principe trade
+
+Idea: Each profession should have 1 'farm' trade to emerald, 1 regular trade from emerald, 1 'rng trade' from emerald (enchants), 1 workstation trade and 1 knowledge book workstation.
+
+##############
+### Plains ###
+##############
+
+## Armorer ##
+
+# Novice
+Coal 8 - 1 Emerald
+Emerald 12 - 1 Iron chestplate
+
+# Apprentice
+Iron nugget 4 - 1 Emerald
+Emerald 36 - 1 Bell
+
+# Journeyman
+Emerald 10 - 1 Shield
+Iron ore, Emerald 1,10 - 2 Iron ingot
+
+# Expert
+Emerald 64 - 1 Knowledge book (Iron chestplate)
+Diamond 1 - 16 Emerald
+Emerald 64 - 1 Blast Furnace
+
+# Master
+Emerald 24 - 1 Chainmail Boots
+Emerald 30 - 1 Chainmail Helmet
+Emerald 42 - 1 Chainmail Leggings
+Emerald 48 - 1 Chainmail Chestplate
+Emerald_block 64 - 1 Knowledge book (Blast Furnace)
+
+## Butcher ##
+
+# Novice
+Raw Porkchop 3 - 1 Emerald
+Emerald, bowl 2,1 - 1 Rabbit stew
+
+# Apprentice
+Emerald 6 - 1 Cooked Porkchop
+
+# Journeyman
+Dried Kelp Block 4 - 1 Emerald
+
+# Expert
+Emerald 64 - 1 Knowledge book (Dried Kelp block)
+Emerald 64 - 1 Smoker
+
+# Master
+Emerald 12 - 1 Suspicious Stew (Invisibility)
+Emerald_block 64 - 1 Knowledge book (Smoker)
+
+## Cartographer ##
+
+# Novice
+Emerald 4 - 12 Paper
+Apple 4 - 1 Emerald
+
+# Apprentice
+Emerald 8 - 1 Compass
+Emerald 32 - 1 Map
+
+# Journeyman
+Emerald 12 - 1 Banner
+Emerald 20 - 1 Clock
+
+# Expert
+Emerald 32 - 1 Woodland Explorer Map
+Emerald 64 - 1 Knowledge book (Banner)
+Emerald 64 - 1 Cartography table
+
+# Master
+Emerald 32 - 1 Flower Banner Pattern
+Emerald_block 64 - 1 Knowledge book (Cartography table)
+
+## Cleric ##
+
+# Novice
+Rotten Flesh 8 - 1 Emerald
+Emerald 4 - 4 Redstone dust
+
+# Apprentice
+Gold nugget 4 - 1 Emerald
+Emerald 4 - 1 Lapis Lazuli
+
+# Journeyman
+Rabbit Foot 1 - 12 Emerald
+Emerald 4 - 1 Glowstone dust
+
+# Expert
+Emerald 6 - 1 Regeneration Potion
+Emerald 64 - 1 Knowledge Book (Redstone torch)
+Emerald 64 - 1 Brewing stand
+
+# Master
+Emerald 16 - 1 Bottle O Enchanting
+Emerald 16 - 1 Ender Pearl
+Emerald_block 64 - 1 Knowledge book (Brewing stand)
+
+## Farmer ##
+
+# Novice
+Emerald 1 - 1 Bread
+Wheat 7 - 1 Emerald
+
+# Apprentice
+Pumpkin 3 - 1 Emerald
+Emerald 1 - 1 Apple
+
+# Journeyman
+Bones Meal 6 - 1 Emerald
+Emerald 16 - 1 Cake
+
+# Expert
+Emerald 12 - 1 Golden Carrot
+Emerald 64 - 1 Knowledge Book (Bread)
+Emerald 64 - 1 Composter
+
+# Master
+Emerald 48 - 1 Golden Apple
+Emerald_block 64 - 1 Knowledge book (Composter)
+
+## Fisherman ##
+
+# Novice
+String 6 - 1 Emerald
+
+# Apprentice
+Emerald 1 - 2 Cooked Cod
+
+# Journeyman
+Emerald 16 - 1 Fishing Rod
+
+# Expert
+Emerald 64 - 1 Knowledge Book (Oak Boat)
+Boat 1 - 4 Emerald
+Emerald 64 - 1 Barrel
+
+# Master
+Fish 1 - 16 Emerald
+Emerald_block 64 - 1 Knowledge book (Barrel)
+
+## Fletcher ##
+
+# Novice
+Flint 4 - 1 Emerald
+Emerald 4 - 8 Arrow
+
+# Apprentice
+Emerald 12 - 1 Bow
+Feather 8 - 1 Emerald
+
+# Journeyman
+Emerald 24 - 1 CrossBow
+
+# Expert
+Emerald 64 - 1 Knowledge Book (Bow)
+Emerald 64 - 1 Fletching table
+
+# Master
+Emerald, Arrows 10,16 - 16 Tipped Arrow (Poison)
+Emerald_block 64 - 1 Knowledge book (Fletching table)
+
+## Nitwit ##
+
+# Novice
+
+# Apprentice
+
+# Journeyman
+
+# Expert
+
+# Master
+
+## Leatherworker ##
+
+# Novice
+Emerald 3 - 1 Leather
+
+# Apprentice
+Emerald 8 - 1 Enchanted Leather cap
+Emerald 10 - 1 Enchanted Leather boots
+
+# Journeyman
+Emerald 12 - 1 Enchanted Leather pants
+Emerald 14 - 1 Enchanted Leather chestplate
+
+# Expert
+Emerald 64 - 1 Knowledge Book (Leather Horse Armor)
+Emerald 64 - 1 Cauldron
+
+# Master
+Emerald 20 - 1 Saddle
+Emerald_block 64 - 1 Knowledge book (Cauldron)
+
+## Librarian  ##
+
+# Novice
+Emerald 1 - 1 Book
+
+# Apprentice
+Emerald 16 - 1 Low Enchanted Book
+
+# Journeyman
+Emerad 32 - 1 Midgame Enchanted book
+
+# Expert
+Emerald 64 - 1 Knowledge book (Bookshelf)
+Emerald 64 - 1 Lectern
+
+# Master
+Emerald 64 - 1 Endgame Enchanted book
+Emerald_block 64 - 1 Knowledge book (Lectern)
+
+## Stone Mason ##
+
+# Novice
+CobbleStone, Emerald 16,3 - 32 Stone
+Clay 6 - 1 Emerald
+
+# Apprentice
+Granite, Emerald 16,6 - 32 Polished Granite
+Andésite, Emerald 16,6 - 32 Polished Andésite
+Diorite, Emerald 16,6 - 32 Polished Diorite
+
+# Journeyman
+NetherQuartz 3 - 1 Emerald
+Bricks 4 - 1 Emerald
+
+# Expert
+Emerald 64 - 1 Knowledge Book (Bricks)
+Emerald 64 - 1 Stone cutter
+
+# Master
+Emerald_Block 64 - 1 Knowledge Book (Stone cutter)
+
+## Sheperd ##
+
+# Novice
+White Wool 12 - 2 Emerald
+Emerald 6 - 1 Shears
+
+# Apprentice
+Dye1, Dye2 6,6 - 6 Emerald 
+
+# Journeyman
+Emerald 16 - 1 Bed
+
+# Expert
+Emerald 64 - 1 Knowledge Book (Bed)
+Emerald 64 - 1 Loom
+
+# Master
+Emerald_Block 64 - 1 Knowledge Book (Loom)
+Emerald 4 - 1 Painting
+
+## Toolsmith ##
+
+# Novice
+Coal 8 - 1 Emerald
+Emerald 12 - 1 Iron Pickaxe
+
+# Apprentice
+Iron nugget 4 - 1 Emerald
+Emerald 12 - 1 Iron Shovel
+Emerald 12 - 1 Iron Hoe
+
+# Journeyman
+Iron ore, Emerald 1,10 - 2 Iron ingot
+
+# Expert
+Emerald 64 - 1 Knowledge book (Iron Pickaxe)
+Diamond 1 - 16 Emerald
+Emerald 64 - 1 Smithing table
+
+# Master
+Emerald 32 - 1 Enchanted Iron Pickaxe
+Emerald 32 - 1 Enchanted Iron Shovel
+Emerald 32 - 1 Enchanted Iron Hoe
+Emerald_Block 64 - 1 Knowledge Book (Smithing table)
+
+## Weaponsmith ##
+
+# Novice
+Coal 8 - 1 Emerald
+Emerald 12 - 1 Iron Axe
+
+# Apprentice
+Iron nugget 4 - 1 Emerald
+Emerald 12 - 1 Iron Sword
+
+# Journeyman
+Iron ore, Emerald 1,10 - 2 Iron ingot
+
+# Expert
+Emerald 64 - 1 Knowledge book (Iron Sword)
+Diamond 1 - 16 Emerald
+Emerald 64 - 1 Smithing table
+
+# Master
+Emerald 32 - 1 Enchanted Iron Sword
+Emerald 32 - 1 Enchanted Iron Axe
+Emerald_Block 64 - 1 Knowledge Book (Grindstone)
+
+##############
+### Desert ###
+##############
+
+
+##############
+### Jungle ###
+##############
+
+
+##############
+### Savanna ##
+##############
+
+
+##############
+### Snowy  ###
+##############
+
+
+##############
+### Swamp  ###
+##############
+
+
+##############
+### Taiga  ###
+##############

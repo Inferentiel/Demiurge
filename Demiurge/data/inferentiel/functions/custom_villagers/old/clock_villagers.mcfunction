@@ -1,0 +1,3 @@
+#execute as @e[type=minecraft:villager,nbt={VillagerData:{profession:"minecraft:none"}},tag=belt_stone] run function inferentiel:custom_villagers/none
+execute as @e[type=minecraft:villager,nbt={VillagerData:{level:1}},tag=!belt_stone] run function inferentiel:custom_villagers/add_trade_stone
+execute as @e[type=minecraft:villager,nbt={VillagerData:{level:2}},tag=!belt_iron] run function inferentiel:custom_villagers/add_trade_iron
