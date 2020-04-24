@@ -1,0 +1,3 @@
+execute as @e[type=minecraft:potion,distance=..8,nbt={Potion:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:harming"}}}] run data modify entity @s Potion.tag set value {CustomPotionEffects:[{Id:7b,Amplifier:3b,Duration:3}]}
+execute as @e[type=minecraft:potion,distance=..8,nbt={Potion:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:slowness"}}}] run data modify entity @s Potion.tag set value {CustomPotionEffects:[{Id:2b,Amplifier:3b,Duration:60}]}
+effect give @a[distance=..12] minecraft:hunger 15 1

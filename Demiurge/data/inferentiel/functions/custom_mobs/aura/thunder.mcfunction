@@ -1,0 +1,2 @@
+execute unless entity @s[nbt={ActiveEffects:[{Id:16b}]}] as @a[distance=..8] at @s run summon minecraft:lightning_bolt ~ ~ ~
+execute unless entity @s[nbt={ActiveEffects:[{Id:16b}]}] run effect give @s minecraft:night_vision 10 0 true

@@ -1,0 +1,2 @@
+execute unless entity @s[nbt={ActiveEffects:[{Id:16b}]}] as @a[distance=..16] at @s run summon vex ~ ~ ~
+execute unless entity @s[nbt={ActiveEffects:[{Id:16b}]}] run effect give @s minecraft:night_vision 15 0 true

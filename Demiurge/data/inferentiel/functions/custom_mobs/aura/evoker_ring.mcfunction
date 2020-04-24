@@ -1,0 +1,25 @@
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~2 ~ ~ {Warmup:0}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~1.73 ~ ~1 {Warmup:0}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~1 ~ ~1.73 {Warmup:0}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~0 ~ ~2 {Warmup:0}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~-1 ~ ~1.73 {Warmup:0}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~-1.73 ~ ~1 {Warmup:0}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~-2 ~ ~0 {Warmup:0}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~-1.73 ~ ~-1 {Warmup:0}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~-1 ~ ~-1.73 {Warmup:0}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~ ~ ~-2 {Warmup:0}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~1 ~ ~-1.73 {Warmup:0}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~1.73 ~ ~-1 {Warmup:0}
+
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~3 ~ ~ {Warmup:10}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~2.595 ~ ~1.5 {Warmup:10}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~1.5 ~ ~2.595 {Warmup:10}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~0 ~ ~3 {Warmup:10}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~-1.5 ~ ~2.595 {Warmup:10}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~-2.595 ~ ~1.5 {Warmup:10}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~-3 ~ ~0 {Warmup:10}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~-2.595 ~ ~-1.5 {Warmup:10}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~-1.5 ~ ~-2.595 {Warmup:10}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~ ~ ~-3 {Warmup:10}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~1.5 ~ ~-2.595 {Warmup:10}
+execute if entity @p[distance=..8] run summon minecraft:evoker_fangs ~2.595 ~ ~-1.5 {Warmup:10}
