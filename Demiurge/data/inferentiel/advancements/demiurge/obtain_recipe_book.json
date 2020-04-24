@@ -1,0 +1,38 @@
+{
+  "parent": "inferentiel:demiurge/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:knowledge_book"
+    },
+    "title": {
+      "translate": "recipe.toast.title"
+    },
+    "description": [{"text":"Find a recipe\n"},{"translate":"item.minecraft.book","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "inferentiel:book"
+    ]
+  },
+  "criteria": {
+    "recipe_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:knowledge_book"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "recipe_book"
+    ]
+  ]
+}

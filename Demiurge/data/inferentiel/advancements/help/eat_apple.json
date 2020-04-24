@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:help/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:apple"
+    },
+    "title": {
+      "translate": "effect.minecraft.instant_health"
+    },
+	"description": [{"text":"Regen yourself\n"},{"translate":"item.minecraft.golden_apple","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:golden_apple"
+    ]
+  },
+  "criteria": {
+    "eat_apple": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "eat_apple"
+    ]
+  ]
+}

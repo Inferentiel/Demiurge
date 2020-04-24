@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:help/damage_low",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "subtitles.entity.cat.hurt"
+    },
+	"description": [{"translate":"stat.minecraft.damage_taken"},{"text": " : 600\n"},{"translate":"item.minecraft.leather_boots","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:leather_boots"
+    ]
+  },
+  "criteria": {
+    "medium_damage": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "medium_damage"
+    ]
+  ]
+}

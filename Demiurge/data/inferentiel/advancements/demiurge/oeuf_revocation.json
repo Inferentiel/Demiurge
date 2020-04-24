@@ -1,0 +1,46 @@
+{
+  "parent": "inferentiel:demiurge/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:egg"
+    },
+    "title": {
+      "translate": "item.minecraft.horse_spawn_egg"
+    },
+	"description": {
+      "text": "Find a summon egg. You can use it to catch and summon an horse!"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 100,
+	"function": "inferentiel:books/book_familiaris"
+  },
+  "criteria": {
+    "get_oeuf_revocation": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:egg",
+                        "count": {"min":1,"max":64},
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:loyalty",
+                                "levels": 1
+                            }
+                        ]
+                    }
+        ]    
+	  }
+    }
+  },
+  "requirements": [
+    [
+      "get_oeuf_revocation"
+    ]
+  ]
+}

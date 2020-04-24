@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:help/damage_high",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "title": {
+      "translate": "subtitles.entity.player.hurt"
+    },
+	"description": [{"translate":"stat.minecraft.damage_taken"},{"text": " : 6000\n"},{"translate":"item.minecraft.leather_chestplate","color":"gold"}],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:leather_chestplate"
+    ]
+  },
+  "criteria": {
+    "too_much_damage": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "too_much_damage"
+    ]
+  ]
+}

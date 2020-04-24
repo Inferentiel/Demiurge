@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:help/damage_medium",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_leggings"
+    },
+    "title": {
+      "translate": "subtitles.entity.iron_golem.hurt"
+    },
+	"description": [{"translate":"stat.minecraft.damage_taken"},{"text": " : 3000\n"},{"translate":"item.minecraft.leather_leggings","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:leather_leggings"
+    ]
+  },
+  "criteria": {
+    "high_damage": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "high_damage"
+    ]
+  ]
+}

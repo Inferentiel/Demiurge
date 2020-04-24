@@ -1,0 +1,38 @@
+{
+  "parent": "inferentiel:help/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "options.ao"
+    },
+	"description": [{"text":"Build a campire. Useful for torch and leather!\n"},{"translate":"item.minecraft.shield","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:shield"
+    ]
+  },
+  "criteria": {
+    "campfire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:campfire"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "campfire"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:demiurge/obtain_100_recipes",
+  "display": {
+    "icon": {
+      "item": "minecraft:knowledge_book"
+    },
+    "title": {
+      "translate": "recipe.toast.title"
+    },
+    "description": [{"text":"Learn 300 recipes\n"}],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 1000,
+	"function": "inferentiel:books/book_agnoscere"
+  },
+  "criteria": {
+    "hundred_recipes": {
+      "trigger": "minecraft:impossible"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hundred_recipes"
+    ]
+  ]
+}

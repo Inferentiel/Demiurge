@@ -1,0 +1,17 @@
+{
+  "rewards": {
+    "function": "inferentiel:custom_advancements/beacon_protection"
+  },
+  "criteria": {
+    "clock": {
+      "trigger": "minecraft:tick"
+    },
+	"place_beacon": {
+      "trigger": "minecraft:placed_block",
+      "block":  "minecraft:beacon"
+    }
+  },
+  "requirements": [
+    ["clock"],["place_beacon"]
+  ]
+}

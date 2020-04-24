@@ -1,0 +1,363 @@
+{
+  "parent": "inferentiel:demiurge/set_debut",
+  "display": {
+    "icon": {
+      "item": "minecraft:armor_stand"
+    },
+    "title": {
+      "translate": "gui.all"
+    },
+	"description": {"text": "Find all part of a set"},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+	"helmet_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_helmet",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.coal_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:0}}"
+                    }
+        ]    
+	  }
+    },
+	"chestplate_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_chestplate",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.coal_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:0}}"
+                    }
+        ]    
+	  }
+    },
+	"leggings_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_leggings",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.coal_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:0}}"
+                    }
+        ]    
+	  }
+    },
+	"boots_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_boots",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.coal_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:0}}"
+                    }
+        ]    
+	  }
+    },
+	"helmet_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_helmet",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.iron_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:13290186}}"
+                    }
+        ]    
+	  }
+    },
+	"chestplate_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_chestplate",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.iron_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:13290186}}"
+                    }
+        ]    
+	  }
+    },
+	"leggings_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_leggings",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.iron_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:13290186}}"
+                    }
+        ]    
+	  }
+    },
+    "boots_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_boots",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.iron_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:13290186}}"
+                    }
+        ]    
+	  }
+    },
+	"helmet_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_helmet",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.gold_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:13028608}}"
+                    }
+        ]    
+	  }
+    },
+	"chestplate_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_chestplate",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.gold_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:13028608}}"
+                    }
+        ]    
+	  }
+    },
+	"leggings_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_leggings",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.gold_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:13028608}}"
+                    }
+        ]    
+	  }
+    },
+	"boots_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_boots",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.gold_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:13028608}}"
+                    }
+        ]    
+	  }
+    },
+	"helmet_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_helmet",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.emerald_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:52540}}"
+                    }
+        ]    
+	  }
+    },
+	"leggings_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_leggings",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.emerald_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:52540}}"
+                    }
+        ]    
+	  }
+    },
+	"chestplate_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_chestplate",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.emerald_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:52540}}"
+                    }
+        ]    
+	  }
+    },
+	"boots_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_boots",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.emerald_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:52540}}"
+                    }
+        ]    
+	  }
+    },
+	"helmet_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_helmet",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.diamond_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:64767}}"
+                    }
+        ]    
+	  }
+    },
+	"leggings_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_leggings",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.diamond_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:64767}}"
+                    }
+        ]    
+	  }
+    },
+	"chestplate_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_chestplate",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.diamond_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:64767}}"
+                    }
+        ]    
+	  }
+    },
+	"boots_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_boots",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.diamond_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:64767}}"
+                    }
+        ]    
+	  }
+    },
+	"helmet_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_helmet",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.redstone_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:16711680}}"
+                    }
+        ]    
+	  }
+    },
+	"chestplate_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_chestplate",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.redstone_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:16711680}}"
+                    }
+        ]    
+	  }
+    },
+	"leggings_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_leggings",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.redstone_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:16711680}}"
+                    }
+        ]    
+	  }
+    },
+	"boots_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_boots",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.redstone_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:16711680}}"
+                    }
+        ]    
+	  }
+    },
+	"helmet_lapis": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_helmet",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.lapis_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:5887}}"
+                    }
+        ]    
+	  }
+    },
+	"chestplate_lapis": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_chestplate",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.lapis_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:5887}}"
+                    }
+        ]    
+	  }
+    },
+	"leggings_lapis": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_leggings",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.lapis_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:5887}}"
+                    }
+        ]    
+	  }
+    },
+	"boots_lapis": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:leather_boots",
+                        "count": 1,
+                        "nbt": "{display:{Lore:[\'{\"italic\":false,\"color\":\"dark_green\",\"extra\":[{\"text\":\" : \"},{\"italic\":false,\"color\":\"dark_green\",\"translate\":\"block.minecraft.lapis_ore\"}],\"translate\":\"itemGroup.search\"}\'],color:5887}}"
+                    }
+        ]    
+	  }
+    }
+  },
+  "requirements": [
+    ["helmet_coal","helmet_iron","helmet_gold","helmet_emerald","helmet_diamond","helmet_redstone","helmet_lapis"],
+	["chestplate_coal","chestplate_iron","chestplate_gold","chestplate_emerald","chestplate_diamond","chestplate_redstone","chestplate_lapis"],
+	["leggings_coal","leggings_iron","leggings_gold","leggings_emerald","leggings_diamond","leggings_redstone","leggings_lapis"],
+	["boots_coal","boots_iron","boots_gold","boots_emerald","boots_diamond","boots_redstone","boots_lapis"]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:help/killed_medium",
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "subtitles.entity.generic.hurt"
+    },
+	"description": [{"translate":"stat.minecraft.mob_kills"},{"text": " : 300\n"},{"translate":"item.minecraft.bow","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:bow"
+    ]
+  },
+  "criteria": {
+    "killed_high": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "killed_high"
+    ]
+  ]
+}

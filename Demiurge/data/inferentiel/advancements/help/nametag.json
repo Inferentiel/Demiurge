@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:help/eat_apple",
+  "display": {
+    "icon": {
+      "item": "minecraft:name_tag"
+    },
+    "title": {
+      "translate": "soundCategory.neutral"
+    },
+	"description": {"text":"Power up your named allies!"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "name_friend": {
+      "trigger": "minecraft:villager_trade",
+	  "conditions": {
+        "item": {
+          "item": "minecraft:name_tag"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "name_friend"
+    ]
+  ]
+}

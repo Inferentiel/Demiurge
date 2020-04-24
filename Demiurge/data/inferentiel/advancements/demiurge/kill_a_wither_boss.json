@@ -1,0 +1,37 @@
+{
+  "parent": "inferentiel:demiurge/kill_a_boss",
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.nether.summon_wither.description"
+    },
+    "description": {
+      "text": "Spawn the buffed version of the Wither and kill it!"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 2500
+  },
+  "criteria": {
+    "minecraft:wither_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:wither_b"
+    ]
+  ]
+}

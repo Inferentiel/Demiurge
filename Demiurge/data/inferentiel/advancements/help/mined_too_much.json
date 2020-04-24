@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:help/mined_high",
+  "display": {
+    "icon": {
+      "item": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "item.unbreakable"
+    },
+	"description": [{"translate":"stat_type.minecraft.mined"},{"text": " : 10000\n"},{"translate":"block.minecraft.dispenser","color":"gold"}],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+	  "minecraft:dispenser"
+    ]
+  },
+  "criteria": {
+    "mined_too_much": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "mined_too_much"
+    ]
+  ]
+}

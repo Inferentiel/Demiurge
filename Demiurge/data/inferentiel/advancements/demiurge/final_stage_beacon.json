@@ -1,0 +1,29 @@
+{
+  "parent": "inferentiel:demiurge/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "advancements.story.obtain_armor.title"
+    },
+	"description": [{"text": "Overpower the beacon!"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "criteria": {
+	"overpowered_beacon": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "overpowered_beacon"
+    ]
+  ]
+}

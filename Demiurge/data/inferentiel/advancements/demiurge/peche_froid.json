@@ -1,0 +1,110 @@
+{
+  "parent": "inferentiel:demiurge/peche_debut",
+  "display": {
+    "icon": {
+      "item": "minecraft:salmon"
+    },
+    "title": {
+      "translate": "item.minecraft.salmon_bucket"
+    },
+	"description": [{"translate": "biome.minecraft.snowy_tundra"},{"text": " / "},{"translate": "biome.minecraft.ice_spikes"},{"text": " / "},{"translate": "biome.minecraft.snowy_taiga"},{"text": " / "},{"translate": "biome.minecraft.mountains"},{"text": " / "},{"translate": "biome.minecraft.gravelly_mountains"},{"text": " / "},{"translate": "biome.minecraft.giant_spruce_taiga"}],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_bucket_fish_tundra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:tropical_fish_bucket",
+                        "count": {"min":1,"max":64},
+						"nbt": "{BucketVariantTag:17236736,display:{Name:\"{\\\"color\\\":\\\"light_purple\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"color\\\":\\\"yellow\\\",\\\"translate\\\":\\\"biome.minecraft.snowy_tundra\\\"}],\\\"translate\\\":\\\"entity.minecraft.tropical_fish.type.stripey\\\"}\"}}"
+                    }
+        ]    
+	  }
+    },
+	"get_bucket_fish_mountains": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:tropical_fish_bucket",
+                        "count": {"min":1,"max":64},
+						"nbt": "{BucketVariantTag:185467136,display:{Name:\"{\\\"color\\\":\\\"light_purple\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"color\\\":\\\"yellow\\\",\\\"translate\\\":\\\"biome.minecraft.mountains\\\"}],\\\"translate\\\":\\\"entity.minecraft.tropical_fish.type.flopper\\\"}\"}}"
+                    }
+        ]    
+	  }
+    },
+	"get_bucket_fish_ice_spikes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:salmon_bucket",
+                        "count": {"min":1,"max":64},
+						"nbt": "{display:{Name:\"{\\\"color\\\":\\\"light_purple\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"color\\\":\\\"yellow\\\",\\\"translate\\\":\\\"biome.minecraft.ice_spikes\\\"}],\\\"translate\\\":\\\"entity.minecraft.salmon\\\"}\"}}"
+                    }
+        ]    
+	  }
+    },
+	"get_bucket_fish_snowy_taiga": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:tropical_fish_bucket",
+                        "count": {"min":1,"max":64},
+						"nbt": "{BucketVariantTag:218104321,display:{Name:\"{\\\"color\\\":\\\"light_purple\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"color\\\":\\\"yellow\\\",\\\"translate\\\":\\\"biome.minecraft.snowy_taiga\\\"}],\\\"translate\\\":\\\"entity.minecraft.tropical_fish.type.clayfish\\\"}\"}}"
+                    }
+        ]    
+	  }
+    },
+	"get_bucket_fish_gravelly_mountains": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:cod_bucket",
+                        "count": {"min":1,"max":64},
+						"nbt": "{display:{Name:\"{\\\"color\\\":\\\"light_purple\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"color\\\":\\\"yellow\\\",\\\"translate\\\":\\\"biome.minecraft.gravelly_mountains\\\"}],\\\"translate\\\":\\\"entity.minecraft.cod\\\"}\"}}"
+                    }
+        ]    
+	  }
+    },
+	"get_bucket_fish_snowy_taiga": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:pufferfish_bucket",
+                        "count": {"min":1,"max":64},
+						"nbt": "{display:{Name:\"{\\\"color\\\":\\\"light_purple\\\",\\\"extra\\\":[{\\\"text\\\":\\\" \\\"},{\\\"color\\\":\\\"yellow\\\",\\\"translate\\\":\\\"biome.minecraft.giant_spruce_taiga\\\"}],\\\"translate\\\":\\\"entity.minecraft.pufferfish\\\"}\"}}"
+                    }
+        ]    
+	  }
+    }
+  },
+  "requirements": [
+    [
+      "get_bucket_fish_tundra"
+    ],
+	[
+      "get_bucket_fish_mountains"
+    ],
+	[
+	  "get_bucket_fish_ice_spikes"
+	],
+	[
+	  "get_bucket_fish_snowy_taiga"
+	],
+	[
+	  "get_bucket_fish_gravelly_mountains"
+	],
+	[
+	  "get_bucket_fish_snowy_taiga"
+	]
+  ]
+}
