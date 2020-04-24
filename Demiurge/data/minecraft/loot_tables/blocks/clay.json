@@ -1,0 +1,137 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "minecraft:clay"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 4
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:clay_ball"
+            }
+          ]
+        }
+      ]
+    },
+	{
+	  "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+		    {
+              "type": "loot_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "minecraft:wooden_shovel"
+                  }
+                },
+				{
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ],
+              "name": "inferentiel:bonus/bonus_clay"
+            },
+			{
+              "type": "loot_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "minecraft:stone_shovel"
+                  }
+                },
+				{
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ],
+              "name": "inferentiel:bonus/bonus_clay"
+            },
+			{
+              "type": "loot_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "minecraft:iron_shovel"
+                  }
+                },
+				{
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ],
+              "name": "inferentiel:bonus/bonus_clay"
+            },
+			{
+              "type": "loot_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "minecraft:golden_shovel"
+                  }
+                },
+				{
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ],
+              "name": "inferentiel:bonus/bonus_clay"
+            },
+			{
+              "type": "loot_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "item": "minecraft:diamond_shovel"
+                  }
+                },
+				{
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ],
+              "name": "inferentiel:bonus/bonus_clay"
+            }
+		  ]
+        }
+      ]
+    }
+  ]
+}
