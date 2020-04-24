@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancements.adventure.trade.title"
+    },
+    "description": [{"translate": "advancements.adventure.trade.description"},{"text":"\n"},{"translate":"item.minecraft.gold_nugget","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+	  "minecraft:gold_nugget",
+	  "minecraft:gold_ingot_from_nuggets"
+    ]
+  },
+  "criteria": {
+    "traded": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "traded"
+    ]
+  ]
+}
