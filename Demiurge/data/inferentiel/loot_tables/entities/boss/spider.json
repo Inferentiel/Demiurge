@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+			"bonus_rolls": 1,
+            "entries": [
+				{
+				  "type": "minecraft:loot_table",
+                  "name": "inferentiel:bonus/xp"
+				}
+            ]
+        },
+		{
+            "rolls": 1,
+            "entries": [
+				{
+				  "type": "minecraft:loot_table",
+                  "name": "inferentiel:bonus/bonus_chest"
+				}
+            ]
+        },
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:string",
+					"weight": 1,
+					"functions": [
+						{
+						  "function": "minecraft:set_name",
+						  "name": {"translate":"item.minecraft.string","color":"dark_purple","italic":"false"}
+						},
+						{
+						  "function": "minecraft:set_nbt",
+						  "tag": "{HideFlags:1,Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:2s}]}"
+						}
+					]
+				}
+			]
+		}
+    ]
+}
