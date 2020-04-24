@@ -1,0 +1,311 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+			"bonus_rolls": {
+			  "min": 1,
+			  "max": 1
+			},
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss blaze\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss cave_spider\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss creeper\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss drowned\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss elder_guardian\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss enderman\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss evoker\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss ghast\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss guardian\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss husk\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss illusioner\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss magma_cube\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss phantom\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss pillager\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss polar_bear\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss ravager\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss shulker\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss silverfish\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss skeleton\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss slime\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss spider\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss stray\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss vindicator\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss witch\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss wither_skeleton\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss zombie\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle raidboss zombie_pigman\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
