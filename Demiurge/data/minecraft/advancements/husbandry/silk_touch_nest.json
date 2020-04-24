@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:bee_nest"
+    },
+    "title": {
+      "translate": "advancements.husbandry.silk_touch_nest.title"
+    },
+    "description": [{"translate": "advancements.husbandry.silk_touch_nest.description"},{"text":"\n"},{"translate":"item.minecraft.yellow_dye","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:yellow_dye_from_dandelion",
+	  "minecraft:yellow_dye_from_sunflower"
+    ]
+  },
+  "criteria": {
+    "silk_touch_nest": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "block": "minecraft:bee_nest",
+        "item": {
+          "enchantments": [
+            {
+              "enchantment": "minecraft:silk_touch",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        },
+        "num_bees_inside": 3
+      }
+    }
+  },
+  "requirements": [
+    [
+      "silk_touch_nest"
+    ]
+  ]
+}

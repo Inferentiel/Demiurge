@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:nether/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate": "advancements.nether.return_to_sender.title"
+    },
+    "description": [{"translate": "advancements.nether.return_to_sender.description"},{"text":"\n"},{"translate":"item.minecraft.glass_bottle","color":"gold"}],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 50,
+	"recipes": [
+	  "minecraft:glass_bottle"
+    ]
+  },
+  "criteria": {
+    "killed_ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ghast"
+        },
+        "killing_blow": {
+          "is_projectile": true,
+          "direct_entity": {
+            "type": "minecraft:fireball"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_ghast"
+    ]
+  ]
+}
