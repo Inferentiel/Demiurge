@@ -1,0 +1,185 @@
+V1.8
+Prettify compass and clock offhand actionbar infos
+Balance chest, drops
+Add Knowledge book
+Add Monster stat book
+Add Treasure book
+Add best pet knowledge
+Add Enhanced drop book
+Add Sets book
+
+V1.7
+Add Wolf best pet (but still unfunctionnal due to a bug)
+Add Honeyblock and honeycomb_block knowledge book
+Make advancement clearer
+Add beacon, wither boss and enderdragon advancement
+Change unlock from advancement
+Improved Wandering trader with one random chest loot
+Removed blue and green loots
+Speed up beginning (stick as base recipe, shield sooner)
+Remove antigrief village key block (workstation, beds, doors, chests)
+Add Ingame book to explain this datapack
+
+V1.6
+Progressive keepInventory
+Added custom shovel and pickaxe
+
+V1.5
+Optimization
+Fix UUID in weapon iv and weapon v
+Add hoe as weapon in random loot
+Changed rng for weapon in chests: only multiple of 0.5 or 0.05 now.
+Changed as for weapon in chests: sword 1as, axe 0.5 as, hoe 2 as.
+Sacred ground: beacon level 5 despawn hostiles mobs around
+Reduce debug info
+
+V1.4
+Added snow_golem and iron_golem to best_pet
+Fix obsidian grade
+Herobrine can pick up loot (your loot)
+Wither and Whiter God attributes/abilities
+EnderDragon and EnderDragon God attributes/abilities
+EnderDragon loot dragon egg
+Balance for Boss aura/abilities
+Add sound for killing boss
+Add advancement for name_tag
+Add advancement for winning a raid in nether or end
+Fish in monument for elder guardian
+Improve raid: vex scout, illusioner, infected, boss
+Improve minecart: at max speed, 3 powered rail in a straight line provide an instant *4 boost speed
+
+V1.3
+Add village map as base item
+Add regeneration in village when food full
+Make Iron golem more resistant
+Improve advancement and reward from it
+Add quality to mob drop (17 * 2), will be used for custom craft
+Two times less boss
+Added Elder guardian as boss (custom aura: summon guardian)
+Added aura for zombie, husk, skeleton, stray, wither skeleton
+
+V1.2
+Remove iron pickaxe recipes as essential recipes
+Add Iron block and Gold block as essential recipes (sleep bed, cure a villager)
+Fix init for best pet (named passive mob, like cow or pig, should reward emerald each time fed)
+Enhance loot from boss (guaranteed chest)
+Enhance performance
+Add recipes rewards to raid, fishing and morning cat
+
+V1.1
+Improve crops loot table: less bugs(10-1%), more yields(*2-5)
+Add Iron pickaxe recipe as reward for sleeping
+Remove boats and minecart as essentials recipes
+Fix Slime boss: tp to 255
+Fix grade clay
+Fix name for bonus map
+Add info for compass and clock
+Add Best pet: feed and grow a passive mob to obtain more and more emeralds
+
+V1.0.0
+
+Rules: hard, limited crafting, no natural regeneration
+
+Custom mobs:
+Regular mobs +100% hp, +50% damage, +5-10% speed
+Boss mobs *20 hp, *3 damage, particles, seen from far away, various effects for each mobs
+Persistent Zombie with player head on death
+Zombie Horse spawning in the nether
+Illusioner spawning in the overworld (where vindicator spawns)
+Killer rabbit spawning in the end
+
+Custom advancement:
+Give you main recipes to survive, done by mining, killing or taking damage.
+Others recipes are found through exploration (mainly on chests in structures, or sometimes by killing monsters).
+
+Custom fishing:
+New custom named fish, biome dependent.
+
+Regeneration:
+Only with apples (2hp), gold apples (4hp) and potions.
+
+Custom loot:
+All leaves can give apples (higher % with sword).
+Using shovel on sand,clay,gravel,dirt,grassblock and mycelium.
+Using sword on grass and seagrass.
+Using pickaxe on stone,diorite,andesite,granite,netherrack and endstone
+Using hoe on wheat, carrots, potatoes and beetroots (chance of *2 of crops, but beware of bugs!)
+20% emerald and 5% chest loot on killing hostiles
+Chest, crafting blocks and villagers related blocks only drops with silk_touch
+Dungeon crawler loot (+-% speed, health, armor, damage).
+Unique sets:
+*Xray set for each ore (detect ore from 15 block away using raycasting)
+*5 elemental set giving various effect (dragon firebreath, second jump, infinite enderpearl, immunity to poison, various potion effects)
+
+Custom music through noteblock:
+On death, when upgrading grade.
+
+Custom grade:
+From oak wood (lvl 1) to bedrock (lvl 256)
+Each 3 grades give +1 luck effect, up to Luck V.
+
+Store horse:
+Using egg on enchanting table and thrown at horse, can store it and giving statistics.
+
+Starting chest give a map leading to village.
+
+### Custom trades ###
+Each profession got new trades, which change depending of the type of villager:
+Armorer sells augmented armor, and material vary depending of biome
+Butcher buy specific meals at good price (ideal for trading)
+Cartographer sells specific maps (desert pyramids, mineshaft...)
+Cleric sells specific highly enhanced potion (instant heal 3, saturation I...) and elemental set in special villages
+Farmer sells specific meal at good price (ideal for trading)
+Fisherman buy custom fish at high price
+Fletcher sells redstone inputs relative
+Leatherworker sells augmented leather armor
+Librarian sells signs
+Mason sells doors
+Nitwit sells emerald_block, store horse eggs, random working_station, enchanting_table recipe
+Shepherd sells fences
+Toolsmith sells material specific tools
+Weaponsmith sells augmented weapons
+
+Set items can be bought in village build in specific places (nether, end, very high or very low level, deep ocean).
+
+### Recipes From Advancements ###
+
+adventure_root: planks
+trade: gold_nuggets, gold_ingot
+shoot_arrow: arrow
+kill_a_mob: wooden_sword
+adventure_time:ender_pearl
+summon_wither: ender_eye
+brew_potion: glistering_melon_slice
+obtain_blaze_rod: blaze_powder
+enter_nether: chest
+kill_dragon: ender_chest
+story_root: wooden_tools / stick
+upgrade_tools: stone_axe / stone_hoe
+smelt_iron: iron_nugget, iron_ingot
+obtain_armor: flint_and_steel
+mine_stone: campfire
+mine_diamond: bucket
+iron_tools: flint_and_steel
+husbandery_root: leather
+tame_an_animal: carrot_on_a_stick
+fishy_business: cooked_cod
+breed_an_animal: cooked_beef
+plant_seed: paper
+
+### Recipes From Trading ###
+All work station from last tier villager + enchanting table
+
+### Recipes From Treasures ###
+All others recipes
+
+
+### Treasures ###
+5 tiers of chests (think like oak/leather - chain/stone - iron - gold - diamond)
+One recipes and one weapon/armor piece guaranteed per chest, but eventually more with luck
+Killed mobs: rank I-V (2.5% for rank I, 0.15% for rank V)
+Killed boss: Guaranteed chest + 100xp , rank I-V (50% rank I, 3% rank V)
+Generated chest in overworld: rank I-III, 
+Generated chest in woodland_manson: rank III-V
+Generated chest in nether: rank III-V
+Generated chest in end: rank III-V
