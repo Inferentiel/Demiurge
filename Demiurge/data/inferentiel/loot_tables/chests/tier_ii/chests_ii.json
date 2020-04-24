@@ -1,0 +1,95 @@
+{
+    "pools": [
+        {
+            "rolls": {
+			    "min": 2,
+				"max": 4
+			},
+			"bonus_rolls": 2,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/armor_ii",
+                    "weight": 10,
+					"quality": -1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/butin_rare",
+                    "weight": 5,
+					"quality": 1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/weapon_ii",
+                    "weight": 10,
+					"quality": 1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/drops_ii",
+                    "weight": 25
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/economie_ii",
+                    "weight": 30
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/food_ii",
+                    "weight": 30,
+					"quality": -2
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/potion_ii",
+                    "weight": 15,
+					"quality": -2
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/ressources_ii",
+                    "weight": 25
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/recipes_ii",
+                    "weight": 10
+                }
+            ]
+        },
+		{
+            "rolls": {
+			    "min": 1,
+				"max": 2
+			},
+			"bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/armor_ii",
+                    "weight": 10,
+					"quality": -1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/butin_rare",
+                    "weight": 5,
+					"quality": 1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/weapon_ii",
+                    "weight": 10,
+					"quality": 1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/recipes_ii",
+                    "weight": 10
+                }
+            ]
+        }
+    ]
+}

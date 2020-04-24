@@ -1,0 +1,530 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+	    {
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.iron_axe\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_axe\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.iron_boots\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_boots\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.iron_chestplate\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_chestplate\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.iron_helmet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_helmet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.iron_hoe\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_hoe\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.iron_block\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" -> \\\"},{\\\"translate\\\":\\\"item.minecraft.iron_ingot\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_ingot_from_iron_block\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.iron_leggings\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_leggings\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.iron_pickaxe\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_pickaxe\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.iron_shovel\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_shovel\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.iron_sword\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_sword\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.shield\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:shield\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.shield\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"itemGroup.decorations\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:shield_decoration\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.iron_bars\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_bars\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.heavy_weighted_pressure_plate\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:heavy_weighted_pressure_plate\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.hopper\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:hopper\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.iron_door\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_door\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.iron_ingot\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_ingot\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"itemGroup.tools\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" -> \\\"},{\\\"translate\\\":\\\"item.minecraft.iron_nugget\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_ingot_from_nuggets\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.iron_trapdoor\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:iron_trapdoor\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.minecart\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:minecart\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.tnt_minecart\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:tnt_minecart\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.chest_minecart\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:chest_minecart\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.furnace_minecart\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:furnace_minecart\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.hopper_minecart\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:hopper_minecart\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.tripwire_hook\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:tripwire_hook\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.tnt\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:tnt\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.rail\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:rail\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.brewing_stand\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:brewing_stand\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.snow\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:snow\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.snow_block\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:snow_block\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.torch\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:torch\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.lantern\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:lantern\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.mossy_cobblestone\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:mossy_cobblestone\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.mossy_cobblestone_wall\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:mossy_cobblestone_wall\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.mossy_stone_bricks\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:mossy_stone_bricks\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.anvil\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:anvil\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.paper\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:paper\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.sugar\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:sugar_from_honey_bottle\",\"minecraft:sugar_from_sugar_cane\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.glistering_melon_slice\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:glistering_melon_slice\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.magma_cream\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:magma_cream\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.fermented_spider_eye\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:fermented_spider_eye\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.pumpkin_pie\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:pumpkin_pie\"]}"
+            }
+          ]
+        },
+		{
+          "type": "loot_table",
+          "name": "inferentiel:chests/tier_iii/stained_glass",
+          "weight": 1
+        },
+		{
+          "type": "loot_table",
+          "name": "inferentiel:chests/tier_iii/stained_glass_pane",
+          "weight": 1
+        },
+		{
+          "type": "loot_table",
+          "name": "inferentiel:chests/tier_iii/banner",
+          "weight": 1
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.glass_pane\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:glass_pane\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.iron_horse_armor\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"inferentiel:iron_horse_armor\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.honey_block\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:honey_block\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.honeycomb_block\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:honeycomb_block\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_v/weapon_v_purple_add_speed",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Violet knoresist",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": 0.1,
+						  "operation": "multiply_base",
+						  "slot": "mainhand",
+						  "id": "a0000000-0000-0002-0000-000000001003"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_v/weapon_v_purple_add_speed",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Violet knoresist",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": 0.2,
+						  "operation": "multiply_base",
+						  "slot": "mainhand",
+						  "id": "b0000000-0000-0002-0000-000000001003"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_v/weapon_v_purple_add_speed",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Violet knoresist",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": 0.3,
+						  "operation": "multiply_base",
+						  "slot": "mainhand",
+						  "id": "c0000000-0000-0002-0000-000000001003"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_v/weapon_v_purple_add_speed",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Violet knoresist",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": 0.4,
+						  "operation": "multiply_base",
+						  "slot": "mainhand",
+						  "id": "d0000000-0000-0002-0000-000000001003"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_v/weapon_v_purple_add_speed",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Violet knoresist",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": 0.5,
+						  "operation": "multiply_base",
+						  "slot": "mainhand",
+						  "id": "e0000000-0000-0002-0000-000000001003"
+						}
+					  ]
+					}
+				  ]
+				}
+            ]
+        }
+    ]
+}

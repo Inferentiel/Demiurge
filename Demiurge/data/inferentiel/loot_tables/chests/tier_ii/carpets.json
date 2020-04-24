@@ -1,0 +1,350 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.black_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:black_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.black_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:black_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.white_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.orange_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:orange_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.orange_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:orange_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.magenta_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:magenta_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.magenta_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:magenta_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.light_blue_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:light_blue_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.light_blue_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:light_blue_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.light_gray_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:light_gray_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.light_gray_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:light_gray_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.lime_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:lime_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.lime_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:lime_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.yellow_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:yellow_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.yellow_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:yellow_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.gray_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:gray_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.gray_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:gray_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.green_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:green_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.green_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:green_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.red_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:red_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.red_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:red_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.pink_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:pink_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.pink_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:pink_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.purple_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:purple_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.purple_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:purple_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.cyan_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:cyan_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.cyan_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:cyan_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.blue_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:blue_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.blue_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:blue_carpet_from_white_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.brown_carpet\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:brown_carpet\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.brown_carpet\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"item.dyed\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:brown_carpet_from_white_carpet\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

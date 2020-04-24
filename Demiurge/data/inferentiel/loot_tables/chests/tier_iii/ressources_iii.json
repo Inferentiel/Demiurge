@@ -1,0 +1,119 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:spruce_planks",
+                    "weight": 9,
+					"functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 12
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:dried_kelp_block",
+                    "weight": 9,
+					"functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 9,
+					"functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:snowball",
+                    "weight": 9,
+					"functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:glowstone_dust",
+                    "weight": 9,
+					"functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 9,
+					"functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:honeycomb",
+                    "weight": 9,
+					"functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 9
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 7,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

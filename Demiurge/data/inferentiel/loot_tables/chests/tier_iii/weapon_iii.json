@@ -1,0 +1,244 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+			    {
+				  "type": "item",
+				  "name": "minecraft:iron_axe",
+				  "weight": 150,
+				  "quality": -5,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.3,
+						"max": 0.7
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_sword",
+				  "weight": 150,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.3,
+						"max": 0.7
+					  }
+					}
+				  ]
+				},
+                {
+				  "type": "item",
+				  "name": "minecraft:iron_axe",
+				  "weight": 150,
+				  "quality": -10,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_axe","color":"gray","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Gris hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": {
+						    "min": -3.7,
+							"max": -3.3
+						  },
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000990-1000-0001-0000-000000000001"
+						},
+						{
+						  "name": "Gris hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": {
+						    "min": 7,
+							"max": 9
+						  },
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "09900000-1000-0002-0000-000000000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.2,
+						"max": 0.6
+					  }
+					}
+				  ]
+				},
+                {
+				  "type": "item",
+				  "name": "minecraft:iron_sword",
+				  "weight": 150,
+				  "quality": -10,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_sword","color":"gray","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Gris epee vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": {
+						    "min": -3.75,
+							"max": -3
+						  },
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-2000-0001-0000-000000000001"
+						},
+						{
+						  "name": "Gris epee Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": {
+						    "min": 4,
+							"max": 6
+						  },
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "09800000-2000-0002-0000-000000000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.2,
+						"max": 0.6
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_iii/weapon_iii_green_add_armor",
+				  "weight": 200,
+				  "quality": 1
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_iii/weapon_iii_blue_add_speed",
+				  "weight": 100,
+				  "quality": 5
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_iii/weapon_iii_purple_add_knock",
+				  "weight": 50,
+				  "quality": 10
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_axe",
+				  "weight": 20,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_axe","color":"blue","italic":"false","bold":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "att offhand",
+						  "attribute": "generic.attackDamage",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "offhand",
+						  "id": "00000000-2930-0001-0001-000000000001"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:golden_axe",
+				  "weight": 10,
+				  "quality": 2,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.golden_axe","color":"dark_purple","italic":"false","bold":"true"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "att offhand",
+						  "attribute": "generic.attackDamage",
+						  "amount": 4,
+						  "operation": "addition",
+						  "slot": "offhand",
+						  "id": "00000001-2930-0001-0001-000000000001"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_axe",
+				  "weight": 5,
+				  "quality": 3,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_axe","color":"gold","italic":"false","bold":"true"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "att offhand",
+						  "attribute": "generic.attackDamage",
+						  "amount": 6,
+						  "operation": "addition",
+						  "slot": "offhand",
+						  "id": "00000002-2930-0001-0001-000000000001"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_sword",
+				  "weight": 25,
+				  "quality": 5,
+				  "functions": [
+					{
+					  "function": "set_nbt",
+					  "tag": "{RepairCost:20}"
+					},
+					{
+					  "function": "minecraft:set_lore",
+					  "lore": [[{"translate":"entity.minecraft.experience_orb","color":"gray","italic":"false"},{"text":" "},{"translate":"enchantment.level.1","color":"gray","italic":"false"}]],
+					  "replace": "true"
+					},
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_sword","color":"dark_purple","italic":"false","bold":"true"}
+					}
+				  ]
+				}
+            ]
+        }
+    ]
+}

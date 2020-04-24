@@ -1,0 +1,95 @@
+{
+    "pools": [
+        {
+            "rolls": {
+			    "min": 2,
+				"max": 4
+			},
+			"bonus_rolls": 2,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/armor_v",
+                    "weight": 10,
+					"quality": -1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/butin_legendaire",
+                    "weight": 5,
+					"quality": 1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/weapon_v",
+                    "weight": 10,
+					"quality": 1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/drops_v",
+                    "weight": 25
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/economie_v",
+                    "weight": 30
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/food_v",
+                    "weight": 30,
+					"quality": -2
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/potion_v",
+                    "weight": 15,
+					"quality": -2
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/ressources_v",
+                    "weight": 25
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/recipes_v",
+                    "weight": 10
+                }
+            ]
+        },
+		{
+            "rolls": {
+			    "min": 1,
+				"max": 2
+			},
+			"bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/armor_v",
+                    "weight": 10,
+					"quality": -1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/butin_legendaire",
+                    "weight": 5,
+					"quality": 1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/weapon_v",
+                    "weight": 10,
+					"quality": 1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/recipes_v",
+                    "weight": 10
+                }
+            ]
+        }
+    ]
+}

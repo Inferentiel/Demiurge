@@ -1,0 +1,72 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_ii/weapon_ii_blue_add_armor",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Bleu vitesse",
+						  "attribute": "generic.movementSpeed",
+						  "amount": 0.05,
+						  "operation": "multiply_base",
+						  "slot": "mainhand",
+						  "id": "a0000000-0000-0002-0000-000000000102"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_ii/weapon_ii_blue_add_armor",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Bleu vitesse",
+						  "attribute": "generic.movementSpeed",
+						  "amount": 0.1,
+						  "operation": "multiply_base",
+						  "slot": "mainhand",
+						  "id": "b0000000-0000-0002-0000-000000000102"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_ii/weapon_ii_blue_add_armor",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Bleu vitesse",
+						  "attribute": "generic.movementSpeed",
+						  "amount": 0.15,
+						  "operation": "multiply_base",
+						  "slot": "mainhand",
+						  "id": "c0000000-0000-0002-0000-000000000102"
+						}
+					  ]
+					}
+				  ]
+				}
+            ]
+        }
+    ]
+}

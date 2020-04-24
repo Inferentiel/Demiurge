@@ -1,0 +1,51 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_iv/weapon_iv_green_base",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Vert armure",
+						  "attribute": "generic.armor",
+						  "amount": 1,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "a0000000-0000-0002-0000-000000000011"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_iv/weapon_iv_green_base",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Vert armure",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "b0000000-0000-0002-0000-000000000011"
+						}
+					  ]
+					}
+				  ]
+				}
+            ]
+        }
+    ]
+}

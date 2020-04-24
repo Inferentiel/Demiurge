@@ -1,0 +1,185 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+	    {
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.white_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:white_banner_from_string\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.black_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:black_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.orange_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:orange_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.magenta_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:magenta_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.light_blue_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:light_blue_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.light_gray_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:light_gray_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.lime_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:lime_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.yellow_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:yellow_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.gray_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:gray_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.green_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:green_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.red_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:red_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.pink_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:pink_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.purple_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:purple_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.cyan_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:cyan_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.blue_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:blue_banner\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.brown_banner\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:brown_banner\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
