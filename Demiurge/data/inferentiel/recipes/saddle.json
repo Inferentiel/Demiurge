@@ -1,0 +1,23 @@
+{
+   "type": "crafting_shaped",
+   "pattern": [
+	   "EEE",
+	   "P P",
+	   "R R"
+   ],
+   "key": {
+	   "P": {
+		   "item": "minecraft:string"
+	   },
+	   "R": {
+		   "item": "minecraft:iron_ingot"
+	   },
+	   "E": {
+		   "item": "minecraft:leather"
+	   }
+   },
+   "result": {
+	   "item": "minecraft:saddle",
+	   "count": 1
+   }
+}

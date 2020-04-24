@@ -1,0 +1,14 @@
+{
+    "values": [
+		"inferentiel:custom_villagers/clock_villagers",
+		"inferentiel:custom_mobs/clock_mobs",
+		"inferentiel:custom_advancements/clock_advancements",
+		"inferentiel:custom_items/clock_custom_items",
+		"inferentiel:cheval/save_horse",
+		"inferentiel:loupe/clock_loupe",
+		"inferentiel:utils/grade/clock_grade",
+		"inferentiel:utils/clock_peche",
+		"inferentiel:best_pet/clock_best_pet",
+		"inferentiel:best_minecart/clock_minecart"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+   "type": "crafting_shaped",
+   "pattern": [
+	   "FEF",
+	   "CMC",
+	   "P P"
+   ],
+   "key": {
+	   "F": {
+		   "item": "minecraft:string"
+	   },
+	   "C": {
+		   "item": "minecraft:leather"
+	   },
+	   "E": {
+		   "item": "minecraft:emerald"
+	   },
+	   "P": {
+		   "item": "minecraft:feather"
+	   },
+	   "M": {
+		   "item": "minecraft:phantom_membrane"
+	   }
+   },
+   "result": {
+	   "item": "minecraft:elytra",
+	   "count": 1
+   }
+}
