@@ -1,0 +1,253 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_helmet",
+				  "weight": 50,
+				  "quality": 20,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_helmet","color":"blue","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00038058-0020-0000-0001-000000009393"
+						},
+						{
+						  "name": "vie bleu",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 6
+						  },
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00073809-0020-0000-0000-000000927759"
+						},
+						{
+						  "name": "knoba bleu",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.1
+						  },
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00838009-0020-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.45,
+                          "max": 0.95
+                      }
+                    },
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 10,
+						"max": 20
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_chestplate",
+				  "weight": 50,
+				  "quality": 20,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_chestplate","color":"blue","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 6,
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00038058-0021-0000-0002-000000009393"
+						},
+						{
+						  "name": "vie bleu",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 6
+						  },
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00073809-0021-0000-0000-000000927759"
+						},
+						{
+						  "name": "knoba bleu",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.1
+						  },
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00838009-0021-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.45,
+                          "max": 0.95
+                      }
+                    },
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 10,
+						"max": 20
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_leggings",
+				  "weight": 50,
+				  "quality": 20,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_leggings","color":"blue","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 5,
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00038058-0022-0000-0002-000000009393"
+						},
+						{
+						  "name": "vie bleu",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 6
+						  },
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00073809-0022-0000-0000-000000927759"
+						},
+						{
+						  "name": "knoba bleu",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.1
+						  },
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00838009-0022-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.45,
+                          "max": 0.95
+                      }
+                    },
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 10,
+						"max": 20
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_boots",
+				  "weight": 50,
+				  "quality": 20,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_boots","color":"blue","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00038058-0023-0000-0002-000000009393"
+						},
+						{
+						  "name": "vie bleu",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 6
+						  },
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00073809-0023-0000-0000-000000927759"
+						},
+						{
+						  "name": "knoba bleu",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.1
+						  },
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00838009-0023-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.45,
+                          "max": 0.95
+                      }
+                    },
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 10,
+						"max": 20
+					  }
+					}
+				  ]
+				}
+            ]
+        }
+    ]
+}

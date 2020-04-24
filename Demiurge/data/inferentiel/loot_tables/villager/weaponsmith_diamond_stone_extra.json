@@ -1,0 +1,202 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+				{
+				  "type": "item",
+				  "name": "minecraft:stone_axe",
+				  "weight": 25,
+				  "quality": 10,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.stone_axe","color":"dark_purple","italic":"false","bold":"true"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Violet hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": {
+						    "min": -3.2,
+							"max": -1
+						  },
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-1030-0001-0000-000000000001"
+						},
+						{
+						  "name": "Violet hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": {
+						    "min": 9,
+							"max": 11
+						  },
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "09900000-1030-0002-0000-000000000001"
+						},
+						{
+						  "name": "Violet armure",
+						  "attribute": "generic.armor",
+						  "amount": {
+						    "min": 0,
+							"max": 6
+						  },
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-0000-0002-0000-000000000013"
+						},
+						{
+						  "name": "Violet vitesse",
+						  "attribute": "generic.movementSpeed",
+						  "amount": {
+						    "min": 0,
+							"max": 0.3
+						  },
+						  "operation": "multiply_base",
+						  "slot": "mainhand",
+						  "id": "00000000-0000-0002-0000-000000000103"
+						},
+						{
+						  "name": "Violet knoresist",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.5
+						  },
+						  "operation": "multiply_base",
+						  "slot": "mainhand",
+						  "id": "00000000-0000-0002-0000-000000001003"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.6,
+						"max": 1
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 23,
+						"max": 30
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:stone_sword",
+				  "weight": 25,
+				  "quality": 10,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.stone_sword","color":"dark_purple","italic":"false","bold":"true"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Violet epee vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": {
+						    "min": -3.2,
+							"max": -0.5
+						  },
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-2030-0001-0000-000000000001"
+						},
+						{
+						  "name": "Violet epee Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": {
+						    "min": 5,
+							"max": 8
+						  },
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "09900000-2030-0002-0000-000000000001"
+						},
+						{
+						  "name": "Violet armure",
+						  "attribute": "generic.armor",
+						  "amount": {
+						    "min": 0,
+							"max": 6
+						  },
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-0000-0002-0000-000000000013"
+						},
+						{
+						  "name": "Violet vitesse",
+						  "attribute": "generic.movementSpeed",
+						  "amount": {
+						    "min": 0,
+							"max": 0.3
+						  },
+						  "operation": "multiply_base",
+						  "slot": "mainhand",
+						  "id": "00000000-0000-0002-0000-000000000103"
+						},
+						{
+						  "name": "Violet knoresist",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.5
+						  },
+						  "operation": "multiply_base",
+						  "slot": "mainhand",
+						  "id": "00000000-0000-0002-0000-000000001003"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.6,
+						"max": 1
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 23,
+						"max": 30
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:stone_sword",
+				  "weight": 25,
+				  "quality": 5,
+				  "functions": [
+					{
+					  "function": "set_nbt",
+					  "tag": "{RepairCost:20}"
+					},
+					{
+					  "function": "minecraft:set_lore",
+					  "lore": [[{"translate":"effect.minecraft.strength","color":"gray","italic":"false"},{"text":" "},{"translate":"enchantment.level.1","color":"gray","italic":"false"}]],
+					  "replace": "true"
+					},
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.stone_sword","color":"dark_purple","italic":"false","bold":"true"}
+					}
+				  ]
+				}
+            ]
+        }
+    ]
+}

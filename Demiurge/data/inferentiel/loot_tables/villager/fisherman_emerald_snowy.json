@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		{
+          "type": "item",
+          "name": "minecraft:tropical_fish_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{BucketVariantTag:17236736,display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.snowy_tundra\"}],\"translate\":\"entity.minecraft.tropical_fish.type.stripey\"}'}}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:tropical_fish_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{BucketVariantTag:17695744,display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.snowy_beach\"}],\"translate\":\"entity.minecraft.tropical_fish.type.betty\"}'}}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:tropical_fish_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{BucketVariantTag:218104321,display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.snowy_taiga\"}],\"translate\":\"entity.minecraft.tropical_fish.type.clayfish\"}'}}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:tropical_fish_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{BucketVariantTag:983552,display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.frozen_ocean\"}],\"translate\":\"entity.minecraft.tropical_fish.type.stripey\"}'}}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:salmon_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.frozen_river\"}],\"translate\":\"entity.minecraft.salmon\"}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

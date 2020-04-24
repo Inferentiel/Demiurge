@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+	    {
+          "type": "item",
+          "name": "minecraft:cod_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.savanna\"}],\"translate\":\"entity.minecraft.cod\"}'}}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:tropical_fish_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{BucketVariantTag:50725120,display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.beach\"}],\"translate\":\"entity.minecraft.tropical_fish.type.glitter\"}'}}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:tropical_fish_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{BucketVariantTag:84804097,display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.savanna_plateau\"}],\"translate\":\"entity.minecraft.tropical_fish.type.kob\"}'}}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:tropical_fish_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{BucketVariantTag:235340289,display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.shattered_savanna\"}],\"translate\":\"entity.minecraft.tropical_fish.type.brinely\"}'}}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:tropical_fish_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{BucketVariantTag:235864833,display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.shattered_savanna_plateau\"}],\"translate\":\"entity.minecraft.tropical_fish.type.spotty\"}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
