@@ -1,0 +1,2 @@
+execute at @e[tag=music_fanfare] run playsound minecraft:block.note_block.pling ambient @a[distance=..32] ~ ~ ~ 1 0.707107 0.5
+execute at @e[tag=music_fanfare] run playsound minecraft:block.note_block.pling ambient @a[distance=..32] ~ ~ ~ 1 0.840896 0.5
