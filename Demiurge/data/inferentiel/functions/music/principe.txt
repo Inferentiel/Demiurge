@@ -1,0 +1,20 @@
+Summon an armor stand with a "music_<>" tag
+Then schedule as many mesure that are necessary on that armor stand
+Then kill the armor stand
+
+60 bpm: 1 noire = 1 seconde (20t)
+75 bpm: 1 noire = 0.8s (16t) 
+100 bpm: 1 noire = 0.6s (12t)
+120 bpm: 1 noire = 0.5 s (10t)
+133 bpm: 1 noire = 0.45s (9t)
+150 bpm: 1 noire = 0.4 s (8t)
+200 bpm: 1 noire = 0.3 s (6t)
+
+croche = 0.5noire
+croche pointé = 0.75 noire
+noire 
+blanche = 2 noires
+ronde = 4 noires
+
+sol (C) deuxieme ligne en partant du bas, puis do re mi fa sol la si en lisant de bas en haut
+utiliser minecraft note block studio 

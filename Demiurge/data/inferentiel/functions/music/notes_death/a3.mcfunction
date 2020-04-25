@@ -1,0 +1,1 @@
+execute at @e[tag=music_death] run playsound minecraft:block.note_block.pling ambient @a[distance=..32] ~ ~ ~ 1 0.594604 0.5
