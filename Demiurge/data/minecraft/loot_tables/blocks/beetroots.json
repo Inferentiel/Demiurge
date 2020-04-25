@@ -1,0 +1,139 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:beetroots",
+                  "properties": {
+                    "age": "3"
+                  }
+                }
+              ],
+              "name": "minecraft:beetroot"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:beetroot_seeds"
+            }
+          ]
+        }
+	  ]
+    },
+	{
+      "rolls": 1.0,
+	  "conditions": [
+		{
+		  "condition": "minecraft:block_state_property",
+		  "block": "minecraft:beetroots",
+		  "properties": {
+			"age": "3"
+		  }
+		},
+		{
+		  "condition": "minecraft:alternative",
+		  "terms" : [
+			{
+			  "condition": "minecraft:match_tool",
+			  "predicate": {
+				"item": "minecraft:wooden_hoe"
+			  }
+			},
+			{
+			  "condition": "minecraft:match_tool",
+			  "predicate": {
+				"item": "minecraft:stone_hoe"
+			  }
+			},
+			{
+			  "condition": "minecraft:match_tool",
+			  "predicate": {
+				"item": "minecraft:golden_hoe"
+			  }
+			},
+			{
+			  "condition": "minecraft:match_tool",
+			  "predicate": {
+				"item": "minecraft:diamond_hoe"
+			  }
+			}
+		  ]
+		}
+	  ],
+      "entries": [
+		{
+          "type": "minecraft:item",
+		  "weight": 8,
+          "quality": 15,
+		  "type": "minecraft:item",
+		  "functions": [
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"min": 1.0,
+				"max": 3.0,
+				"type": "minecraft:uniform"
+			  }
+			}
+		  ],
+		  "name": "minecraft:beetroot"
+        },
+		{
+          "type": "minecraft:alternatives",
+		  "weight": 1,
+          "quality": 2,
+		  "type": "minecraft:loot_table",
+		  "name": "inferentiel:bonus/xp_low"
+        },
+		{
+          "type": "minecraft:alternatives",
+		  "weight": 1,
+		  "type": "minecraft:loot_table",
+		  "name": "inferentiel:bonus/farm_bugs"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:binomial_with_bonus_count",
+              "parameters": {
+                "extra": 3,
+                "probability": 0.5714286
+              }
+            }
+          ],
+          "name": "minecraft:beetroot_seeds"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:beetroots",
+          "properties": {
+            "age": "3"
+          }
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ]
+}

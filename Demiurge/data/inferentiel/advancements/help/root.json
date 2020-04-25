@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "title": "Aede",
+    "description": {
+      "text": "Hello world!"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/oak_planks.png"
+  },
+  "rewards": {
+	"loot": ["inferentiel:bonus/bonus_village"],
+	"function": "inferentiel:custom_advancements/book_demiurge"
+  },
+  "criteria": {
+    "start_help": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "start_help"
+    ]
+  ]
+}

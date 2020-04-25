@@ -1,0 +1,1 @@
+execute if entity @s[nbt={VillagerData:{level:4}}] run function inferentiel:custom_villagers/add_trade_emerald

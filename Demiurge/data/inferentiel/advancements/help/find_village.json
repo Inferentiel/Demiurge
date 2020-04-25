@@ -1,0 +1,32 @@
+{
+  "parent": "inferentiel:help/torch",
+  "display": {
+    "icon": {
+      "item": "minecraft:poppy"
+    },
+    "title": {
+      "translate": "options.difficulty.peaceful"
+    },
+	"description": [{"text":"Find a village and relax yourself\n"},{"translate":"item.minecraft.fishing_rod","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:fishing_rod"
+    ]
+  },
+  "criteria": {
+	"in_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village"
+      }
+    }
+  },
+  "requirements": [
+    ["in_village"]
+  ]
+}

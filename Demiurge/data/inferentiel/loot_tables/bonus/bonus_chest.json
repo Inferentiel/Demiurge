@@ -1,0 +1,92 @@
+{
+    "pools": [
+        {
+            "rolls": {
+			    "min": 1,
+				"max": 1
+			},
+            "entries": [
+				{
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 500,
+					"quality": -5,
+					"functions": [
+                      {
+                        "function": "set_name",
+                        "name": [{"translate":"container.chestDouble","color":"gray","italic":"false"},{"text":" "},{"translate":"enchantment.level.1","color":"gray","italic":"false"}]
+					  },
+					  {
+					    "function": "set_nbt",
+						"tag": "{BlockEntityTag:{LootTable:\"inferentiel:chests/tier_i/chests_i\"}}"
+					  }
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 285,
+					"quality": 0,
+					"functions": [
+                      {
+                        "function": "set_name",
+                        "name": [{"translate":"container.chestDouble","color":"white","italic":"false"},{"text":" "},{"translate":"enchantment.level.2","color":"white","italic":"false"}]
+					  },
+					  {
+					    "function": "set_nbt",
+						"tag": "{BlockEntityTag:{LootTable:\"inferentiel:chests/tier_ii/chests_ii\"}}"
+					  }
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 125,
+					"quality": 1,
+					"functions": [
+                      {
+                        "function": "set_name",
+                        "name": [{"translate":"container.chestDouble","color":"blue","italic":"false"},{"text":" "},{"translate":"enchantment.level.3","color":"blue","italic":"false"}]
+					  },
+					  {
+					    "function": "set_nbt",
+						"tag": "{BlockEntityTag:{LootTable:\"inferentiel:chests/tier_iii/chests_iii\"}}"
+					  }
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 60,
+					"quality": 5,
+					"functions": [
+                      {
+                        "function": "set_name",
+                        "name": [{"translate":"container.chestDouble","color":"dark_purple","italic":"false"},{"text":" "},{"translate":"enchantment.level.4","color":"dark_purple","italic":"false"}]
+					  },
+					  {
+					    "function": "set_nbt",
+						"tag": "{BlockEntityTag:{LootTable:\"inferentiel:chests/tier_iv/chests_iv\"}}"
+					  }
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 30,
+					"quality": 15,
+					"functions": [
+                      {
+                        "function": "set_name",
+                        "name": [{"translate":"container.chestDouble","color":"gold","italic":"false"},{"text":" "},{"translate":"enchantment.level.5","color":"gold","italic":"false"}]
+					  },
+					  {
+					    "function": "set_nbt",
+						"tag": "{BlockEntityTag:{LootTable:\"inferentiel:chests/tier_v/chests_v\"}}"
+					  }
+					]
+                }
+            ]
+        }
+    ]
+}

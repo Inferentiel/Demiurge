@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:help/killed_high",
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "subtitles.entity.generic.hurt"
+    },
+	"description": [{"translate":"stat.minecraft.mob_kills"},{"text": " : 1000\n"},{"translate":"item.minecraft.trident","color":"gold"}],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "inferentiel:trident"
+    ]
+  },
+  "criteria": {
+    "killed_too_much": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "killed_too_much"
+    ]
+  ]
+}

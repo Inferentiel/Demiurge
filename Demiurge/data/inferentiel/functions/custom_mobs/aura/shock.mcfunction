@@ -1,0 +1,2 @@
+execute unless entity @s[nbt={ActiveEffects:[{Id:16b}]}] run effect give @a[distance=..40] minecraft:slowness 3 100
+execute unless entity @s[nbt={ActiveEffects:[{Id:16b}]}] run effect give @s minecraft:night_vision 10 0 true

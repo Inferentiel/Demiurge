@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "inferentiel:villager/cartographer_snowy",
+          "weight": 1,
+		  "functions":[
+		    {
+			  "function": "minecraft:set_name",
+			  "name": {
+			    "translate": "generator.minecraft.caves",
+				"color": "white",
+				"italic": "false"
+			  }
+			}
+		  ]
+        }
+      ]
+    }
+  ]
+}

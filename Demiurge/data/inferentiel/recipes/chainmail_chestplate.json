@@ -1,0 +1,17 @@
+{
+   "type": "crafting_shaped",
+   "pattern": [
+	   "P P",
+	   "PPP",
+	   "PPP"
+   ],
+   "key": {
+	   "P": {
+		   "item": "minecraft:iron_nugget"
+	   }
+   },
+   "result": {
+	   "item": "minecraft:chainmail_chestplate",
+	   "count": 1
+   }
+}

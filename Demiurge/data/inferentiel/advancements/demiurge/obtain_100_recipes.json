@@ -1,0 +1,32 @@
+{
+  "parent": "inferentiel:demiurge/obtain_recipe_book",
+  "display": {
+    "icon": {
+      "item": "minecraft:knowledge_book"
+    },
+    "title": {
+      "translate": "recipe.toast.title"
+    },
+    "description": [{"text":"Learn 100 recipes\n"},{"translate":"item.minecraft.enchanted_golden_apple","color":"gold"}],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+	  "inferentiel:enchanted_golden_apple"
+    ]
+  },
+  "criteria": {
+    "hundred_recipes": {
+      "trigger": "minecraft:impossible"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hundred_recipes"
+    ]
+  ]
+}

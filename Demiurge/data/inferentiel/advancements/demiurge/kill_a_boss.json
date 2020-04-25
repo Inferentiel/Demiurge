@@ -1,0 +1,313 @@
+{
+  "parent": "inferentiel:demiurge/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "advancements.adventure.kill_a_mob.title"
+    },
+    "description": {
+      "text": "BOSS"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100,
+	"function": "inferentiel:books/book_creeponomicon"
+  },
+  "criteria": {
+    "minecraft:cave_spider_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cave_spider",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:spider_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:spider",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:zombie_pigman_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_pigman",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:enderman_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:enderman",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:polar_bear_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:polar_bear",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:blaze_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:blaze",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:creeper_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creeper",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:evoker_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:evoker",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:ghast_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ghast",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:guardian_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:guardian",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:husk_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:magma_cube_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:magma_cube",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:shulker_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:shulker",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:silverfish_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:silverfish",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:skeleton_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:slime_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:slime",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:stray_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:vindicator_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:witch_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:witch",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:wither_skeleton_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:zombie_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:illusioner_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:illusioner",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:phantom_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:phantom",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:drowned_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:pillager_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:pillager",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+    "minecraft:ravager_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ravager",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:cave_spider_b"
+    ,
+      "minecraft:spider_b"
+    ,
+      "minecraft:zombie_pigman_b"
+    ,
+      "minecraft:enderman_b"
+    ,
+      "minecraft:polar_bear_b"
+    ,
+      "minecraft:blaze_b"
+    ,
+      "minecraft:creeper_b"
+    ,
+      "minecraft:evoker_b"
+    ,
+      "minecraft:ghast_b"
+    ,
+      "minecraft:guardian_b"
+    ,
+      "minecraft:husk_b"
+    ,
+      "minecraft:magma_cube_b"
+    ,
+      "minecraft:shulker_b"
+    ,
+      "minecraft:silverfish_b"
+    ,
+      "minecraft:skeleton_b"
+    ,
+      "minecraft:slime_b"
+    ,
+      "minecraft:stray_b"
+    ,
+      "minecraft:vindicator_b"
+    ,
+      "minecraft:witch_b"
+    ,
+      "minecraft:wither_skeleton_b"
+    ,
+      "minecraft:zombie_b"
+    ,
+      "minecraft:illusioner_b"
+    ,
+      "minecraft:phantom_b"
+    ,
+      "minecraft:drowned_b"
+    ,
+      "minecraft:pillager_b"
+    ,
+      "minecraft:ravager_b"
+    ]
+  ]
+}

@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle poison\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle creeper\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle guardian\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

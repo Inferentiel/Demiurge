@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+		  "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+		  "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+		  "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.coal_block\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:coal_block\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.tnt_minecart\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:tnt_minecart\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.dried_kelp_block\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:dried_kelp_block\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

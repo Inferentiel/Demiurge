@@ -1,0 +1,38 @@
+{
+  "parent": "inferentiel:demiurge/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "block.minecraft.player_head"
+    },
+    "description": [{"text": "Kill your old self\n"},{"translate":"item.minecraft.totem_of_undying","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+	  "inferentiel:totem_of_undying"
+    ],
+	"function": "inferentiel:books/book_cultura"
+  },
+  "criteria": {
+    "minecraft:player_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+		  "nbt": "{Tags:[\"Herobrine\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:player_zombie"
+    ]
+  ]
+}

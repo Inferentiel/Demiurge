@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:blast_furnace",
+	"minecraft:smoker",
+	"minecraft:cartography_table",
+	"minecraft:brewing_stand",
+	"minecraft:composter",
+	"minecraft:barrel",
+	"minecraft:fletching_table",
+	"minecraft:lectern",
+	"minecraft:stonecutter",
+	"minecraft:loom",
+	"minecraft:smithing_table",
+	"minecraft:grindstone",
+	"minecraft:blast_furnace",
+	"minecraft:crafting_table",
+	"minecraft:enchanting_table",
+	"minecraft:anvil",
+	"minecraft:chest",
+	"minecraft:furnace",
+	"minecraft:bell",
+	"minecraft:jukebox",
+	"minecraft:bookshelf"
+  ]
+}

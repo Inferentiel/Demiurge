@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:help/mined_low",
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "translate": "subtitles.block.generic.break"
+    },
+	"description": [{"translate":"stat_type.minecraft.mined"},{"text": " : 300\n"},{"translate":"container.furnace","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+	  "minecraft:furnace"
+    ]
+  },
+  "criteria": {
+    "mined_medium": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "mined_medium"
+    ]
+  ]
+}

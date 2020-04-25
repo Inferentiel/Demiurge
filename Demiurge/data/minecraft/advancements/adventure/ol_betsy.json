@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "advancements.adventure.ol_betsy.title"
+    },
+    "description": [{"translate": "advancements.adventure.ol_betsy.description"},{"text":"\n"},{"translate":"block.minecraft.tripwire_hook","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+	"recipes": [
+	  "minecraft:tripwire_hook"
+    ]
+  },
+  "criteria": {
+    "shot_crossbow": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "item": "minecraft:crossbow"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shot_crossbow"
+    ]
+  ]
+}

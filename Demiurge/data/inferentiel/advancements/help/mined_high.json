@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:help/mined_medium",
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_bricks"
+    },
+    "title": {
+      "translate": "enchantment.minecraft.unbreaking"
+    },
+	"description": [{"translate":"stat_type.minecraft.mined"},{"text": " : 1000\n"},{"translate":"block.minecraft.dropper","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+	  "minecraft:dropper"
+    ]
+  },
+  "criteria": {
+    "mined_high": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "mined_high"
+    ]
+  ]
+}

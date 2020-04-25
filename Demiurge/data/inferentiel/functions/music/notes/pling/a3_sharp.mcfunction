@@ -1,0 +1,1 @@
+playsound minecraft:block.note_block.pling ambient @a[distance=..32] ~ ~ ~ 1 0.629961 0.5

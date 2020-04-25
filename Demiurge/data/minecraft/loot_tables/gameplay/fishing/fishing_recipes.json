@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_i/recipes_i",
+                    "weight": 16
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/recipes_ii",
+                    "weight": 8
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/recipes_iii",
+                    "weight": 4
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iv/recipes_iv",
+                    "weight": 2
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/recipes_v",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

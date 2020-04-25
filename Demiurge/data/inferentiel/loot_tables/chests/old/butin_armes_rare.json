@@ -1,0 +1,563 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:wooden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.wooden_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:4,Operation:0,UUIDMost:73312,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:40241,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:41567,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:wooden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.wooden_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:4,Operation:0,UUIDMost:73313,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:40242,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:0.25,Operation:0,UUIDMost:41568,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:wooden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.wooden_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:4,Operation:0,UUIDMost:73314,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:40243,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:41569,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:wooden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.wooden_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:4,Operation:0,UUIDMost:73315,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-0.8,Operation:0,UUIDMost:40244,UUIDLeast:54872,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:wooden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.wooden_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:5,Operation:0,UUIDMost:73316,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:40245,UUIDLeast:54872,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:stone_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.stone_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:5,Operation:0,UUIDMost:83312,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:50241,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:51567,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:stone_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.stone_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:5,Operation:0,UUIDMost:83313,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:50242,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:0.25,Operation:0,UUIDMost:51568,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:stone_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.stone_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:5,Operation:0,UUIDMost:83314,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:50243,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:51569,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:stone_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.stone_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:5,Operation:0,UUIDMost:83315,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-0.8,Operation:0,UUIDMost:50244,UUIDLeast:54872,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:stone_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.stone_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:6,Operation:0,UUIDMost:83316,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:50245,UUIDLeast:54872,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.iron_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:6,Operation:0,UUIDMost:93312,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:60241,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:61567,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.iron_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:6,Operation:0,UUIDMost:93313,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:60242,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:0.25,Operation:0,UUIDMost:61568,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.iron_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:6,Operation:0,UUIDMost:93314,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:60243,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:61569,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.iron_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:6,Operation:0,UUIDMost:93315,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-0.8,Operation:0,UUIDMost:60244,UUIDLeast:54872,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.iron_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDMost:93316,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:60245,UUIDLeast:54872,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:golden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.golden_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:4,Operation:0,UUIDMost:103312,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:70241,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:71567,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:golden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.golden_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:4,Operation:0,UUIDMost:103313,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:70242,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:0.25,Operation:0,UUIDMost:71568,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:golden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.golden_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:4,Operation:0,UUIDMost:103314,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:70243,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:71569,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:golden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.golden_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:4,Operation:0,UUIDMost:103315,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-0.8,Operation:0,UUIDMost:70244,UUIDLeast:54872,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:golden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.golden_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:5,Operation:0,UUIDMost:103316,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:70245,UUIDLeast:54872,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.diamond_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDMost:113312,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:80241,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:81567,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.diamond_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDMost:113313,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:80242,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:0.25,Operation:0,UUIDMost:81568,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.diamond_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDMost:113314,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:80243,UUIDLeast:54872,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:81569,UUIDLeast:648338,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.diamond_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDMost:113315,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-0.8,Operation:0,UUIDMost:80244,UUIDLeast:54872,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.diamond_sword\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:8,Operation:0,UUIDMost:113316,UUIDLeast:741436,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:80245,UUIDLeast:54872,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:wooden_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.wooden_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDMost:73312,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3.2,Operation:0,UUIDMost:40241,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:41567,UUIDLeast:648339,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:wooden_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.wooden_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDMost:73313,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3.2,Operation:0,UUIDMost:40242,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:0.25,Operation:0,UUIDMost:41568,UUIDLeast:648339,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:wooden_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.wooden_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDMost:73314,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3.2,Operation:0,UUIDMost:40243,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:41569,UUIDLeast:648339,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:wooden_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.wooden_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDMost:73315,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:40244,UUIDLeast:54873,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:wooden_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.wooden_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:8,Operation:0,UUIDMost:73316,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3.2,Operation:0,UUIDMost:40245,UUIDLeast:54873,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:stone_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.stone_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:9,Operation:0,UUIDMost:83312,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3.2,Operation:0,UUIDMost:50241,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:51567,UUIDLeast:648339,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:stone_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.stone_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:9,Operation:0,UUIDMost:83313,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3.2,Operation:0,UUIDMost:50242,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:0.25,Operation:0,UUIDMost:51568,UUIDLeast:648339,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:stone_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.stone_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:9,Operation:0,UUIDMost:83314,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3.2,Operation:0,UUIDMost:50243,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:51569,UUIDLeast:648339,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:stone_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.stone_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:9,Operation:0,UUIDMost:83315,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.4,Operation:0,UUIDMost:50244,UUIDLeast:54873,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:stone_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.stone_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:10,Operation:0,UUIDMost:83316,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3.2,Operation:0,UUIDMost:50245,UUIDLeast:54873,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.iron_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:9,Operation:0,UUIDMost:93312,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3.1,Operation:0,UUIDMost:60241,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:61567,UUIDLeast:648330,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.iron_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:9,Operation:0,UUIDMost:93313,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3.1,Operation:0,UUIDMost:60242,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:0.25,Operation:0,UUIDMost:61568,UUIDLeast:648330,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.iron_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:9,Operation:0,UUIDMost:93314,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3.1,Operation:0,UUIDMost:60243,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:61569,UUIDLeast:648330,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.iron_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:9,Operation:0,UUIDMost:93315,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2.2,Operation:0,UUIDMost:60244,UUIDLeast:54873,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.iron_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:10,Operation:0,UUIDMost:93316,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3.1,Operation:0,UUIDMost:60245,UUIDLeast:54873,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:golden_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.golden_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDMost:103312,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3,Operation:0,UUIDMost:70241,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:71567,UUIDLeast:648331,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:golden_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.golden_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDMost:103313,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3,Operation:0,UUIDMost:70242,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:0.25,Operation:0,UUIDMost:71568,UUIDLeast:648331,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:golden_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.golden_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDMost:103314,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3,Operation:0,UUIDMost:70243,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:71569,UUIDLeast:648331,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:golden_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.golden_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:7,Operation:0,UUIDMost:103315,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2,Operation:0,UUIDMost:70244,UUIDLeast:54873,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:golden_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.golden_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:8,Operation:0,UUIDMost:103316,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3,Operation:0,UUIDMost:70245,UUIDLeast:54873,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:diamond_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.diamond_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:9,Operation:0,UUIDMost:113312,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3,Operation:0,UUIDMost:80241,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:81567,UUIDLeast:648331,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:diamond_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.diamond_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:9,Operation:0,UUIDMost:113313,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3,Operation:0,UUIDMost:80242,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.knockbackResistance\",Name:\"generic.knockbackResistance\",Amount:0.25,Operation:0,UUIDMost:81568,UUIDLeast:648331,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:diamond_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.diamond_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:9,Operation:0,UUIDMost:113314,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3,Operation:0,UUIDMost:80243,UUIDLeast:54873,Slot:\"mainhand\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:81569,UUIDLeast:648331,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:diamond_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.diamond_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:9,Operation:0,UUIDMost:113315,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-2,Operation:0,UUIDMost:80244,UUIDLeast:54873,Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:diamond_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"item.minecraft.diamond_axe\\\",\\\"color\\\":\\\"green\\\"}\"},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:10,Operation:0,UUIDMost:113316,UUIDLeast:741437,Slot:\"mainhand\"},{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:-3,Operation:0,UUIDMost:80245,UUIDLeast:54873,Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

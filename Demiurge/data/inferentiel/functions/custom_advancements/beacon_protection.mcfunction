@@ -1,0 +1,6 @@
+advancement revoke @s only inferentiel:help/beacon_protection
+execute at @s if block ^ ^1.5 ^1 minecraft:beacon unless entity @e[tag=beacon_protector,distance=..8] run summon minecraft:armor_stand ^ ^1.5 ^1 {NoGravity:1b,Invisible:1b,Marker:1b,Tags:["beacon_protector"]}
+execute at @s if block ^ ^1.5 ^2 minecraft:beacon unless entity @e[tag=beacon_protector,distance=..8] run summon minecraft:armor_stand ^ ^1.5 ^2 {NoGravity:1b,Invisible:1b,Marker:1b,Tags:["beacon_protector"]}
+execute at @s if block ^ ^1.5 ^3 minecraft:beacon unless entity @e[tag=beacon_protector,distance=..8] run summon minecraft:armor_stand ^ ^1.5 ^3 {NoGravity:1b,Invisible:1b,Marker:1b,Tags:["beacon_protector"]}
+execute at @s if block ^ ^1.5 ^4 minecraft:beacon unless entity @e[tag=beacon_protector,distance=..8] run summon minecraft:armor_stand ^ ^1.5 ^4 {NoGravity:1b,Invisible:1b,Marker:1b,Tags:["beacon_protector"]}
+execute at @s if block ^ ^1.5 ^5 minecraft:beacon unless entity @e[tag=beacon_protector,distance=..8] run summon minecraft:armor_stand ^ ^1.5 ^5 {NoGravity:1b,Invisible:1b,Marker:1b,Tags:["beacon_protector"]}

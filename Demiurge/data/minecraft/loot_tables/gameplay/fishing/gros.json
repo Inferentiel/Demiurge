@@ -1,0 +1,1435 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+			    {
+				  "type": "minecraft:item",
+				  "weight": 1,
+				  "conditions": [
+					{
+					  "condition": "minecraft:location_check",
+					  "predicate": {
+						"feature": "monument"
+					  }
+					}
+				  ],
+				  "functions": [
+					  {
+					  	"function": "minecraft:set_nbt",
+					  	"tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson BOSS\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+					  }
+				  ],
+				  "name": "minecraft:cod"
+				},
+                {
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:plains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson plains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:desert"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson desert\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:taiga"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson taiga\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:swamp"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson swamp\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:river"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson river\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:nether"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson nether\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:the_end"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson the_end\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:frozen_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson frozen_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:frozen_river"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson frozen_river\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_tundra"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson snowy_tundra\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson snowy_mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:mushroom_fields"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson mushroom_fields\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:mushroom_field_shore"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson mushroom_field_shore\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:beach"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson beach\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:desert_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson desert_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:deep_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson deep_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:wooded_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson wooded_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:taiga_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson taiga_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:mountain_edge"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson mountain_edge\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:jungle"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson jungle\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:jungle_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson jungle_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:jungle_edge"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson jungle_edge\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:stone_shore"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson stone_shore\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_beach"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson snowy_beach\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:birch_forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson birch_forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:birch_forest_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson birch_forest_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:dark_forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson dark_forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_taiga"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson snowy_taiga\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_taiga_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson snowy_taiga_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:giant_tree_taiga"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson giant_tree_taiga\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:giant_tree_taiga_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson giant_tree_taiga_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:wooded_mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson wooded_mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:savanna"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson savanna\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:savanna_plateau"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson savanna_plateau\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:badlands"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson badlands\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:wooded_badlands_plateau"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson wooded_badlands_plateau\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:badlands_plateau"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson badlands_plateau\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:small_end_islands"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson small_end_islands\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:end_midlands"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson end_midlands\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:end_highlands"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson end_highlands\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:end_barrens"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson end_barrens\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:warm_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson warm_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:lukewarm_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson lukewarm_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:cold_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson cold_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:deep_warm_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson deep_warm_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:deep_lukewarm_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson deep_lukewarm_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:deep_cold_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson deep_cold_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:deep_frozen_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson deep_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:the_void"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson the_void\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:sunflower_plains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson sunflower_plains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:desert_lakes"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson desert_lakes\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:gravelly_mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson gravelly_mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:flower_forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson flower_forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:taiga_mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson taiga_mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:swamp_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson swamp_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:ice_spikes"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson ice_spikes\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:modified_jungle"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson modified_jungle\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:modified_jungle_edge"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson modified_jungle_edge\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:tall_birch_forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson tall_birch_forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:dark_forest_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson dark_forest_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_taiga_mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson snowy_taiga_mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:giant_spruce_taiga"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson giant_spruce_taiga\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:giant_spruce_taiga_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson giant_spruce_taiga_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:modified_gravelly_mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson modified_gravelly_mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:shattered_savanna"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson shattered_savanna\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:shattered_savanna_plateau"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson shattered_savanna_plateau\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:eroded_badlands"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson eroded_badlands\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:modified_wooded_badlands_plateau"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson modified_wooded_badlands_plateau\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:modified_badlands_plateau"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson modified_badlands_plateau\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:bamboo_jungle"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson bamboo_jungle\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:bamboo_jungle_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson bamboo_jungle_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

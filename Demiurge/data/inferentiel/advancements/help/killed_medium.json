@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:help/killed_low",
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "title": {
+      "translate": "subtitles.entity.generic.hurt"
+    },
+	"description": [{"translate":"stat.minecraft.mob_kills"},{"text": " : 100\n"},{"translate":"item.minecraft.stone_shovel","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:stone_shovel"
+    ]
+  },
+  "criteria": {
+    "killed_medium": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "killed_medium"
+    ]
+  ]
+}

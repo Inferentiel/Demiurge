@@ -1,0 +1,19 @@
+{
+   "type": "crafting_shaped",
+   "pattern": [
+	   "EP",
+	   "PE"
+   ],
+   "key": {
+	   "P": {
+		   "item": "minecraft:sand"
+	   },
+	   "E": {
+		   "item": "minecraft:dirt"
+	   }
+   },
+   "result": {
+	   "item": "minecraft:clay_ball",
+	   "count": 1
+   }
+}

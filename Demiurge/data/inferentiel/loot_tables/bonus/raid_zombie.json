@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Poubelle zombie\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+execute as @e[type=minecraft:fireball,distance=..8,nbt={ExplosionPower:6}] at @s unless entity @e[tag=copy_from,distance=..8] run summon fireball ~ ~ ~ {ExplosionPower:5,direction:[0.0,0.1,0.0],Item:{id:"minecraft:end_crystal",Count:1b},Passengers:[{id:"minecraft:creeper",HandItems:[{},{id:"minecraft:totem_of_undying",Count:1b}]}],Tags:["copy_to"]}
+execute as @e[type=minecraft:fireball,distance=..8,nbt={ExplosionPower:6}] unless entity @e[tag=copy_from,distance=..8] run tag @s add copy_from
+execute if entity @e[tag=copy_from,distance=..8,limit=1] as @e[tag=copy_to,distance=..8] store result entity @s direction[0] double 0.0001 run data get entity @e[tag=copy_from,distance=..8,limit=1] direction[0] 10000
+execute if entity @e[tag=copy_from,distance=..8,limit=1] as @e[tag=copy_to,distance=..8] store result entity @s direction[1] double 0.0001 run data get entity @e[tag=copy_from,distance=..8,limit=1] direction[1] 10000
+execute if entity @e[tag=copy_from,distance=..8,limit=1] as @e[tag=copy_to,distance=..8] store result entity @s direction[2] double 0.0001 run data get entity @e[tag=copy_from,distance=..8,limit=1] direction[2] 10000
+execute if entity @e[tag=copy_from,distance=..8,limit=1] as @e[tag=copy_to,distance=..8] store result entity @s power[0] double 0.0001 run data get entity @e[tag=copy_from,distance=..8,limit=1] power[0] 10000
+execute if entity @e[tag=copy_from,distance=..8,limit=1] as @e[tag=copy_to,distance=..8] store result entity @s power[1] double 0.0001 run data get entity @e[tag=copy_from,distance=..8,limit=1] power[1] 10000
+execute if entity @e[tag=copy_from,distance=..8,limit=1] as @e[tag=copy_to,distance=..8] store result entity @s power[2] double 0.0001 run data get entity @e[tag=copy_from,distance=..8,limit=1] power[2] 10000
+execute as @e[tag=copy_from,distance=..8] run kill @s

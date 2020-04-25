@@ -1,0 +1,95 @@
+{
+    "pools": [
+        {
+            "rolls": {
+			    "min": 2,
+				"max": 4
+			},
+			"bonus_rolls": 2,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/armor_iii",
+                    "weight": 10,
+					"quality": -1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/butin_exceptionnel",
+                    "weight": 5,
+					"quality": 1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/weapon_iii",
+                    "weight": 10,
+					"quality": 1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/drops_iii",
+                    "weight": 25
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/economie_iii",
+                    "weight": 30
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/food_iii",
+                    "weight": 30,
+					"quality": -2
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/potion_iii",
+                    "weight": 15,
+					"quality": -2
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/ressources_iii",
+                    "weight": 25
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/recipes_iii",
+                    "weight": 10
+                }
+            ]
+        },
+		{
+            "rolls": {
+			    "min": 1,
+				"max": 2
+			},
+			"bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/armor_iii",
+                    "weight": 10,
+					"quality": -1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/butin_exceptionnel",
+                    "weight": 5,
+					"quality": 1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/weapon_iii",
+                    "weight": 10,
+					"quality": 1
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/recipes_iii",
+                    "weight": 10
+                }
+            ]
+        }
+    ]
+}

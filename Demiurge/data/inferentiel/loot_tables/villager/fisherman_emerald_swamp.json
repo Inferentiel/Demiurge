@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		{
+          "type": "item",
+          "name": "minecraft:tropical_fish_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{BucketVariantTag:101123072,display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.swamp\"}],\"translate\":\"entity.minecraft.tropical_fish.type.flopper\"}'}}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:tropical_fish_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{BucketVariantTag:118227712,display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.stone_shore\"}],\"translate\":\"entity.minecraft.tropical_fish.type.betty\"}'}}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:tropical_fish_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{BucketVariantTag:118227712,display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.stone_shore\"}],\"translate\":\"entity.minecraft.tropical_fish.type.betty\"}'}}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:salmon_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.river\"}],\"translate\":\"entity.minecraft.salmon\"}'}}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:tropical_fish_bucket",
+          "weight": 1,
+          "functions": [
+			{
+              "function": "set_nbt",
+              "tag": "{BucketVariantTag:167772417,display:{Name:'{\"color\":\"light_purple\",\"extra\":[{\"text\":\" \"},{\"color\":\"yellow\",\"translate\":\"biome.minecraft.dark_forest\"}],\"translate\":\"entity.minecraft.tropical_fish.type.clayfish\"}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

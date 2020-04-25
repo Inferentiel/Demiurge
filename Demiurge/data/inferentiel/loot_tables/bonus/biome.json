@@ -1,0 +1,1416 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:plains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.plains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:desert"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.desert\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:taiga"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.taiga\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:swamp"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.swamp\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:river"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.river\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:nether"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.nether\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:the_end"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.the_end\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:frozen_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.frozen_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:frozen_river"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.frozen_river\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_tundra"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.snowy_tundra\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.snowy_mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:mushroom_fields"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.mushroom_fields\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:mushroom_field_shore"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.mushroom_field_shore\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:beach"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.beach\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:desert_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.desert_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:deep_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.deep_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:wooded_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.wooded_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:taiga_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.taiga_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:mountain_edge"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.mountain_edge\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:jungle"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.jungle\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:jungle_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.jungle_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:jungle_edge"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.jungle_edge\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:stone_shore"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.stone_shore\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_beach"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.snowy_beach\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:birch_forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.birch_forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:birch_forest_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.birch_forest_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:dark_forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.dark_forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_taiga"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.snowy_taiga\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_taiga_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.snowy_taiga_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:giant_tree_taiga"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.giant_tree_taiga\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:giant_tree_taiga_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.giant_tree_taiga_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:wooded_mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.wooded_mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:savanna"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.savanna\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:savanna_plateau"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.savanna_plateau\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:badlands"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.badlands\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:wooded_badlands_plateau"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.wooded_badlands_plateau\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:badlands_plateau"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.badlands_plateau\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:small_end_islands"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.small_end_islands\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:end_midlands"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.end_midlands\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:end_highlands"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.end_highlands\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:end_barrens"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.end_barrens\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:warm_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.warm_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:lukewarm_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.lukewarm_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:cold_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.cold_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:deep_warm_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.deep_warm_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:deep_lukewarm_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.deep_lukewarm_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:deep_cold_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.deep_cold_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:deep_frozen_ocean"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.deep_ocean\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:the_void"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.the_void\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:sunflower_plains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.sunflower_plains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:desert_lakes"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.desert_lakes\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:gravelly_mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.gravelly_mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:flower_forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.flower_forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:taiga_mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.taiga_mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:swamp_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.swamp_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:ice_spikes"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.ice_spikes\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:modified_jungle"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.modified_jungle\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:modified_jungle_edge"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.modified_jungle_edge\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:tall_birch_forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.tall_birch_forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:dark_forest_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.dark_forest_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:snowy_taiga_mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.snowy_taiga_mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:giant_spruce_taiga"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.giant_spruce_taiga\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:giant_spruce_taiga_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.giant_spruce_taiga_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:modified_gravelly_mountains"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.modified_gravelly_mountains\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:shattered_savanna"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.shattered_savanna\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:shattered_savanna_plateau"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.shattered_savanna_plateau\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:eroded_badlands"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.eroded_badlands\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:modified_wooded_badlands_plateau"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.modified_wooded_badlands_plateau\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:modified_badlands_plateau"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.modified_badlands_plateau\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:bamboo_jungle"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.bamboo_jungle\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:bamboo_jungle_hills"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.bamboo_jungle_hills\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

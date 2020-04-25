@@ -1,0 +1,80 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+			"bonus_rolls": 1,
+            "entries": [
+			    {
+				  "type": "item",
+				  "name": "minecraft:blast_furnace",
+				  "weight": 1
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:smoker",
+				  "weight": 1
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:cartography_table",
+				  "weight": 1
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:brewing_stand",
+				  "weight": 1
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:composter",
+				  "weight": 1
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:barrel",
+				  "weight": 1
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:fletching_table",
+				  "weight": 1
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:cauldron",
+				  "weight": 1
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:lectern",
+				  "weight": 1
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:stonecutter",
+				  "weight": 1
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:loom",
+				  "weight": 1
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:smithing_table",
+				  "weight": 1
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:grindstone",
+				  "weight": 1
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:enchanting_table",
+				  "weight": 1
+				}
+            ]
+        }
+    ]
+}

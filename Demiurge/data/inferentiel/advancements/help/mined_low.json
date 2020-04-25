@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:help/find_village",
+  "display": {
+    "icon": {
+      "item": "minecraft:cobblestone"
+    },
+    "title": {
+      "translate": "subtitles.block.generic.hit"
+    },
+	"description": [{"translate":"stat_type.minecraft.mined"},{"text": " : 100\n"},{"translate":"item.minecraft.stone_pickaxe","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:stone_pickaxe"
+    ]
+  },
+  "criteria": {
+    "mined_low": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "mined_low"
+    ]
+  ]
+}

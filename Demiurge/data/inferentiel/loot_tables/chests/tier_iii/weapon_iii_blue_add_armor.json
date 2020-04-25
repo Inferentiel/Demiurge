@@ -1,0 +1,72 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_iii/weapon_iii_blue_base",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Vert armure",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "a0000000-0000-0002-0000-00a000000011"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_iii/weapon_iii_blue_base",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Vert armure",
+						  "attribute": "generic.armor",
+						  "amount": 3,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "b0000000-0000-0002-0000-00b000000011"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_iii/weapon_iii_blue_base",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Vert armure",
+						  "attribute": "generic.armor",
+						  "amount": 4,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "b0000000-0000-0002-0000-00c000000011"
+						}
+					  ]
+					}
+				  ]
+				}
+            ]
+        }
+    ]
+}

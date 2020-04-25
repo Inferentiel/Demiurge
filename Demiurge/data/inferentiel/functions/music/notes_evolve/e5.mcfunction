@@ -1,0 +1,1 @@
+execute at @e[tag=music_evolve] run playsound minecraft:block.note_block.pling ambient @a[distance=..32] ~ ~ ~ 1 1.781797 0.5

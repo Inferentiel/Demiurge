@@ -1,0 +1,229 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:leather_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Casque d'Ouranos\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence de l'air\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:51526,UUIDLeast:943067,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:33763,UUIDLeast:207317,Slot:\"head\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Tunique d'Ouranos\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence de l'air\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:51525,UUIDLeast:943057,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:33762,UUIDLeast:207316,Slot:\"chest\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Pantalon d'Ouranos\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence de l'air\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:51524,UUIDLeast:943063,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:33761,UUIDLeast:207315,Slot:\"legs\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Bottes d'Ouranos\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence de l'air\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.1,Operation:1,UUIDMost:51526,UUIDLeast:942077,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:33760,UUIDLeast:207314,Slot:\"feet\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1},{id:\"minecraft:feather_falling\",lvl:3}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Casque de Ga\u00efa\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence de la terre\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:3,Operation:0,UUIDMost:55015,UUIDLeast:227321,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:44630,UUIDLeast:981494,Slot:\"head\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Plastron de Ga\u00efa\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence de la terre\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:3,Operation:0,UUIDMost:55014,UUIDLeast:227320,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:44639,UUIDLeast:981493,Slot:\"chest\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1},{id:\"minecraft:thorns\",lvl:3}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Jambi\u00e8res de Ga\u00efa\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence de la terre\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:3,Operation:0,UUIDMost:55012,UUIDLeast:227329,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:44638,UUIDLeast:981492,Slot:\"legs\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Bottes de Ga\u00efa\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence de la terre\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:3,Operation:0,UUIDMost:55019,UUIDLeast:227327,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:44637,UUIDLeast:981491,Slot:\"feet\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Casque du Tartare\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence du feu\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.1,Operation:1,UUIDMost:13718,UUIDLeast:828387,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:165,UUIDLeast:228808,Slot:\"head\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:1951,UUIDLeast:75500,Slot:\"head\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Plastron du Tartare\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence du feu\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.1,Operation:1,UUIDMost:13717,UUIDLeast:828386,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:164,UUIDLeast:228807,Slot:\"chest\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:1950,UUIDLeast:75509,Slot:\"chest\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Jambi\u00e8res du Tartare\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence du feu\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.1,Operation:1,UUIDMost:13716,UUIDLeast:828385,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:163,UUIDLeast:228806,Slot:\"legs\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:1959,UUIDLeast:75508,Slot:\"legs\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1},{id:\"minecraft:fire_protection\",lvl:3}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Bottes du Tartare\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence du feu\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.1,Operation:1,UUIDMost:13714,UUIDLeast:828383,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:162,UUIDLeast:228805,Slot:\"feet\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:1958,UUIDLeast:75507,Slot:\"feet\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Casque de Th\u00e9tys\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence de l'eau\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.1,Operation:1,UUIDMost:89932,UUIDLeast:897133,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:47655,UUIDLeast:288609,Slot:\"head\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:38161,UUIDLeast:183432,Slot:\"head\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1},{id:\"minecraft:respiration\",lvl:3}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Plastron de Th\u00e9tys\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence de l'eau\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.1,Operation:1,UUIDMost:89931,UUIDLeast:897132,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:47654,UUIDLeast:288608,Slot:\"chest\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:38160,UUIDLeast:183431,Slot:\"chest\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Jambi\u00e8res de Th\u00e9tys\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence de l'eau\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.1,Operation:1,UUIDMost:89939,UUIDLeast:897148,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:47653,UUIDLeast:288607,Slot:\"legs\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:38169,UUIDLeast:183430,Slot:\"legs\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Bottes de Th\u00e9tys\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence de l'eau\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.1,Operation:1,UUIDMost:89935,UUIDLeast:897144,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:47652,UUIDLeast:288606,Slot:\"feet\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:38167,UUIDLeast:183438,Slot:\"feet\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Casque d'Ether\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence du vide\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:3,Operation:0,UUIDMost:83891,UUIDLeast:162353,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:38777,UUIDLeast:394656,Slot:\"head\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42828,UUIDLeast:116628,Slot:\"head\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Plastron d'Ether\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence du vide\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:3,Operation:0,UUIDMost:83890,UUIDLeast:162352,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:38776,UUIDLeast:394655,Slot:\"chest\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42827,UUIDLeast:116627,Slot:\"chest\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Jambi\u00e8res d'Ether\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence du vide\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:3,Operation:0,UUIDMost:83899,UUIDLeast:162351,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:38775,UUIDLeast:394654,Slot:\"legs\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42826,UUIDLeast:116626,Slot:\"legs\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Bottes d'Ether\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"italic\\\":\\\"false\\\"}\",Lore:[\"{\\\"text\\\":\\\"Ensemble légendaire : Essence du vide\\\",\\\"color\\\":\\\"green\\\",\\\"italic\\\":\\\"false\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:3,Operation:0,UUIDMost:83887,UUIDLeast:162356,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:38774,UUIDLeast:394653,Slot:\"feet\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42825,UUIDLeast:116625,Slot:\"feet\"}],Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:mending\",lvl:1},{id:9,lvl:2}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

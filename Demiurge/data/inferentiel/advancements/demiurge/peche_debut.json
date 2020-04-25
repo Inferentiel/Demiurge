@@ -1,0 +1,38 @@
+{
+  "parent": "inferentiel:demiurge/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "effect.minecraft.luck"
+    },
+	"description": [{"text": "Find a special fish\n"},{"translate":"item.minecraft.clay_ball","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "inferentiel:clay_ball"
+    ],
+	"function": "inferentiel:books/book_thesaurus"
+  },
+  "criteria": {
+    "get_big_fish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cod",
+		  "nbt": "{display:{Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_big_fish"
+    ]
+  ]
+}

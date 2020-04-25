@@ -1,0 +1,19 @@
+{
+  "rewards": {
+    "function": "inferentiel:custom_advancements/regen_village"
+  },
+  "criteria": {
+    "clock": {
+      "trigger": "minecraft:tick"
+    },
+	"in_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "feature": "village"
+      }
+    }
+  },
+  "requirements": [
+    ["clock"],["in_village"]
+  ]
+}

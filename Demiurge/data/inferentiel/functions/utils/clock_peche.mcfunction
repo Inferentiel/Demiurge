@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,nbt={Item:{tag:{display:{Lore:["{\"text\":\"Gros Poisson\"}"]}}}}] run function inferentiel:utils/peche

@@ -1,0 +1,699 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_axe",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_axe","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -3.5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-1010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 11,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "a0000100-1010-0002-0000-a00000000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_axe",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_axe","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -3.5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-1010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 11.5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "b0000100-1010-0002-0000-a00000000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_axe",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_axe","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -3.5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-1010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 12,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "c0000100-1010-0002-0000-a00000000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_sword",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_sword","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert epee vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -3,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-2010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert epee Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 6.5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "a0000100-2010-0002-0000-a00000000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_sword",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_sword","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert epee vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -3,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-2010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert epee Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 7,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "b0000100-2010-0002-0000-a00000000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_sword",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_sword","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert epee vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -3,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-2010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert epee Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 7.5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "c0000100-2010-0002-0000-a00000000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_hoe",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_hoe","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -2,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-1010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 3,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "a1000100-1010-0002-0000-a00000000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_hoe",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_hoe","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -2,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-1010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 3.5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "b1000100-1010-0002-0000-a00000000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_hoe",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_hoe","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -2,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000000-1010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 4,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "c1000100-1010-0002-0000-a00000000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_shovel",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_shovel","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -2.5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000a00-1010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 4,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "a1000100-1010-0002-0000-a0000a000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_shovel",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_shovel","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -2.5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000a00-1010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 4.5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "b1000100-1010-0002-0000-a0000a000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_shovel",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_shovel","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -2.5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000a00-1010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "c1000100-1010-0002-0000-a0000a000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_pickaxe",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_pickaxe","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -3.25,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000b00-1010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 8.5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "a1000100-1010-0002-0000-a0000b000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_pickaxe",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_pickaxe","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -3.25,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000b00-1010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 9,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "b1000100-1010-0002-0000-a0000b000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:iron_pickaxe",
+				  "weight": 100,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.iron_pickaxe","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Vert hache vitattaque",
+						  "attribute": "generic.attackSpeed",
+						  "amount": -3.25,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "00000b00-1010-0001-0000-000000000001"
+						},
+						{
+						  "name": "Vert hache Attaque",
+						  "attribute": "generic.attackDamage",
+						  "amount": 9.5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "c1000100-1010-0002-0000-a0000b000001"
+						}
+					  ]
+					},
+					{
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.4,
+						"max": 0.8
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 7,
+						"max": 14
+					  }
+					}
+				  ]
+				}
+			]
+		}
+    ]
+}

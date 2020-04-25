@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lantern"
+    },
+    "title": "Demiurge",
+    "description": {
+      "translate": "advancements.story.root.title"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/spawner.png"
+  },
+  "rewards": {
+    "recipes": [
+	  "minecraft:stick",
+	  "minecraft:crafting_table"
+    ],
+	"function": "inferentiel:books/book_demiurge"
+  },
+  "criteria": {
+    "start": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "start"
+    ]
+  ]
+}

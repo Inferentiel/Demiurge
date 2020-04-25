@@ -1,0 +1,40 @@
+{
+  "parent": "inferentiel:demiurge/oeuf_revocation",
+  "display": {
+    "icon": {
+      "item": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "advancements.husbandry.tame_an_animal.title"
+    },
+	"description": [{"translate":"enchantment.level.5"},{"text":" / "},{"translate":"enchantment.level.5"},{"text":" / "},{"translate":"enchantment.level.5"},{"text":"\n"},{"translate":"item.minecraft.saddle","color":"gold"}],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+	  "inferentiel:saddle"
+    ]
+  },
+  "criteria": {
+    "get_perfect_horse": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                    {
+                        "item": "minecraft:horse_spawn_egg",
+                        "count": {"min":1,"max":64},
+						"nbt": "{display:{Lore:[\"[{\\\"translate\\\":\\\"attribute.name.horse.jumpStrength\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"enchantment.level.5\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}]\",\"[{\\\"translate\\\":\\\"attribute.name.generic.movementSpeed\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"enchantment.level.5\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}]\",\"[{\\\"translate\\\":\\\"attribute.name.generic.maxHealth\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"enchantment.level.5\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}]\"]}}"
+                    }
+         ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_perfect_horse"
+    ]
+  ]
+}

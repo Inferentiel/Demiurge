@@ -1,0 +1,213 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+				  "type": "item",
+				  "name": "minecraft:diamond_helmet",
+				  "weight": 400,
+				  "quality": -30,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_helmet","color":"gray","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00038058-0000-0000-0001-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00038058-0000-0000-0001-468500009393"
+						},
+						{
+						  "name": "vitesse grise",
+						  "attribute": "generic.movementSpeed",
+						  "amount": {
+						    "min": -0.15,
+							"max": -0.05
+						  },
+						  "operation": "multiply_base",
+						  "slot": "head",
+						  "id": "00073809-0000-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.15,
+                          "max": 0.65
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_chestplate",
+				  "weight": 400,
+				  "quality": -30,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_chestplate","color":"gray","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 8,
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00038058-0001-0000-0004-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00038058-0000-0001-0001-468500009393"
+						},
+						{
+						  "name": "vitesse grise",
+						  "attribute": "generic.movementSpeed",
+						  "amount": {
+						    "min": -0.15,
+							"max": -0.05
+						  },
+						  "operation": "multiply_base",
+						  "slot": "chest",
+						  "id": "00073809-0001-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.15,
+                          "max": 0.65
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_leggings",
+				  "weight": 400,
+				  "quality": -30,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_leggings","color":"gray","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 6,
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00038058-0002-0000-0004-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00038058-0000-0002-0001-468500009393"
+						},
+						{
+						  "name": "vitesse grise",
+						  "attribute": "generic.movementSpeed",
+						  "amount": {
+						    "min": -0.15,
+							"max": -0.05
+						  },
+						  "operation": "multiply_base",
+						  "slot": "legs",
+						  "id": "00073809-0002-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.15,
+                          "max": 0.65
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_boots",
+				  "weight": 400,
+				  "quality": -30,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_boots","color":"gray","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00038058-0003-0000-0002-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00038058-0000-0003-0001-468500009393"
+						},
+						{
+						  "name": "vitesse grise",
+						  "attribute": "generic.movementSpeed",
+						  "amount": {
+						    "min": -0.15,
+							"max": -0.05
+						  },
+						  "operation": "multiply_base",
+						  "slot": "feet",
+						  "id": "00073809-0003-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.15,
+                          "max": 0.65
+                      }
+                    }
+				  ]
+				}
+            ]
+        }
+    ]
+}

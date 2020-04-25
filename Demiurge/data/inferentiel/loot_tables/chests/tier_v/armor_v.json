@@ -1,0 +1,1073 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+			    {
+				  "type": "item",
+				  "name": "minecraft:diamond_helmet",
+				  "weight": 200,
+				  "quality": -10,
+				  "functions": [
+				    {
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.25,
+                          "max": 0.75
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_chestplate",
+				  "weight": 200,
+				  "quality": -10,
+				  "functions": [
+				    {
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.25,
+                          "max": 0.75
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_leggings",
+				  "weight": 200,
+				  "quality": -10,
+				  "functions": [
+				    {
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.25,
+                          "max": 0.75
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_boots",
+				  "weight": 200,
+				  "quality": -10,
+				  "functions": [
+				    {
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.25,
+                          "max": 0.75
+                      }
+                    }
+				  ]
+				},
+                {
+				  "type": "item",
+				  "name": "minecraft:diamond_helmet",
+				  "weight": 400,
+				  "quality": -30,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_helmet","color":"gray","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00038058-0000-0000-0001-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00038058-0000-0000-0001-468500009393"
+						},
+						{
+						  "name": "vitesse grise",
+						  "attribute": "generic.movementSpeed",
+						  "amount": {
+						    "min": -0.15,
+							"max": -0.05
+						  },
+						  "operation": "multiply_base",
+						  "slot": "head",
+						  "id": "00073809-0000-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.15,
+                          "max": 0.65
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_chestplate",
+				  "weight": 400,
+				  "quality": -30,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_chestplate","color":"gray","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 8,
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00038058-0001-0000-0004-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00038058-0000-0001-0001-468500009393"
+						},
+						{
+						  "name": "vitesse grise",
+						  "attribute": "generic.movementSpeed",
+						  "amount": {
+						    "min": -0.15,
+							"max": -0.05
+						  },
+						  "operation": "multiply_base",
+						  "slot": "chest",
+						  "id": "00073809-0001-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.15,
+                          "max": 0.65
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_leggings",
+				  "weight": 400,
+				  "quality": -30,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_leggings","color":"gray","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 6,
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00038058-0002-0000-0004-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00038058-0000-0002-0001-468500009393"
+						},
+						{
+						  "name": "vitesse grise",
+						  "attribute": "generic.movementSpeed",
+						  "amount": {
+						    "min": -0.15,
+							"max": -0.05
+						  },
+						  "operation": "multiply_base",
+						  "slot": "legs",
+						  "id": "00073809-0002-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.15,
+                          "max": 0.65
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_boots",
+				  "weight": 400,
+				  "quality": -30,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_boots","color":"gray","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00038058-0003-0000-0002-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00038058-0000-0003-0001-468500009393"
+						},
+						{
+						  "name": "vitesse grise",
+						  "attribute": "generic.movementSpeed",
+						  "amount": {
+						    "min": -0.15,
+							"max": -0.05
+						  },
+						  "operation": "multiply_base",
+						  "slot": "feet",
+						  "id": "00073809-0003-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.15,
+                          "max": 0.65
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_helmet",
+				  "weight": 100,
+				  "quality": 10,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_helmet","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00038058-0010-0000-0001-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00038058-0000-0000-0001-468500009393"
+						},
+						{
+						  "name": "vie verte",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 2
+						  },
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00073809-0010-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.35,
+                          "max": 0.85
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_chestplate",
+				  "weight": 100,
+				  "quality": 10,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_chestplate","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 8,
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00038058-0011-0000-0004-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00038058-0000-0001-0001-468500009393"
+						},
+						{
+						  "name": "vie verte",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 2
+						  },
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00073809-0011-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.35,
+                          "max": 0.85
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_leggings",
+				  "weight": 100,
+				  "quality": 10,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_leggings","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 6,
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00038058-0012-0000-0004-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00038058-0000-0002-0001-468500009393"
+						},
+						{
+						  "name": "vie verte",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 2
+						  },
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00073809-0012-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.35,
+                          "max": 0.85
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_boots",
+				  "weight": 100,
+				  "quality": 10,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_boots","color":"green","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00038058-0013-0000-0002-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00038058-0000-0003-0001-468500009393"
+						},
+						{
+						  "name": "vie verte",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 2
+						  },
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00073809-0013-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.35,
+                          "max": 0.85
+                      }
+                    }
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_helmet",
+				  "weight": 50,
+				  "quality": 20,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_helmet","color":"blue","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00038058-0020-0000-0001-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00038058-0000-0000-0001-468500009393"
+						},
+						{
+						  "name": "vie bleu",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 6
+						  },
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00073809-0020-0000-0000-000000927759"
+						},
+						{
+						  "name": "knoba bleu",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.1
+						  },
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00838009-0020-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.45,
+                          "max": 0.95
+                      }
+                    },
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 10,
+						"max": 20
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_chestplate",
+				  "weight": 50,
+				  "quality": 20,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_chestplate","color":"blue","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 8,
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00038058-0021-0000-0004-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00038058-0000-0001-0001-468500009393"
+						},
+						{
+						  "name": "vie bleu",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 6
+						  },
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00073809-0021-0000-0000-000000927759"
+						},
+						{
+						  "name": "knoba bleu",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.1
+						  },
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00838009-0021-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.45,
+                          "max": 0.95
+                      }
+                    },
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 10,
+						"max": 20
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_leggings",
+				  "weight": 50,
+				  "quality": 20,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_leggings","color":"blue","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 6,
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00038058-0022-0000-0004-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00038058-0000-0002-0001-468500009393"
+						},
+						{
+						  "name": "vie bleu",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 6
+						  },
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00073809-0022-0000-0000-000000927759"
+						},
+						{
+						  "name": "knoba bleu",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.1
+						  },
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00838009-0022-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.45,
+                          "max": 0.95
+                      }
+                    },
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 10,
+						"max": 20
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_boots",
+				  "weight": 50,
+				  "quality": 20,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_boots","color":"blue","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00038058-0023-0000-0002-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00038058-0000-0003-0001-468500009393"
+						},
+						{
+						  "name": "vie bleu",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 6
+						  },
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00073809-0023-0000-0000-000000927759"
+						},
+						{
+						  "name": "knoba bleu",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.1
+						  },
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00838009-0023-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.45,
+                          "max": 0.95
+                      }
+                    },
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 10,
+						"max": 20
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_helmet",
+				  "weight": 25,
+				  "quality": 30,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_helmet","color":"dark_purple","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00038058-0030-0000-0001-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00038058-0000-0000-0001-468500009393"
+						},
+						{
+						  "name": "vie violet",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 8
+						  },
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00073809-0030-0000-0000-000000927759"
+						},
+						{
+						  "name": "knoba violat",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.15
+						  },
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00838009-0030-0000-0000-000000927759"
+						},
+						{
+						  "name": "attack violet",
+						  "attribute": "generic.attackDamage",
+						  "amount": {
+						    "min": 0,
+							"max": 1
+						  },
+						  "operation": "addition",
+						  "slot": "head",
+						  "id": "00838009-0030-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.55,
+                          "max": 1
+                      }
+                    },
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 20,
+						"max": 30
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_chestplate",
+				  "weight": 25,
+				  "quality": 30,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_chestplate","color":"dark_purple","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 8,
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00038058-0031-0000-0004-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00038058-0000-0001-0001-468500009393"
+						},
+						{
+						  "name": "vie violet",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 8
+						  },
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00073809-0031-0000-0000-000000927759"
+						},
+						{
+						  "name": "knoba violet",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.15
+						  },
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00838009-0031-0000-0000-000000927759"
+						},
+						{
+						  "name": "attack violet",
+						  "attribute": "generic.attackDamage",
+						  "amount": {
+						    "min": 0,
+							"max": 1
+						  },
+						  "operation": "addition",
+						  "slot": "chest",
+						  "id": "00838009-0031-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.55,
+                          "max": 1
+                      }
+                    },
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 20,
+						"max": 30
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_leggings",
+				  "weight": 25,
+				  "quality": 30,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_leggings","color":"dark_purple","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 6,
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00038058-0032-0000-0004-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00038058-0000-0002-0001-468500009393"
+						},
+						{
+						  "name": "vie violet",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 8
+						  },
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00073809-0032-0000-0000-000000927759"
+						},
+						{
+						  "name": "knoba violet",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.15
+						  },
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00838009-0022-0000-0000-000000927759"
+						},
+						{
+						  "name": "attack violet",
+						  "attribute": "generic.attackDamage",
+						  "amount": {
+						    "min": 0,
+							"max": 1
+						  },
+						  "operation": "addition",
+						  "slot": "legs",
+						  "id": "00838009-0032-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.55,
+                          "max": 1
+                      }
+                    },
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 20,
+						"max": 30
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:diamond_boots",
+				  "weight": 25,
+				  "quality": 30,
+				  "functions": [
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.diamond_boots","color":"dark_purple","italic":"false"}
+					},
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+					    {
+						  "name": "Armure grise",
+						  "attribute": "generic.armor",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00038058-0033-0000-0002-000000009393"
+						},
+						{
+						  "name": "Armure grise",
+						  "attribute": "generic.armorToughness",
+						  "amount": 2,
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00038058-0000-0003-0001-468500009393"
+						},
+						{
+						  "name": "vie violet",
+						  "attribute": "generic.maxHealth",
+						  "amount": {
+						    "min": 0,
+							"max": 8
+						  },
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00073809-0033-0000-0000-000000927759"
+						},
+						{
+						  "name": "knoba violet",
+						  "attribute": "generic.knockbackResistance",
+						  "amount": {
+						    "min": 0,
+							"max": 0.15
+						  },
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00838009-0033-0000-0000-000000927759"
+						},
+						{
+						  "name": "attack violet",
+						  "attribute": "generic.attackDamage",
+						  "amount": {
+						    "min": 0,
+							"max": 1
+						  },
+						  "operation": "addition",
+						  "slot": "feet",
+						  "id": "00838009-0030-0000-0000-000000927759"
+						}
+					  ]
+					},
+					{
+                      "function": "minecraft:set_damage",
+                      "damage": {
+                          "min": 0.55,
+                          "max": 1
+                      }
+                    },
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 20,
+						"max": 30
+					  }
+					}
+				  ]
+				}
+            ]
+        }
+    ]
+}

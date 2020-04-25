@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_hoe"
+    },
+    "title": {
+      "translate": "advancements.husbandry.break_diamond_hoe.title"
+    },
+    "description": [{"translate": "advancements.husbandry.break_diamond_hoe.description"},{"text":"\n"},{"translate":"item.minecraft.black_dye","color":"gold"},
+	{"text":"\n"},{"translate":"item.minecraft.white_dye","color":"gold"}],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100,
+	"recipes": [
+      "minecraft:black_dye",
+	  "minecraft:black_dye_from_wither_rose",
+	  "minecraft:white_dye_from_lily_of_the_valley",
+	  "minecraft:white_dye"
+    ]
+  },
+  "criteria": {
+    "broke_hoe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "item": "minecraft:diamond_hoe"
+        },
+        "durability": -1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "broke_hoe"
+    ]
+  ]
+}

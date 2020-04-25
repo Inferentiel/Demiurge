@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls": {
+			    "min": 1,
+				"max": 1
+			},
+            "entries": [
+				{
+                    "type": "item",
+                    "name": "minecraft:string",
+                    "weight": 500
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cobweb",
+                    "weight": 50
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:slime_ball",
+                    "weight": 50
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:honey_bottle",
+                    "weight": 10
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:sweet_berries",
+                    "weight": 200
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:gold_nugget",
+                    "weight": 500
+                }
+            ]
+        }
+    ]
+}

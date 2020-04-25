@@ -1,0 +1,31 @@
+{
+  "parent": "inferentiel:help/find_village",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_helmet"
+    },
+    "title": {
+      "translate": "subtitles.entity.snow_golem.hurt"
+    },
+	"description": [{"translate":"stat.minecraft.damage_taken"},{"text": " : 200\n"},{"translate":"item.minecraft.leather_helmet","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:leather_helmet"
+    ]
+  },
+  "criteria": {
+    "low_damage": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "low_damage"
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+   "type": "crafting_shaped",
+   "pattern": [
+	   "FFF",
+	   "ECE",
+	   "ECE"
+   ],
+   "key": {
+	   "F": {
+		   "item": "minecraft:iron_ingot"
+	   },
+	   "C": {
+		   "item": "minecraft:stick"
+	   },
+	   "E": {
+		   "item": "minecraft:prismarine_shard"
+	   }
+   },
+   "result": {
+	   "item": "minecraft:trident",
+	   "count": 1
+   }
+}

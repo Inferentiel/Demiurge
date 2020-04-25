@@ -1,0 +1,70 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+			    {
+				  "type": "empty",
+				  "weight": 150
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:fishing_rod",
+				  "weight": 30,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.3,
+						"max": 0.7
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 1,
+						"max": 30
+					  }
+					}
+				  ]
+				},
+			    {
+				  "type": "item",
+				  "name": "minecraft:trident",
+				  "weight": 15,
+				  "functions": [
+				    {
+					  "function": "minecraft:set_damage",
+					  "damage": {
+					    "min": 0.3,
+						"max": 0.7
+					  }
+					},
+					{
+					  "function": "minecraft:enchant_with_levels",
+					  "levels": {
+					    "min": 1,
+						"max": 30
+					  }
+					}
+				  ]
+				},
+				{
+				  "type": "item",
+				  "name": "minecraft:trident",
+				  "weight": 1,
+				  "functions": [
+					{
+					  "function": "set_nbt",
+					  "tag": "{Enchantments:[{id:\"minecraft:riptide\",lvl:4}]}"
+					},
+					{
+					  "function": "minecraft:set_name",
+					  "name": {"translate":"item.minecraft.trident","color":"gold","italic":"false","bold":"true"}
+					}
+				  ]
+				}
+            ]
+        }
+    ]
+}

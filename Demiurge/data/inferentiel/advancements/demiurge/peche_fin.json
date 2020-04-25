@@ -1,0 +1,38 @@
+{
+  "parent": "inferentiel:demiurge/peche_debut",
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "title": {
+      "translate": "entity.minecraft.elder_guardian"
+    },
+	"description": [{"text": "Catch an Elder Guardian! Somewhere deep in thunder...\n"},{"translate":"block.minecraft.conduit","color":"gold"}],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 1000,
+	"recipes": [
+	  "minecraft:conduit"
+    ]
+  },
+  "criteria": {
+    "get_big_fish_boss": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cod",
+		  "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson BOSS\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_big_fish_boss"
+    ]
+  ]
+}

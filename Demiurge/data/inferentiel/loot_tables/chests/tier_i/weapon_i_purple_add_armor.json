@@ -1,0 +1,93 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_i/weapon_i_purple_base",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Violet armure",
+						  "attribute": "generic.armor",
+						  "amount": 3,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "a0000000-0000-0002-0000-000000000013"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_i/weapon_i_purple_base",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Violet armure",
+						  "attribute": "generic.armor",
+						  "amount": 4,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "b0000000-0000-0002-0000-000000000013"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_i/weapon_i_purple_base",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Violet armure",
+						  "attribute": "generic.armor",
+						  "amount": 5,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "c0000000-0000-0002-0000-000000000013"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "type": "loot_table",
+				  "name": "inferentiel:chests/tier_i/weapon_i_purple_base",
+				  "weight": 1,
+				  "quality": 1,
+				  "functions": [
+					{
+					  "function": "minecraft:set_attributes",
+					  "modifiers": [
+						{
+						  "name": "Violet armure",
+						  "attribute": "generic.armor",
+						  "amount": 6,
+						  "operation": "addition",
+						  "slot": "mainhand",
+						  "id": "d0000000-0000-0002-0000-000000000013"
+						}
+					  ]
+					}
+				  ]
+				}
+            ]
+        }
+    ]
+}
