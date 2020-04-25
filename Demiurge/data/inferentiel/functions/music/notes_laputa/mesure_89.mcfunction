@@ -1,0 +1,1 @@
+execute at @e[tag=music_laputa] run playsound minecraft:block.note_block.bell ambient @a[distance=..32] ~ ~ ~ 1 0.594604 0.5
