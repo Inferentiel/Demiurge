@@ -7,16 +7,13 @@
     "title": {
       "translate": "block.minecraft.player_head"
     },
-    "description": [{"text": "Kill your old self\n"},{"translate":"item.minecraft.totem_of_undying","color":"gold"}],
+    "description": [{"text": "Kill your old self\n"},{"translate":"item.minecraft.knowledge_book","color":"aqua"},{"text":" Cultura","color":"aqua"}],
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "rewards": {
-    "recipes": [
-	  "inferentiel:totem_of_undying"
-    ],
 	"function": "inferentiel:books/book_cultura"
   },
   "criteria": {

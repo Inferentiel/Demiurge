@@ -7,11 +7,16 @@
     "title": [{
       "translate": "effect.minecraft.hero_of_the_village"
     },{"text": " - "},{"translate":"advancements.nether.root.title"}],
-	"description": [{"text":"Build a village in the Nether"}],
+	"description": [{"text":"Build a village in the Nether\n"},{"translate":"item.minecraft.golden_apple","color":"gold"}],
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:golden_apple"
+    ]
   },
   "criteria": {
     "in_nether": {

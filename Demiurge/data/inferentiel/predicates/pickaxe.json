@@ -30,6 +30,12 @@
         "predicate": {
           "item": "minecraft:diamond_pickaxe"
         }
+	  },
+	  {
+	    "condition": "minecraft:match_tool",
+        "predicate": {
+          "item": "minecraft:netherite_pickaxe"
+        }
 	  }
 	]
 }

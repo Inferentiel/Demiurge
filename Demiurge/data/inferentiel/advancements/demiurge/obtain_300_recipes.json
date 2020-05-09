@@ -7,7 +7,7 @@
     "title": {
       "translate": "recipe.toast.title"
     },
-    "description": [{"text":"Learn 300 recipes\n"}],
+    "description": [{"text":"Learn 300 recipes\n"},{"translate":"item.minecraft.knowledge_book","color":"aqua"},{"translate":" Agnocere","color":"aqua"}],
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

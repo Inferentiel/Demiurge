@@ -7,11 +7,16 @@
     "title": {
       "translate": "soundCategory.neutral"
     },
-	"description": {"text":"Power up your named allies!"},
+	"description": [{"text":"Power up your named allies!\n"},{"translate":"item.minecraft.brewing_stand","color":"gold"}],
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
+  },
+  "reward": {
+	"recipes": [
+		"inferentiel:brewing_stand"
+	]
   },
   "criteria": {
     "name_friend": {

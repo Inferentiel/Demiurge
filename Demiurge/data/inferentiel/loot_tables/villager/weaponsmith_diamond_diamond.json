@@ -18,7 +18,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": {
 						    "min": -3,
 							"max": -1.9
@@ -29,7 +29,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 9,
 							"max": 11
@@ -51,7 +51,7 @@
 						},
 						{
 						  "name": "Bleu vitesse",
-						  "attribute": "generic.movementSpeed",
+						  "attribute": "generic.movement_speed",
 						  "amount": {
 						    "min": 0,
 							"max": 0.15
@@ -93,7 +93,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu epee vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": {
 						    "min": -2.4,
 							"max": -1.5
@@ -104,7 +104,7 @@
 						},
 						{
 						  "name": "Bleu epee Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 7,
 							"max": 9
@@ -126,7 +126,7 @@
 						},
 						{
 						  "name": "Bleu vitesse",
-						  "attribute": "generic.movementSpeed",
+						  "attribute": "generic.movement_speed",
 						  "amount": {
 						    "min": 0,
 							"max": 0.15

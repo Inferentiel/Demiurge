@@ -24,12 +24,12 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "minecraft:experience_bottle",
+					"name": "minecraft:nether_wart",
 					"weight": 1,
 					"functions": [
 						{
 						  "function": "minecraft:set_name",
-						  "name": {"translate":"item.minecraft.experience_bottle","color":"dark_purple","italic":"false"}
+						  "name": {"translate":"item.minecraft.nether_wart","color":"dark_purple","italic":"false"}
 						},
 						{
 						  "function": "minecraft:set_nbt",

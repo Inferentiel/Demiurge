@@ -1,7 +1,7 @@
 data merge entity @s {CustomNameVisible:1b,CustomName:"{\"text\":\"Boss\",\"color\":\"red\",\"bold\":\"true\",\"italic\":\"false\"}"}
-data modify entity @s Attributes[0] set value {Name:"generic.maxHealth",Base:100.0d}
-data modify entity @s Attributes[2] set value {Name:"generic.movementSpeed",Base:0.26d}
-data modify entity @s Attributes[7] set value {Name:"generic.attackDamage",Base:6.0d}
+attribute @s minecraft:generic.max_health modifier add 2e01374b-4b37-4cc1-ad16-fceeeb064744 ufc_health_b 19 multiply_base
+attribute @s minecraft:generic.movement_speed modifier add 1c726405-21d9-4dc1-8fbc-b6924fda965f ufc_speed_b 0.1 multiply_base
+attribute @s minecraft:generic.follow_range base set 50
 data modify entity @s Health set value 100.0f
 data modify entity @s ExplosionRadius set value 10b
 data modify entity @s Fuse set value 200s

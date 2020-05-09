@@ -38,41 +38,108 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:phantom_membrane"
-        },
-		{
-          "type": "item",
-          "name": "minecraft:knowledge_book",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.hay_block\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:hay_block\"]}"
-            }
-          ]
-        },
-		{
-          "type": "item",
-          "name": "minecraft:knowledge_book",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.clock\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:clock\"]}"
-            }
-          ]
-        },
-		{
-          "type": "item",
-          "name": "minecraft:knowledge_book",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.compass\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:compass\"]}"
-            }
-          ]
         }
       ]
-    }
+    },
+	{
+		"rolls": 1,
+		"entries": [
+			{
+				"type": "empty",
+				"weight": 32,
+				"quality": -3
+			},
+			{
+				"type": "loot_table",
+				"name": "inferentiel:chests/tier_i/chests_i",
+				"conditions": [
+				  {
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+					  "player": {
+					    "level": {
+					      "min": 16
+					    }
+					  }
+					}
+				  }
+				],
+				"weight": 16
+			},
+			{
+				"type": "loot_table",
+				"name": "inferentiel:chests/tier_ii/chests_ii",
+				"conditions": [
+				  {
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+					  "player": {
+					    "level": {
+					      "min": 41
+					    }
+					  }
+					}
+				  }
+				],
+				"weight": 8
+			},
+			{
+				"type": "loot_table",
+				"name": "inferentiel:chests/tier_iii/chests_iii",
+				"conditions": [
+				  {
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+					  "player": {
+					    "level": {
+					      "min": 81
+					    }
+					  }
+					}
+				  }
+				],
+				"weight": 4
+			},
+			{
+				"type": "loot_table",
+				"name": "inferentiel:chests/tier_iv/chests_iv",
+				"conditions": [
+				  {
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+					  "player": {
+					    "level": {
+					      "min": 141
+					    }
+					  }
+					}
+				  }
+				],
+				"weight": 2
+			},
+			{
+				"type": "loot_table",
+				"name": "inferentiel:chests/tier_v/chests_v",
+				"conditions": [
+				  {
+					"condition": "entity_properties",
+					"entity": "this",
+					"predicate": {
+					  "player": {
+					    "level": {
+					      "min": 256
+					    }
+					  }
+					}
+				  }
+				],
+				"weight": 1
+			}
+		]
+	}
   ]
 }

@@ -1,3 +1,8 @@
-execute as @e[type=minecraft:potion,distance=..8,nbt={Potion:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:harming"}}}] run data modify entity @s Potion.tag set value {CustomPotionEffects:[{Id:7b,Amplifier:3b,Duration:3}]}
-execute as @e[type=minecraft:potion,distance=..8,nbt={Potion:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:slowness"}}}] run data modify entity @s Potion.tag set value {CustomPotionEffects:[{Id:2b,Amplifier:3b,Duration:60}]}
-effect give @a[distance=..12] minecraft:hunger 15 1
+execute as @e[type=minecraft:potion,distance=..8,nbt={Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:harming"}}}] run data modify entity @s Item.tag set value {id:"minecraft:lingering_potion",Count:1b,tag:{CustomPotionEffects:[{Id:7b,Amplifier:3b,Duration:3}]}}
+execute as @e[type=minecraft:potion,distance=..8,nbt={Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:slowness"}}}] run data modify entity @s Item set value {id:"minecraft:lingering_potion",Count:1b,tag:{CustomPotionEffects:[{Id:2b,Amplifier:5b,Duration:100}]}}
+execute as @e[type=minecraft:potion,distance=..8,nbt={Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:poison"}}}] run data modify entity @s Item.tag set value {CustomPotionEffects:[{Id:20b,Amplifier:1b,Duration:600},{Id:2b,Amplifier:1b,Duration:600}]}
+execute as @e[type=minecraft:potion,distance=..8,nbt={Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:poison"}}}] run data modify entity @s Item.tag set value {CustomPotionEffects:[{Id:18b,Amplifier:1b,Duration:300},{Id:17b,Amplifier:1b,Duration:300}]}
+execute as @s[nbt={HandItems:[{id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:healing"}},{}]}] run effect give @s minecraft:resistance 3 1
+execute as @s[nbt={HandItems:[{id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:healing"}},{}]}] unless entity @s[nbt={ActiveEffects:[{Id:16b}]}] run tp @p[distance=15..60]
+execute as @s[nbt={HandItems:[{id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:healing"}},{}]}] unless entity @s[nbt={ActiveEffects:[{Id:16b}]}] run effect give @s minecraft:night_vision 15 0 true
+execute as @s[nbt={ActiveEffects:[{Id:2b}]}] run effect clear @s minecraft:slowness

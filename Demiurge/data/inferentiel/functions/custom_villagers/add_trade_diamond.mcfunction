@@ -37,7 +37,6 @@ execute if entity @s[nbt={VillagerData:{profession:"minecraft:armorer", type: "m
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:armorer", type: "minecraft:jungle"}}] at @s run kill @e[type=item,distance=..1]
 
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:armorer"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:64b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.blast_furnace\",\"color\":\"green\"}]"},Recipes:["minecraft:blast_furnace"]}},uses:0,rewardExp:1b}
-tag @s[nbt={VillagerData:{profession:"minecraft:armorer"}}] add belt_diamond
 
 ## Butcher ##
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:butcher", type: "minecraft:desert"}}] run data modify entity @s Offers.Recipes append value {maxUses:4,buy:{id:"minecraft:suspicious_stew",Count:1b,tag:{display:{Name:"{\"text\":\"Lasagna\",\"color\":\"yellow\",\"italic\":false}"},Effects:[{EffectId:22b,EffectDuration:300}]}},sell:{id:"minecraft:emerald",Count:32b},xp:5,uses:0,priceMultiplier:0.25f,specialPrice:0,demand:0,rewardExp:1b}
@@ -49,7 +48,6 @@ execute if entity @s[nbt={VillagerData:{profession:"minecraft:butcher", type: "m
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:butcher", type: "minecraft:jungle"}}] run data modify entity @s Offers.Recipes append value {maxUses:4,buy:{id:"minecraft:suspicious_stew",Count:1b,tag:{display:{Name:"{\"text\":\"Plokkfiskur\",\"color\":\"yellow\",\"italic\":false}"},Effects:[{EffectId:1b,EffectDuration:300}]}},sell:{id:"minecraft:emerald",Count:14b},xp:5,uses:0,priceMultiplier:0.25f,specialPrice:0,demand:0,rewardExp:1b}
 
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:butcher"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:64b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.smoker\",\"color\":\"green\"}]"},Recipes:["minecraft:smoker"]}},uses:0,rewardExp:1b}
-tag @s[nbt={VillagerData:{profession:"minecraft:butcher"}}] add belt_diamond
 
 ## Cartographer ##
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:cartographer"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:3b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.cartography_table\",\"color\":\"green\"}]"},Recipes:["minecraft:cartography_table"]}},uses:0,rewardExp:1b}
@@ -65,7 +63,6 @@ execute if entity @s[nbt={VillagerData:{profession:"minecraft:cartographer"}}] a
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:cartographer"}}] at @s run kill @e[type=item,distance=..1]
 
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:cartographer"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:64b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.cartography_table\",\"color\":\"green\"}]"},Recipes:["minecraft:cartography_table"]}},uses:0,rewardExp:1b}
-tag @s[nbt={VillagerData:{profession:"minecraft:cartographer"}}] add belt_diamond
 
 ## Cleric ##
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:cleric"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:64b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.brewing_stand\",\"color\":\"green\"}]"},Recipes:["minecraft:brewing_stand"]}},uses:0,rewardExp:1b}
@@ -73,9 +70,6 @@ execute if entity @s[nbt={VillagerData:{profession:"minecraft:cleric"}}] run dat
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:cleric"}}] at @s run loot spawn ~ ~ ~ loot inferentiel:villager/cleric_diamond
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:cleric"}}] at @s run data modify entity @s Offers.Recipes[12].sell set from entity @e[distance=..1,limit=1,type=item] Item
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:cleric"}}] at @s run kill @e[type=item,distance=..1]
-
-
-tag @s[nbt={VillagerData:{profession:"minecraft:cleric"}}] add belt_diamond
 
 ## Farmer ##
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:farmer", type: "minecraft:desert"}}] run data modify entity @s Offers.Recipes append value {maxUses:4,buy:{id:"minecraft:emerald",Count:3b},sell:{id:"minecraft:suspicious_stew",Count:1b,tag:{display:{Name:"{\"text\":\"Couscous\",\"color\":\"yellow\",\"italic\":false}"},Effects:[{EffectId:12b,EffectDuration:300}]}},xp:5,uses:0,priceMultiplier:0.25f,specialPrice:0,demand:0,rewardExp:1b}
@@ -87,7 +81,6 @@ execute if entity @s[nbt={VillagerData:{profession:"minecraft:farmer", type: "mi
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:farmer", type: "minecraft:jungle"}}] run data modify entity @s Offers.Recipes append value {maxUses:4,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:suspicious_stew",Count:1b,tag:{display:{Name:"{\"text\":\"Dal\",\"color\":\"yellow\",\"italic\":false}"},Effects:[{EffectId:1b,EffectDuration:300}]}},xp:5,uses:0,priceMultiplier:0.25f,specialPrice:0,demand:0,rewardExp:1b}
 
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:farmer"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:64b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.composter\",\"color\":\"green\"}]"},Recipes:["minecraft:composter"]}},uses:0,rewardExp:1b}
-tag @s[nbt={VillagerData:{profession:"minecraft:farmer"}}] add belt_diamond
 
 ## Fisherman ##
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:fisherman", type: "minecraft:desert"}}] run data modify entity @s Offers.Recipes[9].sell set value {maxUses:6,buy:{id:"minecraft:minecart",Count:1b},sell:{id:"minecraft:emerald",Count:1b},xp:5,uses:0,priceMultiplier:0.05f,specialPrice:0,demand:0,rewardExp:1b}
@@ -99,11 +92,9 @@ execute if entity @s[nbt={VillagerData:{profession:"minecraft:fisherman", type: 
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:fisherman", type: "minecraft:jungle"}}] run data modify entity @s Offers.Recipes[9].sell set value {maxUses:6,buy:{id:"minecraft:jungle_boat",Count:1b},sell:{id:"minecraft:emerald",Count:1b},xp:5,uses:0,priceMultiplier:0.05f,specialPrice:0,demand:0,rewardExp:1b}
 
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:fisherman"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:64b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.barrel\",\"color\":\"green\"}]"},Recipes:["minecraft:barrel"]}},uses:0,rewardExp:1b}
-tag @s[nbt={VillagerData:{profession:"minecraft:fisherman"}}] add belt_diamond
 
 ## Fletcher ##
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:fletcher"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:64b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.fletching_table\",\"color\":\"green\"}]"},Recipes:["minecraft:fletching_table"]}},uses:0,rewardExp:1b}
-tag @s[nbt={VillagerData:{profession:"minecraft:fletcher"}}] add belt_diamond
 
 ## Leatherworker ##
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:leatherworker"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:64b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.cauldron\",\"color\":\"green\"}]"},Recipes:["minecraft:cauldron"]}},uses:0,rewardExp:1b}
@@ -113,19 +104,14 @@ execute if entity @s[nbt={VillagerData:{profession:"minecraft:leatherworker"}}] 
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:leatherworker"}}] at @s run data modify entity @s Offers.Recipes[9].sell set from entity @e[distance=..1,limit=1,type=item] Item
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:leatherworker"}}] at @s run kill @e[type=item,distance=..1]
 
-tag @s[nbt={VillagerData:{profession:"minecraft:leatherworker"}}] add belt_diamond
-
 ## Librarian  ##
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:librarian"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:64b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.lectern\",\"color\":\"green\"}]"},Recipes:["minecraft:lectern"]}},uses:0,rewardExp:1b}
-tag @s[nbt={VillagerData:{profession:"minecraft:librarian"}}] add belt_diamond
 
 ## Stone Mason ##
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:stone_mason"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:64b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.stonecutter\",\"color\":\"green\"}]"},Recipes:["minecraft:stonecutter"]}},uses:0,rewardExp:1b}
-tag @s[nbt={VillagerData:{profession:"minecraft:stone_mason"}}] add belt_diamond
 
 ## Sheperd ##
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:sheperd"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:64b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.loom\",\"color\":\"green\"}]"},Recipes:["minecraft:loom"]}},uses:0,rewardExp:1b}
-tag @s[nbt={VillagerData:{profession:"minecraft:sheperd"}}] add belt_diamond
 
 ## Toolsmith ##
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:toolsmith", type: "minecraft:desert"}}] run data modify entity @s Offers.Recipes[8] set value {maxUses:8,buy:{id:"minecraft:emerald",Count:32b},sell:{id:"minecraft:iron_leggings",Count:1b},xp:20,uses:0,priceMultiplier:0.2f,specialPrice:0,demand:0,rewardExp:1b}
@@ -165,8 +151,6 @@ execute if entity @s[nbt={VillagerData:{profession:"minecraft:toolsmith", type: 
 
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:toolsmith"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:64b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.smithing_table\",\"color\":\"green\"}]"},Recipes:["minecraft:smithing_table"]}},uses:0,rewardExp:1b}
 
-tag @s[nbt={VillagerData:{profession:"minecraft:toolsmith"}}] add belt_diamond
-
 ## Weaponsmith ##
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:weaponsmith", type: "minecraft:desert"}}] run data modify entity @s Offers.Recipes[7] set value {maxUses:8,buy:{id:"minecraft:emerald",Count:16b},sell:{id:"minecraft:iron_leggings",Count:1b},xp:20,uses:0,priceMultiplier:0.2f,specialPrice:0,demand:0,rewardExp:1b}
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:weaponsmith", type: "minecraft:desert"}}] at @s run loot spawn ~ ~ ~ loot inferentiel:villager/weaponsmith_diamond_gold
@@ -204,4 +188,3 @@ execute if entity @s[nbt={VillagerData:{profession:"minecraft:weaponsmith", type
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:weaponsmith", type: "minecraft:jungle"}}] at @s run kill @e[type=item,distance=..1]
 
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:weaponsmith"}}] run data modify entity @s Offers.Recipes append value {maxUses:10,buy:{id:"minecraft:emerald_block",Count:64b},sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:"[{\"translate\":\"item.minecraft.knowledge_book\",\"italic\":\"false\"},{\"text\":\" : \"},{\"translate\":\"block.minecraft.grindstone\",\"color\":\"green\"}]"},Recipes:["minecraft:grindstone"]}},uses:0,rewardExp:1b}
-tag @s[nbt={VillagerData:{profession:"minecraft:weaponsmith"}}] add belt_diamond

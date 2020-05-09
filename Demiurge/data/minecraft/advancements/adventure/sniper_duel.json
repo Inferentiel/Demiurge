@@ -7,7 +7,7 @@
     "title": {
       "translate": "advancements.adventure.sniper_duel.title"
     },
-    "description": [{"translate": "advancements.adventure.sniper_duel.description"},{"text":"\n"},{"translate":"item.minecraft.golden_carrot","color":"gold"}],
+    "description": [{"translate": "advancements.adventure.sniper_duel.description"},{"text":"\n"},{"translate":"item.minecraft.warped_fungus_on_a_stick","color":"gold"}],
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -16,7 +16,7 @@
   "rewards": {
     "experience": 50,
 	"recipes": [
-	  "minecraft:golden_carrot"
+	  "minecraft:warped_fungus_on_a_stick"
     ]
   },
   "criteria": {

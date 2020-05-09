@@ -168,6 +168,39 @@
           "functions": [
             {
               "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.soul_campfire\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:soul_campfire\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.soul_lantern\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:soul_lantern\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.soul_torch\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:soul_torch\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
               "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.spectral_arrow\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:spectral_arrow\"]}"
             }
           ]
@@ -444,6 +477,28 @@
             {
               "function": "set_nbt",
               "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"item.minecraft.stone_sword\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:stone_sword\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.stripped_crimson_hyphae\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:stripped_crimson_hyphae\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.stripped_warped_hyphae\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:stripped_warped_hyphae\"]}"
             }
           ]
         },

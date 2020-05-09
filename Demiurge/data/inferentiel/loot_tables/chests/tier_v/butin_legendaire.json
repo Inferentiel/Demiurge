@@ -10,8 +10,29 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.125,Operation:1,UUIDMost:52526,UUIDLeast:944067,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:33763,UUIDLeast:207317,Slot:\"head\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ouranos orange head movement speed",
+				  "attribute": "generic.movement_speed",
+				  "amount": 0.125,
+				  "operation": "multiply_total",
+				  "slot": "head",
+				  "id": "f2696b30-a6fa-4544-816b-9db3eedd1183"
+				},
+				{
+				  "name": "Ouranos orange head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "c7da23a0-cb0c-4c23-bdec-da612f26aaf3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.leather_helmet","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Ouranos","color":"gold","italic":"false"}]
@@ -30,8 +51,29 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.125,Operation:1,UUIDMost:52525,UUIDLeast:944057,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:33762,UUIDLeast:207316,Slot:\"chest\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ouranos orange chest movement speed",
+				  "attribute": "generic.movement_speed",
+				  "amount": 0.125,
+				  "operation": "multiply_total",
+				  "slot": "chest",
+				  "id": "f2696b31-a6fa-4544-816b-9db3eedd1183"
+				},
+				{
+				  "name": "Ouranos orange chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 8,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "c7da23a1-cb0c-4c23-bdec-da612f26aaf3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.leather_chestplate","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Ouranos","color":"gold","italic":"false"}]
@@ -50,8 +92,29 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.125,Operation:1,UUIDMost:52524,UUIDLeast:944063,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:33761,UUIDLeast:207315,Slot:\"legs\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ouranos orange legs movement speed",
+				  "attribute": "generic.movement_speed",
+				  "amount": 0.125,
+				  "operation": "multiply_total",
+				  "slot": "legs",
+				  "id": "f2696b32-a6fa-4544-816b-9db3eedd1183"
+				},
+				{
+				  "name": "Ouranos orange legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 6,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "c7da23a2-cb0c-4c23-bdec-da612f26aaf3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.leather_leggings","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Ouranos","color":"gold","italic":"false"}]
@@ -70,8 +133,29 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.125,Operation:1,UUIDMost:52526,UUIDLeast:943077,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:33760,UUIDLeast:207314,Slot:\"feet\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:feather_falling\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:feather_falling\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ouranos orange feet movement speed",
+				  "attribute": "generic.movement_speed",
+				  "amount": 0.125,
+				  "operation": "multiply_total",
+				  "slot": "feet",
+				  "id": "f2696b33-a6fa-4544-816b-9db3eedd1183"
+				},
+				{
+				  "name": "Ouranos orange feet armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "c7da23a3-cb0c-4c23-bdec-da612f26aaf3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.leather_boots","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Ouranos","color":"gold","italic":"false"}]
@@ -90,8 +174,29 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:4,Operation:0,UUIDMost:54015,UUIDLeast:226321,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:44630,UUIDLeast:981494,Slot:\"head\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Gaia orange head armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 4,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "de04e030-97f2-4f01-9c90-aa6db76a94b3"
+				},
+				{
+				  "name": "Gaia orange head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "28604370-e198-4963-b5b2-0568c01dd0f3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.iron_helmet","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Ga\u00efa","color":"gold","italic":"false"}]
@@ -110,8 +215,29 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:4,Operation:0,UUIDMost:54014,UUIDLeast:226320,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:44639,UUIDLeast:981493,Slot:\"chest\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:thorns\",lvl:10}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:thorns\",lvl:10}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Gaia orange chest armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 4,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "de04e031-97f2-4f01-9c90-aa6db76a94b3"
+				},
+				{
+				  "name": "Gaia orange chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 8,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "28604371-e198-4963-b5b2-0568c01dd0f3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.iron_chestplate","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Ga\u00efa","color":"gold","italic":"false"}]
@@ -130,8 +256,29 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:4,Operation:0,UUIDMost:54012,UUIDLeast:226329,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:44638,UUIDLeast:981492,Slot:\"legs\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Gaia orange legs armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 4,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "de04e032-97f2-4f01-9c90-aa6db76a94b3"
+				},
+				{
+				  "name": "Gaia orange legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 6,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "28604372-e198-4963-b5b2-0568c01dd0f3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.iron_leggings","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Ga\u00efa","color":"gold","italic":"false"}]
@@ -150,8 +297,29 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:4,Operation:0,UUIDMost:54019,UUIDLeast:226327,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:44637,UUIDLeast:981491,Slot:\"feet\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Gaia orange feet armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 4,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "de04e033-97f2-4f01-9c90-aa6db76a94b3"
+				},
+				{
+				  "name": "Gaia orange feet armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "28604373-e198-4963-b5b2-0568c01dd0f3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.iron_boots","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Ga\u00efa","color":"gold","italic":"false"}]
@@ -170,8 +338,37 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.125,Operation:1,UUIDMost:14718,UUIDLeast:829387,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:165,UUIDLeast:228808,Slot:\"head\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:2951,UUIDLeast:76500,Slot:\"head\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Tartare orange head attack damage",
+				  "attribute": "generic.attack_damage",
+				  "amount": 0.125,
+				  "operation": "multiply_total",
+				  "slot": "head",
+				  "id": "21e3a4f0-3bc8-449f-9566-c1160e4b0943"
+				},
+				{
+				  "name": "Tartare orange head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "65e6d410-1ea4-4a4c-94fc-cf1fbc561f93"
+				},
+				{
+				  "name": "Tartare orange head armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "fa9f7c10-68da-483a-b400-e11fcd842cd3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.chainmail_helmet","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Tartare","color":"gold","italic":"false"}]
@@ -190,8 +387,37 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.125,Operation:1,UUIDMost:14717,UUIDLeast:829386,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:164,UUIDLeast:228807,Slot:\"chest\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:2950,UUIDLeast:76509,Slot:\"chest\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Tartare orange chest attack damage",
+				  "attribute": "generic.attack_damage",
+				  "amount": 0.125,
+				  "operation": "multiply_total",
+				  "slot": "chest",
+				  "id": "21e3a4f1-3bc8-449f-9566-c1160e4b0943"
+				},
+				{
+				  "name": "Tartare orange chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 8,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "65e6d411-1ea4-4a4c-94fc-cf1fbc561f93"
+				},
+				{
+				  "name": "Tartare orange chest armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "fa9f7c11-68da-483a-b400-e11fcd842cd3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.chainmail_chestplate","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Tartare","color":"gold","italic":"false"}]
@@ -210,8 +436,37 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.125,Operation:1,UUIDMost:14716,UUIDLeast:829385,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:163,UUIDLeast:228806,Slot:\"legs\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:2959,UUIDLeast:76508,Slot:\"legs\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:fire_protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:fire_protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Tartare orange legs attack damage",
+				  "attribute": "generic.attack_damage",
+				  "amount": 0.125,
+				  "operation": "multiply_total",
+				  "slot": "legs",
+				  "id": "21e3a4f2-3bc8-449f-9566-c1160e4b0943"
+				},
+				{
+				  "name": "Tartare orange legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 6,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "65e6d412-1ea4-4a4c-94fc-cf1fbc561f93"
+				},
+				{
+				  "name": "Tartare orange legs armor_toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "fa9f7c12-68da-483a-b400-e11fcd842cd3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.chainmail_leggings","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Tartare","color":"gold","italic":"false"}]
@@ -230,8 +485,37 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.125,Operation:1,UUIDMost:14714,UUIDLeast:829383,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:162,UUIDLeast:228805,Slot:\"feet\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:2958,UUIDLeast:76507,Slot:\"feet\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Tartare orange boots attack damage",
+				  "attribute": "generic.attack_damage",
+				  "amount": 0.125,
+				  "operation": "multiply_total",
+				  "slot": "feet",
+				  "id": "21e3a4f3-3bc8-449f-9566-c1160e4b0943"
+				},
+				{
+				  "name": "Tartare orange boots armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "65e6d413-1ea4-4a4c-94fc-cf1fbc561f93"
+				},
+				{
+				  "name": "Tartare orange feet armor_toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "fa9f7c13-68da-483a-b400-e11fcd842cd3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.chainmail_boots","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Tartare","color":"gold","italic":"false"}]
@@ -250,8 +534,37 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.125,Operation:1,UUIDMost:80932,UUIDLeast:807133,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:47655,UUIDLeast:288609,Slot:\"head\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:39161,UUIDLeast:184432,Slot:\"head\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:respiration\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:respiration\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Thetys orange head attack speed",
+				  "attribute": "generic.attack_speed",
+				  "amount": 0.125,
+				  "operation": "multiply_total",
+				  "slot": "head",
+				  "id": "533821c0-4352-4df0-a504-15c457179d43"
+				},
+				{
+				  "name": "Thetys orange head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "6c8f5940-03f8-4cc8-b887-6ca03865f893"
+				},
+				{
+				  "name": "Thetys orange head armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "97c05f30-a01f-43b0-8329-58e4e9df3ec3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.golden_helmet","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Th\u00e9tys","color":"gold","italic":"false"}]
@@ -270,8 +583,37 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.125,Operation:1,UUIDMost:80931,UUIDLeast:896132,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:47654,UUIDLeast:288608,Slot:\"chest\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:39160,UUIDLeast:184431,Slot:\"chest\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Thetys orange chest attack speed",
+				  "attribute": "generic.attack_speed",
+				  "amount": 0.125,
+				  "operation": "multiply_total",
+				  "slot": "chest",
+				  "id": "533821c1-4352-4df0-a504-15c457179d43"
+				},
+				{
+				  "name": "Thetys orange chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 8,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "6c8f5941-03f8-4cc8-b887-6ca03865f893"
+				},
+				{
+				  "name": "Thetys orange chest armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "97c05f31-a01f-43b0-8329-58e4e9df3ec3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.golden_chestplate","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Th\u00e9tys","color":"gold","italic":"false"}]
@@ -290,8 +632,37 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.125,Operation:1,UUIDMost:80939,UUIDLeast:896148,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:47653,UUIDLeast:288607,Slot:\"legs\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:39169,UUIDLeast:184430,Slot:\"legs\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Thetys orange legs attack speed",
+				  "attribute": "generic.attack_speed",
+				  "amount": 0.125,
+				  "operation": "multiply_total",
+				  "slot": "legs",
+				  "id": "533821c2-4352-4df0-a504-15c457179d43"
+				},
+				{
+				  "name": "Thetys orange legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 6,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "6c8f5942-03f8-4cc8-b887-6ca03865f893"
+				},
+				{
+				  "name": "Thetys orange legs armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "97c05f32-a01f-43b0-8329-58e4e9df3ec3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.golden_leggings","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Th\u00e9tys","color":"gold","italic":"false"}]
@@ -310,8 +681,37 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.125,Operation:1,UUIDMost:80935,UUIDLeast:896144,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:47652,UUIDLeast:288606,Slot:\"feet\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:39167,UUIDLeast:184438,Slot:\"feet\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Thetys orange feet attack speed",
+				  "attribute": "generic.attack_speed",
+				  "amount": 0.125,
+				  "operation": "multiply_total",
+				  "slot": "feet",
+				  "id": "533821c3-4352-4df0-a504-15c457179d43"
+				},
+				{
+				  "name": "Thetys orange feet armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "6c8f5943-03f8-4cc8-b887-6ca03865f893"
+				},
+				{
+				  "name": "Thetys orange feet armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "97c05f33-a01f-43b0-8329-58e4e9df3ec3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.golden_boots","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Th\u00e9tys","color":"gold","italic":"false"}]
@@ -330,8 +730,37 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:4,Operation:0,UUIDMost:84891,UUIDLeast:163353,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:38777,UUIDLeast:394656,Slot:\"head\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42828,UUIDLeast:116628,Slot:\"head\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ether orange head max health",
+				  "attribute": "generic.max_health",
+				  "amount": 4,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "3c4ca650-29a9-4d4d-a700-9d0d82c6f1b3"
+				},
+				{
+				  "name": "Ether orange head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "67bff870-b551-4642-b26c-ce5504968b73"
+				},
+				{
+				  "name": "Ether orange head armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "70a87b10-d64f-4581-92b0-91adedf351e3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.diamond_helmet","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Ether","color":"gold","italic":"false"}]
@@ -350,8 +779,37 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:4,Operation:0,UUIDMost:84890,UUIDLeast:161352,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:38776,UUIDLeast:394655,Slot:\"chest\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42827,UUIDLeast:116627,Slot:\"chest\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ether orange chest max health",
+				  "attribute": "generic.max_health",
+				  "amount": 4,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "3c4ca651-29a9-4d4d-a700-9d0d82c6f1b3"
+				},
+				{
+				  "name": "Ether orange chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 8,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "67bff871-b551-4642-b26c-ce5504968b73"
+				},
+				{
+				  "name": "Ether orange chest armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "70a87b11-d64f-4581-92b0-91adedf351e3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.diamond_chestplate","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Ether","color":"gold","italic":"false"}]
@@ -370,8 +828,37 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:4,Operation:0,UUIDMost:84899,UUIDLeast:161351,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:38775,UUIDLeast:394654,Slot:\"legs\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42826,UUIDLeast:116626,Slot:\"legs\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ether orange legs max health",
+				  "attribute": "generic.max_health",
+				  "amount": 4,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "3c4ca652-29a9-4d4d-a700-9d0d82c6f1b3"
+				},
+				{
+				  "name": "Ether orange legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 6,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "67bff872-b551-4642-b26c-ce5504968b73"
+				},
+				{
+				  "name": "Ether orange legs armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "70a87b12-d64f-4581-92b0-91adedf351e3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.diamond_leggings","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Ether","color":"gold","italic":"false"}]
@@ -390,8 +877,37 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:4,Operation:0,UUIDMost:84887,UUIDLeast:161356,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:38774,UUIDLeast:394653,Slot:\"feet\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42825,UUIDLeast:116625,Slot:\"feet\"}],Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:9,lvl:3}],Unbreakable:1}"
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:9,lvl:3}],Unbreakable:1}"
             },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ether orange feet max health",
+				  "attribute": "generic.max_health",
+				  "amount": 4,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "3c4ca653-29a9-4d4d-a700-9d0d82c6f1b3"
+				},
+				{
+				  "name": "Ether orange feet armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "67bff873-b551-4642-b26c-ce5504968b73"
+				},
+				{
+				  "name": "Ether orange feet armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "70a87b13-d64f-4581-92b0-91adedf351e3"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.diamond_boots","color":"gold","italic":"false","bold":"true"},{"text":" "},{"text":"Ether","color":"gold","italic":"false"}]

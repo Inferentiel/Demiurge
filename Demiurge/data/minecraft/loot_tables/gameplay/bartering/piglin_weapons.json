@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_i/weapon_i",
+                    "weight": 16
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_ii/weapon_ii",
+                    "weight": 8
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iii/weapon_iii",
+                    "weight": 4
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_iv/weapon_iv",
+                    "weight": 2
+                },
+				{
+                    "type": "loot_table",
+                    "name": "inferentiel:chests/tier_v/weapon_v",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

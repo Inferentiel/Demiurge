@@ -8,6 +8,7 @@
 		"inferentiel:loupe/clock_loupe",
 		"inferentiel:utils/grade/clock_grade",
 		"inferentiel:utils/clock_peche",
+		"inferentiel:utils/fall_end",
 		"inferentiel:best_pet/clock_best_pet",
 		"inferentiel:best_minecart/clock_minecart"
     ]

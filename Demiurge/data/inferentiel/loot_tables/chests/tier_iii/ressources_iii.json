@@ -6,7 +6,35 @@
                 {
                     "type": "item",
                     "name": "minecraft:spruce_planks",
-                    "weight": 9,
+                    "weight": 5,
+					"functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 12
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:crimson_planks",
+                    "weight": 2,
+					"functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 12
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:warped_planks",
+                    "weight": 2,
 					"functions": [
                         {
                             "function": "set_count",

@@ -1,4 +1,3 @@
-#execute at @s run title @s actionbar [{"selector":"@e[distance=0.1..10,limit=1,type=!minecraft:item,sort=nearest]","color":"dark_green"},{"text":": "},{"nbt":"Health","entity":"@e[distance=0.1..10,limit=1,type=!minecraft:item,sort=nearest]","color":"red"},{"text":"/"},{"nbt":"Attributes[0].Base","entity":"@e[distance=0.1..10,limit=1,type=!minecraft:item,sort=nearest]","color":"red"}]
-execute at @s run tag @e[distance=0.1..10,limit=1,type=!minecraft:item,type=!minecraft:arrow,type=!minecraft:potion,type=!minecraft:experience_orb,type=!minecraft:trident,sort=nearest] add health_check
+execute at @s run tag @e[distance=0.1..10,limit=1,type=!minecraft:item,type=!minecraft:arrow,type=!minecraft:potion,type=!minecraft:experience_orb,type=!minecraft:trident,type=!minecraft:area_effect_cloud,type=!evoker_fangs,type=!fishing_bobber,sort=nearest] add health_check
 execute at @s if entity @e[distance=0.1..10,limit=1,tag=health_check,sort=nearest] run function inferentiel:loupe/vie_print
 execute at @s run tag @e[distance=0.1..10,limit=1,tag=health_check,sort=nearest] remove health_check

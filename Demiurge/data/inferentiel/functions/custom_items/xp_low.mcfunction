@@ -1,0 +1,2 @@
+execute at @e[type=minecraft:item,nbt={Item:{tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}}] run summon experience_orb ~ ~ ~ {Value:1,Tags:["xp_low"]}
+execute as @e[type=minecraft:item,nbt={Item:{tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}}] run kill @s

@@ -1,7 +1,8 @@
 data merge entity @s {CustomNameVisible:1b,CustomName:"{\"text\":\"Boss\",\"color\":\"red\",\"bold\":\"true\",\"italic\":\"false\"}"}
-data modify entity @s Attributes[0] set value {Name:"generic.maxHealth",Base:1024.0d}
-data modify entity @s Attributes[2] set value {Name:"generic.movementSpeed",Base:0.56d}
-data modify entity @s Attributes[3].Base set value 10
-data modify entity @s Attributes[7] set value {Name:"generic.attackDamage",Base:18.0d}
+attribute @s minecraft:generic.max_health modifier add 2e01374b-4b37-4cc1-ad16-fceeeb064744 ufc_health_b 19 multiply_base
+attribute @s minecraft:generic.movement_speed modifier add 1c726405-21d9-4dc1-8fbc-b6924fda965f ufc_speed_b 0.1 multiply_base
+attribute @s minecraft:generic.attack_damage modifier add f7c72ef2-0a3f-424f-a34e-2fa33791b7a4 ufc_damage_b 2 multiply_base
+attribute @s minecraft:generic.follow_range base set 50
+attribute @s minecraft:generic.armor_toughness modifier add 0e71756e-16a2-4460-824a-49f9bc6672b6 ufc_wither_toughness 5 add
 data modify entity @s Health set value 1024.0f
 data modify entity @s DeathLootTable set value "inferentiel:entities/boss/elder_guardian"

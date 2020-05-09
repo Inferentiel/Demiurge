@@ -26,7 +26,7 @@
 						},
 						{
 						  "name": "vie violet",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 8
@@ -37,7 +37,7 @@
 						},
 						{
 						  "name": "knoba violat",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.15
@@ -48,7 +48,7 @@
 						},
 						{
 						  "name": "attack violet",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 0,
 							"max": 1
@@ -98,7 +98,7 @@
 						},
 						{
 						  "name": "vie violet",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 8
@@ -109,7 +109,7 @@
 						},
 						{
 						  "name": "knoba violet",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.15
@@ -120,7 +120,7 @@
 						},
 						{
 						  "name": "attack violet",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 0,
 							"max": 1
@@ -170,7 +170,7 @@
 						},
 						{
 						  "name": "vie violet",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 8
@@ -181,7 +181,7 @@
 						},
 						{
 						  "name": "knoba violet",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.15
@@ -192,7 +192,7 @@
 						},
 						{
 						  "name": "attack violet",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 0,
 							"max": 1
@@ -242,7 +242,7 @@
 						},
 						{
 						  "name": "vie violet",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 8
@@ -253,7 +253,7 @@
 						},
 						{
 						  "name": "knoba violet",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.15
@@ -264,7 +264,7 @@
 						},
 						{
 						  "name": "attack violet",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 0,
 							"max": 1

@@ -1,0 +1,1 @@
+attribute @s minecraft:generic.luck modifier add b7a7b8d2-345e-45a7-9b87-b41cd4e1eb54 "Grade 4 Luck" 1 add

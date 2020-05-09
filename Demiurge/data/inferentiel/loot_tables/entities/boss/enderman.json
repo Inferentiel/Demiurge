@@ -24,12 +24,12 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "minecraft:nether_wart",
+					"name": "minecraft:ender_pearl",
 					"weight": 1,
 					"functions": [
 						{
 						  "function": "minecraft:set_name",
-						  "name": {"translate":"item.minecraft.nether_wart","color":"dark_purple","italic":"false"}
+						  "name": {"translate":"item.minecraft.ender_pearl","color":"dark_purple","italic":"false"}
 						},
 						{
 						  "function": "minecraft:set_nbt",

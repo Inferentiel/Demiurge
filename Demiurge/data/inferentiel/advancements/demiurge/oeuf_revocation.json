@@ -7,9 +7,7 @@
     "title": {
       "translate": "item.minecraft.horse_spawn_egg"
     },
-	"description": {
-      "text": "Find a summon egg. You can use it to catch and summon an horse!"
-    },
+	"description": [{"text": "Find a summon egg. You can use it to catch and summon an horse!\n"},{"translate":"item.minecraft.knowledge_book","color":"aqua"},{"text":" Familiaris","color":"aqua"}],
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

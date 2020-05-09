@@ -37,9 +37,9 @@ team modify diamant prefix [{"text":"[","color":"blue"},{"translate":"item.minec
 team add emeraude "Emeraude"
 team modify emeraude color yellow
 team modify emeraude prefix [{"text":"[","color":"dark_purple"},{"translate":"item.minecraft.emerald","color":"dark_purple"},{"text":"] ","color":"dark_purple"}]
-team add quartz "Quartz"
-team modify quartz color yellow
-team modify quartz prefix [{"text":"[","color":"dark_purple"},{"translate":"item.minecraft.quartz","color":"dark_purple"},{"text":"] ","color":"dark_purple"}]
+team add netherite "Netherite"
+team modify netherite color yellow
+team modify netherite prefix [{"text":"[","color":"dark_purple"},{"translate":"item.minecraft.netherite_ingot","color":"dark_purple"},{"text":"] ","color":"dark_purple"}]
 team add obsidienne "Obsidienne"
 team modify obsidienne color yellow
 team modify obsidienne prefix [{"text":"[","color":"dark_purple"},{"translate":"block.minecraft.obsidian","color":"dark_purple"},{"text":"] ","color":"dark_purple"}]

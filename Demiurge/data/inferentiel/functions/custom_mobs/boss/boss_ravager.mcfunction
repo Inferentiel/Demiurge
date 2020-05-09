@@ -1,7 +1,8 @@
 data merge entity @s {CustomNameVisible:1b,CustomName:"{\"text\":\"Boss\",\"color\":\"red\",\"bold\":\"true\",\"italic\":\"false\"}"}
-data modify entity @s Attributes[0] set value {Name:"generic.maxHealth",Base:1024.0d}
-data modify entity @s Attributes[2] set value {Name:"generic.movementSpeed",Base:0.35d}
-data modify entity @s Attributes[3] set value {Name:"generic.armor",Base:20.0d}
-data modify entity @s Attributes[7] set value {Name:"generic.attackDamage",Base:36.0d}
+attribute @s minecraft:generic.max_health modifier add 2e01374b-4b37-4cc1-ad16-fceeeb064744 ufc_health_b 19 multiply_base
+attribute @s minecraft:generic.movement_speed modifier add 1c726405-21d9-4dc1-8fbc-b6924fda965f ufc_speed_b 0.1 multiply_base
+attribute @s minecraft:generic.attack_damage modifier add f7c72ef2-0a3f-424f-a34e-2fa33791b7a4 ufc_damage_b 2 multiply_base
+attribute @s minecraft:generic.armor modifier add 607808cc-8a63-4707-8321-7f9b07070f7c ufc_full_armor 20 add
+attribute @s minecraft:generic.follow_range base set 50
 data modify entity @s Health set value 1024.0f
 data modify entity @s DeathLootTable set value "inferentiel:entities/boss/ravager"

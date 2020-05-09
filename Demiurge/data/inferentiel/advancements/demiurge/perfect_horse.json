@@ -26,7 +26,7 @@
                     {
                         "item": "minecraft:horse_spawn_egg",
                         "count": {"min":1,"max":64},
-						"nbt": "{display:{Lore:[\"[{\\\"translate\\\":\\\"attribute.name.horse.jumpStrength\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"enchantment.level.5\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}]\",\"[{\\\"translate\\\":\\\"attribute.name.generic.movementSpeed\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"enchantment.level.5\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}]\",\"[{\\\"translate\\\":\\\"attribute.name.generic.maxHealth\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"enchantment.level.5\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}]\"]}}"
+						"nbt": "{display:{Lore:[\"[{\\\"translate\\\":\\\"attribute.name.horse.jump_strength\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"enchantment.level.5\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}]\",\"[{\\\"translate\\\":\\\"attribute.name.generic.movement_speed\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"enchantment.level.5\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}]\",\"[{\\\"translate\\\":\\\"attribute.name.generic.max_health\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" \\\"},{\\\"translate\\\":\\\"enchantment.level.5\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":\\\"false\\\"}]\"]}}"
                     }
          ]
       }

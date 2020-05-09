@@ -1,0 +1,10 @@
+execute as @a[level=6..] run function inferentiel:utils/grade/bonus_attributes/add_damage1
+execute as @a[level=16..] run function inferentiel:utils/grade/bonus_attributes/add_luck1
+execute as @a[level=21..] run function inferentiel:utils/grade/bonus_attributes/add_damage2
+execute as @a[level=41..] run function inferentiel:utils/grade/bonus_attributes/add_luck2
+execute as @a[level=51..] run function inferentiel:utils/grade/bonus_attributes/add_damage3
+execute as @a[level=81..] run function inferentiel:utils/grade/bonus_attributes/add_luck3
+execute as @a[level=101..] run function inferentiel:utils/grade/bonus_attributes/add_damage4
+execute as @a[level=141..] run function inferentiel:utils/grade/bonus_attributes/add_luck4
+execute as @a[level=171..] run function inferentiel:utils/grade/bonus_attributes/add_damage5
+execute as @a[level=211..] run function inferentiel:utils/grade/bonus_attributes/add_luck5

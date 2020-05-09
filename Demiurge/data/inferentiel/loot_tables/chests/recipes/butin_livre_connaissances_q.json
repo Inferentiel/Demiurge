@@ -36,6 +36,17 @@
           "functions": [
             {
               "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.quartz_bricks\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:quartz_bricks\"]}"
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
               "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.quartz_pillar\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:quartz_pillar\"]}"
             }
           ]

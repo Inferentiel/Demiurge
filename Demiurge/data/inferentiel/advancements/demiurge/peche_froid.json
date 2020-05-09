@@ -7,11 +7,17 @@
     "title": {
       "translate": "item.minecraft.salmon_bucket"
     },
-	"description": [{"translate": "biome.minecraft.snowy_tundra"},{"text": " / "},{"translate": "biome.minecraft.ice_spikes"},{"text": " / "},{"translate": "biome.minecraft.snowy_taiga"},{"text": " / "},{"translate": "biome.minecraft.mountains"},{"text": " / "},{"translate": "biome.minecraft.gravelly_mountains"},{"text": " / "},{"translate": "biome.minecraft.giant_spruce_taiga"}],
+	"description": [{"translate": "biome.minecraft.snowy_tundra"},{"text": " / "},{"translate": "biome.minecraft.ice_spikes"},{"text": " / "},{"translate": "biome.minecraft.snowy_taiga"},{"text": " / "},{"translate": "biome.minecraft.mountains"},{"text": " / "},{"translate": "biome.minecraft.gravelly_mountains"},{"text": " / "},{"translate": "biome.minecraft.giant_spruce_taiga"},{"text":"\n"},{"translate":"item.minecraft.clay_ball","color":"gold"}],
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
+  },
+  "rewards": {
+    "experience": 50,
+	"recipes": [
+	  "inferentiel:clay_ball"
+    ]
   },
   "criteria": {
     "get_bucket_fish_tundra": {

@@ -8,10 +8,35 @@
           "name": "minecraft:leather_helmet",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-1,Operation:0,UUIDMost:83408,UUIDLeast:220056,Slot:\"head\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.075,Operation:1,UUIDMost:51426,UUIDLeast:943967,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:33663,UUIDLeast:207217,Slot:\"head\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ouranos bleu head max_health",
+				  "attribute": "generic.max_health",
+				  "amount": -1,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "fa9f7c10-68da-483a-b400-e11fcd842cd1"
+				},
+				{
+				  "name": "Ouranos bleu head movement speed",
+				  "attribute": "generic.movement_speed",
+				  "amount": 0.075,
+				  "operation": "multiply_total",
+				  "slot": "head",
+				  "id": "f2696b30-a6fa-4544-816b-9db3eedd1181"
+				},
+				{
+				  "name": "Ouranos bleu head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "c7da23a0-cb0c-4c23-bdec-da612f26aaf1"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.leather_helmet","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Ouranos","color":"blue","italic":"false"}]
@@ -28,10 +53,35 @@
           "name": "minecraft:leather_chestplate",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-1,Operation:0,UUIDMost:83407,UUIDLeast:220055,Slot:\"chest\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.075,Operation:1,UUIDMost:51425,UUIDLeast:943957,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUIDMost:33662,UUIDLeast:207216,Slot:\"chest\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ouranos bleu chest max_health",
+				  "attribute": "generic.max_health",
+				  "amount": -1,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "fa9f7c11-68da-483a-b400-e11fcd842cd1"
+				},
+				{
+				  "name": "Ouranos bleu chest movement speed",
+				  "attribute": "generic.movement_speed",
+				  "amount": 0.075,
+				  "operation": "multiply_total",
+				  "slot": "chest",
+				  "id": "f2696b31-a6fa-4544-816b-9db3eedd1181"
+				},
+				{
+				  "name": "Ouranos bleu chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 5,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "c7da23a1-cb0c-4c23-bdec-da612f26aaf1"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.leather_chestplate","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Ouranos","color":"blue","italic":"false"}]
@@ -53,6 +103,35 @@
               "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-1,Operation:0,UUIDMost:83406,UUIDLeast:220054,Slot:\"legs\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.075,Operation:1,UUIDMost:51424,UUIDLeast:943963,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUIDMost:33661,UUIDLeast:207215,Slot:\"legs\"}]}"
             },
 			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ouranos bleu legs max_health",
+				  "attribute": "generic.max_health",
+				  "amount": -1,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "fa9f7c12-68da-483a-b400-e11fcd842cd1"
+				},
+				{
+				  "name": "Ouranos bleu legs movement speed",
+				  "attribute": "generic.movement_speed",
+				  "amount": 0.075,
+				  "operation": "multiply_total",
+				  "slot": "legs",
+				  "id": "f2696b32-a6fa-4544-816b-9db3eedd1181"
+				},
+				{
+				  "name": "Ouranos bleu legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 4,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "c7da23a2-cb0c-4c23-bdec-da612f26aaf1"
+				}
+			  ]
+			},
+			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.leather_leggings","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Ouranos","color":"blue","italic":"false"}]
 			},
@@ -68,10 +147,35 @@
           "name": "minecraft:leather_boots",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-1,Operation:0,UUIDMost:83418,UUIDLeast:220046,Slot:\"feet\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.075,Operation:1,UUIDMost:51426,UUIDLeast:942977,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:33660,UUIDLeast:207214,Slot:\"feet\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ouranos bleu feet max_health",
+				  "attribute": "generic.max_health",
+				  "amount": -1,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "fa9f7c13-68da-483a-b400-e11fcd842cd1"
+				},
+				{
+				  "name": "Ouranos bleu feet movement speed",
+				  "attribute": "generic.movement_speed",
+				  "amount": 0.075,
+				  "operation": "multiply_total",
+				  "slot": "feet",
+				  "id": "f2696b33-a6fa-4544-816b-9db3eedd1181"
+				},
+				{
+				  "name": "Ouranos bleu feet armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "c7da23a3-cb0c-4c23-bdec-da612f26aaf1"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.leather_boots","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Ouranos","color":"blue","italic":"false"}]
@@ -88,10 +192,27 @@
           "name": "minecraft:iron_helmet",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:55915,UUIDLeast:227221,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:44530,UUIDLeast:981394,Slot:\"head\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Gaia bleu head armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "de04e030-97f2-4f01-9c90-aa6db76a94b1"
+				},
+				{
+				  "name": "Gaia bleu head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "28604370-e198-4963-b5b2-0568c01dd0f1"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.iron_helmet","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Ga\u00efa","color":"blue","italic":"false"}]
@@ -108,10 +229,27 @@
           "name": "minecraft:iron_chestplate",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:55914,UUIDLeast:227220,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:44539,UUIDLeast:981393,Slot:\"chest\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Gaia bleu chest armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "de04e031-97f2-4f01-9c90-aa6db76a94b1"
+				},
+				{
+				  "name": "Gaia bleu chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 8,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "28604371-e198-4963-b5b2-0568c01dd0f1"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.iron_chestplate","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Ga\u00efa","color":"blue","italic":"false"}]
@@ -128,10 +266,27 @@
           "name": "minecraft:iron_leggings",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:55912,UUIDLeast:227229,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:44538,UUIDLeast:981392,Slot:\"legs\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Gaia bleu legs armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "de04e032-97f2-4f01-9c90-aa6db76a94b1"
+				},
+				{
+				  "name": "Gaia bleu legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 6,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "28604372-e198-4963-b5b2-0568c01dd0f1"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.iron_leggings","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Ga\u00efa","color":"blue","italic":"false"}]
@@ -148,10 +303,27 @@
           "name": "minecraft:iron_boots",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:55919,UUIDLeast:227227,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:44537,UUIDLeast:981391,Slot:\"feet\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Gaia bleu feet armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "de04e033-97f2-4f01-9c90-aa6db76a94b1"
+				},
+				{
+				  "name": "Gaia bleu feet armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "28604373-e198-4963-b5b2-0568c01dd0f1"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.iron_boots","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Ga\u00efa","color":"blue","italic":"false"}]
@@ -168,10 +340,27 @@
           "name": "minecraft:chainmail_helmet",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.075,Operation:1,UUIDMost:13618,UUIDLeast:828287,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:65,UUIDLeast:228708,Slot:\"head\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Tartare bleu head attack damage",
+				  "attribute": "generic.attack_damage",
+				  "amount": 0.075,
+				  "operation": "multiply_total",
+				  "slot": "head",
+				  "id": "21e3a4f0-3bc8-449f-9566-c1160e4b0941"
+				},
+				{
+				  "name": "Tartare bleu head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "65e6d410-1ea4-4a4c-94fc-cf1fbc561f91"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.chainmail_helmet","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Tartare","color":"blue","italic":"false"}]
@@ -188,10 +377,27 @@
           "name": "minecraft:chainmail_chestplate",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.075,Operation:1,UUIDMost:13617,UUIDLeast:828286,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUIDMost:64,UUIDLeast:228707,Slot:\"chest\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Tartare bleu chest attack damage",
+				  "attribute": "generic.attack_damage",
+				  "amount": 0.075,
+				  "operation": "multiply_total",
+				  "slot": "chest",
+				  "id": "21e3a4f1-3bc8-449f-9566-c1160e4b0941"
+				},
+				{
+				  "name": "Tartare bleu chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 7,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "65e6d411-1ea4-4a4c-94fc-cf1fbc561f91"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.chainmail_chestplate","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Tartare","color":"blue","italic":"false"}]
@@ -208,10 +414,27 @@
           "name": "minecraft:chainmail_leggings",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.075,Operation:1,UUIDMost:13616,UUIDLeast:828285,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:63,UUIDLeast:228706,Slot:\"legs\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Tartare bleu legs attack damage",
+				  "attribute": "generic.attack_damage",
+				  "amount": 0.075,
+				  "operation": "multiply_total",
+				  "slot": "legs",
+				  "id": "21e3a4f2-3bc8-449f-9566-c1160e4b0941"
+				},
+				{
+				  "name": "Tartare bleu legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 6,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "65e6d412-1ea4-4a4c-94fc-cf1fbc561f91"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.chainmail_leggings","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Tartare","color":"blue","italic":"false"}]
@@ -228,10 +451,27 @@
           "name": "minecraft:chainmail_boots",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.075,Operation:1,UUIDMost:13614,UUIDLeast:828283,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:62,UUIDLeast:228705,Slot:\"feet\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Tartare bleu boots attack damage",
+				  "attribute": "generic.attack_damage",
+				  "amount": 0.075,
+				  "operation": "multiply_total",
+				  "slot": "feet",
+				  "id": "21e3a4f3-3bc8-449f-9566-c1160e4b0941"
+				},
+				{
+				  "name": "Tartare bleu boots armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "65e6d413-1ea4-4a4c-94fc-cf1fbc561f91"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.chainmail_boots","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Tartare","color":"blue","italic":"false"}]
@@ -253,6 +493,27 @@
               "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.075,Operation:1,UUIDMost:89832,UUIDLeast:897033,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:47555,UUIDLeast:288509,Slot:\"head\"}]}"
             },
 			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Thetys bleu head attack speed",
+				  "attribute": "generic.attack_speed",
+				  "amount": 0.075,
+				  "operation": "multiply_total",
+				  "slot": "head",
+				  "id": "533821c0-4352-4df0-a504-15c457179d41"
+				},
+				{
+				  "name": "Thetys bleu head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "6c8f5940-03f8-4cc8-b887-6ca03865f891"
+				}
+			  ]
+			},
+			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.golden_helmet","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Th\u00e9tys","color":"blue","italic":"false"}]
 			},
@@ -268,10 +529,27 @@
           "name": "minecraft:golden_chestplate",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.075,Operation:1,UUIDMost:89831,UUIDLeast:897032,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUIDMost:47554,UUIDLeast:288508,Slot:\"chest\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Thetys bleu chest attack speed",
+				  "attribute": "generic.attack_speed",
+				  "amount": 0.075,
+				  "operation": "multiply_total",
+				  "slot": "chest",
+				  "id": "533821c1-4352-4df0-a504-15c457179d41"
+				},
+				{
+				  "name": "Thetys bleu chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 7,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "6c8f5941-03f8-4cc8-b887-6ca03865f891"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.golden_chestplate","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Th\u00e9tys","color":"blue","italic":"false"}]
@@ -288,10 +566,27 @@
           "name": "minecraft:golden_leggings",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.075,Operation:1,UUIDMost:89839,UUIDLeast:897048,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUIDMost:47553,UUIDLeast:288507,Slot:\"legs\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Thetys bleu legs attack speed",
+				  "attribute": "generic.attack_speed",
+				  "amount": 0.075,
+				  "operation": "multiply_total",
+				  "slot": "legs",
+				  "id": "533821c2-4352-4df0-a504-15c457179d41"
+				},
+				{
+				  "name": "Thetys bleu legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 5,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "6c8f5942-03f8-4cc8-b887-6ca03865f891"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.golden_leggings","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Th\u00e9tys","color":"blue","italic":"false"}]
@@ -308,10 +603,27 @@
           "name": "minecraft:golden_boots",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.075,Operation:1,UUIDMost:89835,UUIDLeast:897044,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:47552,UUIDLeast:288506,Slot:\"feet\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Thetys bleu feet attack speed",
+				  "attribute": "generic.attack_speed",
+				  "amount": 0.075,
+				  "operation": "multiply_total",
+				  "slot": "feet",
+				  "id": "533821c3-4352-4df0-a504-15c457179d41"
+				},
+				{
+				  "name": "Thetys bleu feet armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "6c8f5943-03f8-4cc8-b887-6ca03865f891"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.golden_boots","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Th\u00e9tys","color":"blue","italic":"false"}]
@@ -328,10 +640,35 @@
           "name": "minecraft:diamond_helmet",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:2,Operation:0,UUIDMost:83791,UUIDLeast:162253,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:38777,UUIDLeast:394656,Slot:\"head\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42828,UUIDLeast:116628,Slot:\"head\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ether bleu head max health",
+				  "attribute": "generic.max_health",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "3c4ca650-29a9-4d4d-a700-9d0d82c6f1b1"
+				},
+				{
+				  "name": "Ether bleu head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "67bff870-b551-4642-b26c-ce5504968b71"
+				},
+				{
+				  "name": "Ether bleu head armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "70a87b10-d64f-4581-92b0-91adedf351e1"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.diamond_helmet","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Ether","color":"blue","italic":"false"}]
@@ -348,10 +685,35 @@
           "name": "minecraft:diamond_chestplate",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:2,Operation:0,UUIDMost:83790,UUIDLeast:162252,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:38776,UUIDLeast:394655,Slot:\"chest\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42827,UUIDLeast:116627,Slot:\"chest\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ether bleu chest max health",
+				  "attribute": "generic.max_health",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "3c4ca651-29a9-4d4d-a700-9d0d82c6f1b1"
+				},
+				{
+				  "name": "Ether bleu chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 8,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "67bff871-b551-4642-b26c-ce5504968b71"
+				},
+				{
+				  "name": "Ether bleu chest armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "70a87b11-d64f-4581-92b0-91adedf351e1"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.diamond_chestplate","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Ether","color":"blue","italic":"false"}]
@@ -368,10 +730,35 @@
           "name": "minecraft:diamond_leggings",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:2,Operation:0,UUIDMost:83799,UUIDLeast:162251,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:38775,UUIDLeast:394654,Slot:\"legs\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42826,UUIDLeast:116626,Slot:\"legs\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ether bleu legs max health",
+				  "attribute": "generic.max_health",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "3c4ca652-29a9-4d4d-a700-9d0d82c6f1b1"
+				},
+				{
+				  "name": "Ether bleu legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 6,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "67bff872-b551-4642-b26c-ce5504968b71"
+				},
+				{
+				  "name": "Ether bleu legs armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "70a87b12-d64f-4581-92b0-91adedf351e1"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.diamond_leggings","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Ether","color":"blue","italic":"false"}]
@@ -388,10 +775,35 @@
           "name": "minecraft:diamond_boots",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:2,Operation:0,UUIDMost:83787,UUIDLeast:162256,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:38774,UUIDLeast:394653,Slot:\"feet\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42825,UUIDLeast:116625,Slot:\"feet\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ether bleu feet max health",
+				  "attribute": "generic.max_health",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "3c4ca653-29a9-4d4d-a700-9d0d82c6f1b1"
+				},
+				{
+				  "name": "Ether bleu feet armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "67bff873-b551-4642-b26c-ce5504968b71"
+				},
+				{
+				  "name": "Ether bleu feet armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "70a87b13-d64f-4581-92b0-91adedf351e1"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.diamond_boots","color":"blue","italic":"false","bold":"true"},{"text":" "},{"text":"Ether","color":"blue","italic":"false"}]

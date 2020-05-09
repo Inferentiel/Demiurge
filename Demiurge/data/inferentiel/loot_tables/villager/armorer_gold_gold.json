@@ -26,7 +26,7 @@
 						},
 						{
 						  "name": "vie verte",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 2
@@ -69,7 +69,7 @@
 						},
 						{
 						  "name": "vie verte",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 2
@@ -112,7 +112,7 @@
 						},
 						{
 						  "name": "vie verte",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 2
@@ -155,7 +155,7 @@
 						},
 						{
 						  "name": "vie verte",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 2

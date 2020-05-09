@@ -86,7 +86,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "head",
@@ -94,7 +94,7 @@
 						},
 						{
 						  "name": "vitesse grise",
-						  "attribute": "generic.movementSpeed",
+						  "attribute": "generic.movement_speed",
 						  "amount": {
 						    "min": -0.15,
 							"max": -0.05
@@ -137,7 +137,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "chest",
@@ -145,7 +145,7 @@
 						},
 						{
 						  "name": "vitesse grise",
-						  "attribute": "generic.movementSpeed",
+						  "attribute": "generic.movement_speed",
 						  "amount": {
 						    "min": -0.15,
 							"max": -0.05
@@ -188,7 +188,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "legs",
@@ -196,7 +196,7 @@
 						},
 						{
 						  "name": "vitesse grise",
-						  "attribute": "generic.movementSpeed",
+						  "attribute": "generic.movement_speed",
 						  "amount": {
 						    "min": -0.15,
 							"max": -0.05
@@ -239,7 +239,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "feet",
@@ -247,7 +247,7 @@
 						},
 						{
 						  "name": "vitesse grise",
-						  "attribute": "generic.movementSpeed",
+						  "attribute": "generic.movement_speed",
 						  "amount": {
 						    "min": -0.15,
 							"max": -0.05
@@ -290,7 +290,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "head",
@@ -298,7 +298,7 @@
 						},
 						{
 						  "name": "vie verte",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 2
@@ -341,7 +341,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "chest",
@@ -349,7 +349,7 @@
 						},
 						{
 						  "name": "vie verte",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 2
@@ -392,7 +392,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "legs",
@@ -400,7 +400,7 @@
 						},
 						{
 						  "name": "vie verte",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 2
@@ -443,7 +443,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "feet",
@@ -451,7 +451,7 @@
 						},
 						{
 						  "name": "vie verte",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 2
@@ -494,7 +494,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "head",
@@ -502,7 +502,7 @@
 						},
 						{
 						  "name": "vie bleu",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 6
@@ -513,7 +513,7 @@
 						},
 						{
 						  "name": "knoba bleu",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.1
@@ -563,7 +563,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "chest",
@@ -571,7 +571,7 @@
 						},
 						{
 						  "name": "vie bleu",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 6
@@ -582,7 +582,7 @@
 						},
 						{
 						  "name": "knoba bleu",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.1
@@ -632,7 +632,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "legs",
@@ -640,7 +640,7 @@
 						},
 						{
 						  "name": "vie bleu",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 6
@@ -651,7 +651,7 @@
 						},
 						{
 						  "name": "knoba bleu",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.1
@@ -701,7 +701,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "feet",
@@ -709,7 +709,7 @@
 						},
 						{
 						  "name": "vie bleu",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 6
@@ -720,7 +720,7 @@
 						},
 						{
 						  "name": "knoba bleu",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.1
@@ -770,7 +770,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "head",
@@ -778,7 +778,7 @@
 						},
 						{
 						  "name": "vie violet",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 8
@@ -789,7 +789,7 @@
 						},
 						{
 						  "name": "knoba violat",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.15
@@ -800,7 +800,7 @@
 						},
 						{
 						  "name": "attack violet",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 0,
 							"max": 1
@@ -850,7 +850,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "chest",
@@ -858,7 +858,7 @@
 						},
 						{
 						  "name": "vie violet",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 8
@@ -869,7 +869,7 @@
 						},
 						{
 						  "name": "knoba violet",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.15
@@ -880,7 +880,7 @@
 						},
 						{
 						  "name": "attack violet",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 0,
 							"max": 1
@@ -930,7 +930,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "legs",
@@ -938,7 +938,7 @@
 						},
 						{
 						  "name": "vie violet",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 8
@@ -949,7 +949,7 @@
 						},
 						{
 						  "name": "knoba violet",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.15
@@ -960,7 +960,7 @@
 						},
 						{
 						  "name": "attack violet",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 0,
 							"max": 1
@@ -1010,7 +1010,7 @@
 						},
 						{
 						  "name": "Armure grise",
-						  "attribute": "generic.armorToughness",
+						  "attribute": "generic.armor_toughness",
 						  "amount": 2,
 						  "operation": "addition",
 						  "slot": "feet",
@@ -1018,7 +1018,7 @@
 						},
 						{
 						  "name": "vie violet",
-						  "attribute": "generic.maxHealth",
+						  "attribute": "generic.max_health",
 						  "amount": {
 						    "min": 0,
 							"max": 8
@@ -1029,7 +1029,7 @@
 						},
 						{
 						  "name": "knoba violet",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.15
@@ -1040,7 +1040,7 @@
 						},
 						{
 						  "name": "attack violet",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 0,
 							"max": 1

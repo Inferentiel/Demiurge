@@ -1,3 +1,56 @@
+V1.9
+
+Update to 1.16
+zombie_pigman to zombified_piglins
+hoglin, zoglin emerald and chest
+attributes loot_table weapons and armors
+biome nether -> nether_wastes, basalt_deltas, soul_sand_valley, crimsom_forest, warped_forest
+advancement: bull_eye and recipes updated
+
+warped_*, crimsom_*, chain -> tier III
+blackstone_*, chiseled_polished_blackstone, cracked_chiseled_polished_blackstone,
+polished_basalt, polished_blackstone_*, target -> tier IV
+chiseled_nether_bricks, cracked_nether_bricks, quartz_bricks, netherite_block, netherite_ingot, soul_*, lodestone, respawn_anchor -> tier V
+
+golden_carrot, brewing_stand recipes sooner in advancement tree
+white_bed, lodestone in advancement tree
+
+updated store horse
+
+updated grade: netherite rank instead of quartz, visual insight, add damage
+
+# level|Effect
+## 6 -> damage 1
+## 11 -> Upper line saved on death
+## 16 -> luck 1
+## 21 -> damage 2
+## 31 -> action bar saved on death
+## 41 -> luck 2
+## 51 -> damage 3
+## 61 -> mid bar saved on death
+## 81 -> luck 3
+## 101 -> damage 4
+## 121 -> equipment saved on death
+## 141 -> luck 4
+## 171 -> damage 5
+## 211 -> luck 5
+## 256 -> inventory saved on death
+
+snowmen upgrade faster + got piercing ability and improved follow range
+wolf's attributes based on owner and updated with meat
+fox best pet improved
+strider best pet
+cat morning gift improved based on rank
+moved nitwit trade to wanderer traveler
+add fall from end -> overworld
+mining set reworked
+add weapons and workstations to piglin bartering
+change random generator to predicates
+add zoglin to dark_forest, zombie_villager to soul_sand_valley, wandering_trader to warped_forest
+reworked witch boss, vindicator, blaze, wither, book creeponomicon
+use predicates now for biome check (compass)
+add written books to librarian trades
+
 V1.8
 Prettify compass and clock offhand actionbar infos
 Balance chest, drops

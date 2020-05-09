@@ -8,8 +8,8 @@ execute as @e[type=minecraft:ender_dragon,tag=!getrdm] run function inferentiel:
 
 execute at @e[tag=Elite] run particle flame ~ ~1 ~ 0.3 0.3 0.3 0.02 1 force
 
-execute as @e[type=minecraft:wither,tag=!Elite] at @s run function inferentiel:custom_mobs/aura/lesser_vex_summon
-execute as @e[type=minecraft:wither,tag=Elite] at @s run function inferentiel:custom_mobs/aura/greater_vex_summon
+execute as @e[type=minecraft:wither,tag=!Elite] at @s run function inferentiel:custom_mobs/aura/wither_active_effect
+execute as @e[type=minecraft:wither,tag=Elite] at @s run function inferentiel:custom_mobs/aura/wither_boss_active_effect
 execute as @e[type=minecraft:ender_dragon,tag=!Elite,limit=1] at @s run function inferentiel:custom_mobs/aura/lesser_dragon_aura
 execute as @e[type=minecraft:ender_dragon,tag=Elite,limit=1] at @s run function inferentiel:custom_mobs/aura/greater_dragon_aura
 execute as @e[tag=Elite] run function inferentiel:custom_mobs/aura/aura

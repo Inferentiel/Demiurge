@@ -47,7 +47,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Gris hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": {
 						    "min": -3.6,
 							"max": -3.2
@@ -58,7 +58,7 @@
 						},
 						{
 						  "name": "Gris hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 7,
 							"max": 9
@@ -93,7 +93,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Gris epee vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": {
 						    "min": -3.75,
 							"max": -3
@@ -104,7 +104,7 @@
 						},
 						{
 						  "name": "Gris epee Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 5,
 							"max": 7
@@ -161,7 +161,7 @@
 					  "modifiers": [
 					    {
 						  "name": "pioche attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 100,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -169,7 +169,7 @@
 						},
 						{
 						  "name": "pioche vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -0.99,
 						  "operation": "multiply_base",
 						  "slot": "mainhand",

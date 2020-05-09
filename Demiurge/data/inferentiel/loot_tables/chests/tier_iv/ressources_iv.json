@@ -33,8 +33,18 @@
                 },
 				{
                     "type": "item",
+                    "name": "minecraft:honey_block",
+                    "weight": 2
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:slime_block",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
                     "name": "minecraft:lava_bucket",
-                    "weight": 9
+                    "weight": 6
                 },
 				{
                     "type": "item",

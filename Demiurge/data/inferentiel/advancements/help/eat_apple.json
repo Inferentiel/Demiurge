@@ -7,7 +7,7 @@
     "title": {
       "translate": "effect.minecraft.instant_health"
     },
-	"description": [{"text":"Regen yourself\n"},{"translate":"item.minecraft.golden_apple","color":"gold"}],
+	"description": [{"text":"Regen yourself\n"},{"translate":"item.minecraft.golden_carrot","color":"gold"}],
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -15,7 +15,7 @@
   },
   "rewards": {
     "recipes": [
-      "minecraft:golden_apple"
+      "minecraft:golden_carrot"
     ]
   },
   "criteria": {

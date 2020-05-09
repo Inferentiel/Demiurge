@@ -18,7 +18,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -26,7 +26,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 8,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -65,7 +65,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -73,7 +73,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 8.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -112,7 +112,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -120,7 +120,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 9,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -159,7 +159,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -167,7 +167,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 9.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -206,7 +206,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -214,7 +214,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 10,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -253,7 +253,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu epee vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -261,7 +261,7 @@
 						},
 						{
 						  "name": "Bleu epee Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 6,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -300,7 +300,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu epee vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -308,7 +308,7 @@
 						},
 						{
 						  "name": "Bleu epee Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 6.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -347,7 +347,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu epee vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -355,7 +355,7 @@
 						},
 						{
 						  "name": "Bleu epee Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 7,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -394,7 +394,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu epee vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -402,7 +402,7 @@
 						},
 						{
 						  "name": "Bleu epee Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 7.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -441,7 +441,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu epee vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -449,7 +449,7 @@
 						},
 						{
 						  "name": "Bleu epee Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 8,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -488,7 +488,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -2,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -496,7 +496,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 3.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -535,7 +535,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -2,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -543,7 +543,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 4,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -582,7 +582,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -2,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -590,7 +590,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 4.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -629,7 +629,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -2,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -637,7 +637,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -676,7 +676,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -2,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -684,7 +684,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 5.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -723,7 +723,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -2.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -731,7 +731,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 4.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -770,7 +770,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -2.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -778,7 +778,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -817,7 +817,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -2.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -825,7 +825,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 5.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -864,7 +864,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -2.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -872,7 +872,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 6,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -911,7 +911,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -2.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -919,7 +919,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 6.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -958,7 +958,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3.25,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -966,7 +966,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 7,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -1005,7 +1005,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3.25,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -1013,7 +1013,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 7.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -1052,7 +1052,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3.25,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -1060,7 +1060,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 8,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -1099,7 +1099,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3.25,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -1107,7 +1107,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 8.5,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -1146,7 +1146,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Bleu hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": -3.25,
 						  "operation": "addition",
 						  "slot": "mainhand",
@@ -1154,7 +1154,7 @@
 						},
 						{
 						  "name": "Bleu hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": 8.5,
 						  "operation": "addition",
 						  "slot": "mainhand",

@@ -30,6 +30,12 @@
         "predicate": {
           "item": "minecraft:diamond_axe"
         }
+	  },
+	  {
+	    "condition": "minecraft:match_tool",
+        "predicate": {
+          "item": "minecraft:netherite_axe"
+        }
 	  }
 	]
 }

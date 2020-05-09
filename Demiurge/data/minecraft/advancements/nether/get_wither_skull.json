@@ -7,7 +7,7 @@
     "title": {
       "translate": "advancements.nether.get_wither_skull.title"
     },
-    "description": [{"translate": "advancements.nether.get_wither_skull.description"},{"text":"\n"},{"translate":"block.minecraft.carved_pumpkin","color":"gold"}],
+    "description": [{"translate": "advancements.nether.get_wither_skull.description"},{"text":"\n"},{"translate":"block.minecraft.white_bed","color":"gold"}],
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
@@ -15,7 +15,7 @@
   },
   "rewards": {
 	"recipes": [
-	  "minecraft:carved_pumpkin"
+	  "minecraft:white_bed"
     ]
   },
   "criteria": {

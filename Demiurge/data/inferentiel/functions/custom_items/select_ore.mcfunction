@@ -1,0 +1,10 @@
+execute as @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:netherite_ingot"}]}] run function inferentiel:custom_items/find_ore_ancient
+execute as @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:diamond"}]}] run function inferentiel:custom_items/find_ore_diamond
+execute as @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:emerald"}]}] run function inferentiel:custom_items/find_ore_emerald
+execute as @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:quartz"}]}] run function inferentiel:custom_items/find_ore_quartz
+execute as @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:lapis_lazuli"}]}] run function inferentiel:custom_items/find_ore_lapis
+execute as @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:redstone"}]}] run function inferentiel:custom_items/find_ore_redstone
+execute as @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:gold_ingot"}]}] run function inferentiel:custom_items/find_ore_gold
+execute as @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:gold_ingot"}]}] run function inferentiel:custom_items/find_ore_nether_gold
+execute as @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:iron_ingot"}]}] run function inferentiel:custom_items/find_ore_iron
+execute as @s[nbt={Inventory:[{Slot:-106b, id:"minecraft:coal"}]}] run function inferentiel:custom_items/find_ore_coal

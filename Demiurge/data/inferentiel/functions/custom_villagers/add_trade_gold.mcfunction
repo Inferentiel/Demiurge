@@ -36,17 +36,12 @@ execute if entity @s[nbt={VillagerData:{profession:"minecraft:armorer", type: "m
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:armorer", type: "minecraft:jungle"}}] at @s run data modify entity @s Offers.Recipes[5].sell set from entity @e[distance=..1,limit=1,type=item] Item
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:armorer", type: "minecraft:jungle"}}] at @s run kill @e[type=item,distance=..1]
 
-tag @s[nbt={VillagerData:{profession:"minecraft:armorer"}}] add belt_gold
-
 ## Leatherworker
 
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:leatherworker"}}] run data modify entity @s Offers.Recipes[5] set value {maxUses:8,buy:{id:"minecraft:emerald",Count:24b},sell:{id:"minecraft:iron_leggings",Count:1b},xp:20,uses:0,priceMultiplier:0.2f,specialPrice:0,demand:0,rewardExp:1b}
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:leatherworker"}}] at @s run loot spawn ~ ~ ~ loot inferentiel:villager/leatherworker_gold
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:leatherworker"}}] at @s run data modify entity @s Offers.Recipes[5].sell set from entity @e[distance=..1,limit=1,type=item] Item
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:leatherworker"}}] at @s run kill @e[type=item,distance=..1]
-
-tag @s[nbt={VillagerData:{profession:"minecraft:leatherworker"}}] add belt_gold
-
 
 ## Toolsmith
 
@@ -87,8 +82,6 @@ execute if entity @s[nbt={VillagerData:{profession:"minecraft:toolsmith", type: 
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:toolsmith", type: "minecraft:jungle"}}] at @s run data modify entity @s Offers.Recipes[5].sell set from entity @e[distance=..1,limit=1,type=item] Item
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:toolsmith", type: "minecraft:jungle"}}] at @s run kill @e[type=item,distance=..1]
 
-tag @s[nbt={VillagerData:{profession:"minecraft:toolsmith"}}] add belt_gold
-
 ## Librarian ##
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:librarian", type: "minecraft:desert"}}] run data modify entity @s Offers.Recipes append value {maxUses:8,buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:book",Count:1b},xp:5,uses:0,priceMultiplier:0.2f,specialPrice:0,demand:0,rewardExp:1b}
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:librarian", type: "minecraft:savanna"}}] run data modify entity @s Offers.Recipes append value {maxUses:8,buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:acacia_sign",Count:1b},xp:5,uses:0,priceMultiplier:0.2f,specialPrice:0,demand:0,rewardExp:1b}
@@ -97,5 +90,3 @@ execute if entity @s[nbt={VillagerData:{profession:"minecraft:librarian", type: 
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:librarian", type: "minecraft:plains"}}] run data modify entity @s Offers.Recipes append value {maxUses:8,buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:birch_sign",Count:1b},xp:5,uses:0,priceMultiplier:0.2f,specialPrice:0,demand:0,rewardExp:1b}
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:librarian", type: "minecraft:snowy"}}] run data modify entity @s Offers.Recipes append value {maxUses:8,buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:spruce_sign",Count:1b},xp:5,uses:0,priceMultiplier:0.2f,specialPrice:0,demand:0,rewardExp:1b}
 execute if entity @s[nbt={VillagerData:{profession:"minecraft:librarian", type: "minecraft:jungle"}}] run data modify entity @s Offers.Recipes append value {maxUses:8,buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:jungle_sign",Count:1b},xp:5,uses:0,priceMultiplier:0.2f,specialPrice:0,demand:0,rewardExp:1b}
-
-tag @s[nbt={VillagerData:{profession:"minecraft:librarian"}}] add belt_gold

@@ -1,4 +1,5 @@
 {
+	"type": "minecraft:fishing",
     "pools": [
         {
             "rolls": 1,
@@ -18,6 +19,17 @@
                 {
                     "type": "loot_table",
                     "name": "minecraft:gameplay/fishing/treasure",
+					"conditions": [
+					  {
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+						  "fishing_hook": {
+							"in_open_water": true
+						  }
+						},
+						"entity": "this"
+					  }
+					],
                     "weight": 5,
                     "quality": 2
                 },
@@ -30,12 +42,34 @@
 				{
                     "type": "loot_table",
                     "name": "minecraft:gameplay/fishing/gros",
+					"conditions": [
+					  {
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+						  "fishing_hook": {
+							"in_open_water": true
+						  }
+						},
+						"entity": "this"
+					  }
+					],
                     "weight": 1,
                     "quality": 3
                 },
 				{
                     "type": "loot_table",
                     "name": "minecraft:gameplay/fishing/fishing_recipes",
+					"conditions": [
+					  {
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+						  "fishing_hook": {
+							"in_open_water": true
+						  }
+						},
+						"entity": "this"
+					  }
+					],
                     "weight": 2
                 }
             ]

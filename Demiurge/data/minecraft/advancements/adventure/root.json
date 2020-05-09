@@ -22,7 +22,9 @@
 	  "minecraft:oak_planks",
 	  "minecraft:jungle_planks",
 	  "minecraft:dark_oak_planks",
-	  "minecraft:spruce_planks"
+	  "minecraft:spruce_planks",
+	  "minecraft:crimson_planks",
+	  "minecraft:warped_planks"
     ]
   },
   "criteria": {

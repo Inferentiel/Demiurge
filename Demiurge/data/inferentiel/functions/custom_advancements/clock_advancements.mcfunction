@@ -20,7 +20,9 @@ execute as @a[scores={eat_apple=1..}] run effect give @s minecraft:regeneration 
 execute as @a[scores={eat_apple=1..}] run effect give @s minecraft:hunger 6 100
 execute as @a[scores={eat_apple=1..}] run scoreboard players reset @s eat_apple
 
-execute at @a[scores={death=1..}] run function inferentiel:custom_advancements/herobrine
+execute as @a[scores={death=1..}] at @s run function inferentiel:custom_advancements/herobrine
+execute as @e[type=player,tag=regive_attributes] run function inferentiel:utils/grade/give_back_attribute
+execute as @e[type=player,tag=regive_attributes] run tag @s remove regive_attributes
 
 execute as @a[scores={recipes=100..},advancements={inferentiel:demiurge/obtain_100_recipes=false}] run advancement grant @s only inferentiel:demiurge/obtain_100_recipes
 execute as @a[scores={recipes=300..},advancements={inferentiel:demiurge/obtain_300_recipes=false}] run advancement grant @s only inferentiel:demiurge/obtain_300_recipes

@@ -164,14 +164,90 @@
                       {
                         "condition": "minecraft:location_check",
                         "predicate": {
-                          "biome": "minecraft:nether"
+                          "biome": "minecraft:nether_wastes"
                         }
 				      }
                     ],
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.nether\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.nether_wastes\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:basalt_deltas"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.basalt_deltas\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:soul_sand_valley"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.soul_sand_valley\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:crimson_forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.crimson_forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:stone_button",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:warped_forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"translate\\\":\\\"biome.minecraft.warped_forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Loupe biome\\\"}\"],Age:6000}}"
                         }
                     ]
                 },

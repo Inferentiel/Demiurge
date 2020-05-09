@@ -183,14 +183,90 @@
                       {
                         "condition": "minecraft:location_check",
                         "predicate": {
-                          "biome": "minecraft:nether"
+                          "biome": "minecraft:nether_wastes"
                         }
 				      }
                     ],
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson nether\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson nether wastes\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:basalt_deltas"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson basalt deltas\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:soul_sand_valley"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson soul sand valley\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:crimson_forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson crimson forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 1,
+					"conditions": [
+                      {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                          "biome": "minecraft:warped_forest"
+                        }
+				      }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Gros Poisson warped forest\\\"}\",Lore:[\"{\\\"text\\\":\\\"Gros Poisson\\\"}\"]}}"
                         }
                     ]
                 },

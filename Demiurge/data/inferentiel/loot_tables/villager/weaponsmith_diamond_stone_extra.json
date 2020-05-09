@@ -18,7 +18,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Violet hache vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": {
 						    "min": -3.2,
 							"max": -1
@@ -29,7 +29,7 @@
 						},
 						{
 						  "name": "Violet hache Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 9,
 							"max": 11
@@ -51,7 +51,7 @@
 						},
 						{
 						  "name": "Violet vitesse",
-						  "attribute": "generic.movementSpeed",
+						  "attribute": "generic.movement_speed",
 						  "amount": {
 						    "min": 0,
 							"max": 0.3
@@ -62,7 +62,7 @@
 						},
 						{
 						  "name": "Violet knoresist",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.5
@@ -104,7 +104,7 @@
 					  "modifiers": [
 					    {
 						  "name": "Violet epee vitattaque",
-						  "attribute": "generic.attackSpeed",
+						  "attribute": "generic.attack_speed",
 						  "amount": {
 						    "min": -3.2,
 							"max": -0.5
@@ -115,7 +115,7 @@
 						},
 						{
 						  "name": "Violet epee Attaque",
-						  "attribute": "generic.attackDamage",
+						  "attribute": "generic.attack_damage",
 						  "amount": {
 						    "min": 5,
 							"max": 8
@@ -137,7 +137,7 @@
 						},
 						{
 						  "name": "Violet vitesse",
-						  "attribute": "generic.movementSpeed",
+						  "attribute": "generic.movement_speed",
 						  "amount": {
 						    "min": 0,
 							"max": 0.3
@@ -148,7 +148,7 @@
 						},
 						{
 						  "name": "Violet knoresist",
-						  "attribute": "generic.knockbackResistance",
+						  "attribute": "generic.knockback_resistance",
 						  "amount": {
 						    "min": 0,
 							"max": 0.5

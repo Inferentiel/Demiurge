@@ -8,10 +8,35 @@
           "name": "minecraft:leather_helmet",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-2,Operation:0,UUIDMost:83418,UUIDLeast:220066,Slot:\"head\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.05,Operation:1,UUIDMost:51436,UUIDLeast:943977,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:33673,UUIDLeast:207227,Slot:\"head\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ouranos vert head max_health",
+				  "attribute": "generic.max_health",
+				  "amount": -2,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "fa9f7c10-68da-483a-b400-e11fcd842cd0"
+				},
+				{
+				  "name": "Ouranos vert head movement speed",
+				  "attribute": "generic.movement_speed",
+				  "amount": 0.05,
+				  "operation": "multiply_total",
+				  "slot": "head",
+				  "id": "f2696b30-a6fa-4544-816b-9db3eedd1180"
+				},
+				{
+				  "name": "Ouranos vert head armor",
+				  "attribute": "generic.armor",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "c7da23a0-cb0c-4c23-bdec-da612f26aaf0"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.leather_helmet","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Ouranos","color":"green","italic":"false"}]
@@ -28,10 +53,35 @@
           "name": "minecraft:leather_chestplate",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-2,Operation:0,UUIDMost:83417,UUIDLeast:220065,Slot:\"chest\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.05,Operation:1,UUIDMost:51435,UUIDLeast:943967,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUIDMost:33672,UUIDLeast:207226,Slot:\"chest\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ouranos vert chest max_health",
+				  "attribute": "generic.max_health",
+				  "amount": -2,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "fa9f7c11-68da-483a-b400-e11fcd842cd0"
+				},
+				{
+				  "name": "Ouranos vert chest movement speed",
+				  "attribute": "generic.movement_speed",
+				  "amount": 0.05,
+				  "operation": "multiply_total",
+				  "slot": "chest",
+				  "id": "f2696b31-a6fa-4544-816b-9db3eedd1180"
+				},
+				{
+				  "name": "Ouranos vert chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 4,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "c7da23a1-cb0c-4c23-bdec-da612f26aaf0"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.leather_chestplate","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Ouranos","color":"green","italic":"false"}]
@@ -48,10 +98,35 @@
           "name": "minecraft:leather_leggings",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-2,Operation:0,UUIDMost:83416,UUIDLeast:220064,Slot:\"legs\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.05,Operation:1,UUIDMost:51434,UUIDLeast:943973,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:33671,UUIDLeast:207225,Slot:\"legs\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ouranos vert legs max_health",
+				  "attribute": "generic.max_health",
+				  "amount": -2,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "fa9f7c12-68da-483a-b400-e11fcd842cd0"
+				},
+				{
+				  "name": "Ouranos vert legs movement speed",
+				  "attribute": "generic.movement_speed",
+				  "amount": 0.05,
+				  "operation": "multiply_total",
+				  "slot": "legs",
+				  "id": "f2696b32-a6fa-4544-816b-9db3eedd1180"
+				},
+				{
+				  "name": "Ouranos vert legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "c7da23a2-cb0c-4c23-bdec-da612f26aaf0"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.leather_leggings","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Ouranos","color":"green","italic":"false"}]
@@ -68,10 +143,35 @@
           "name": "minecraft:leather_boots",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-2,Operation:0,UUIDMost:83428,UUIDLeast:220056,Slot:\"feet\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.05,Operation:1,UUIDMost:51426,UUIDLeast:942977,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:33670,UUIDLeast:207224,Slot:\"feet\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ouranos vert feet max_health",
+				  "attribute": "generic.max_health",
+				  "amount": -2,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "fa9f7c13-68da-483a-b400-e11fcd842cd0"
+				},
+				{
+				  "name": "Ouranos vert feet movement speed",
+				  "attribute": "generic.movement_speed",
+				  "amount": 0.05,
+				  "operation": "multiply_total",
+				  "slot": "feet",
+				  "id": "f2696b33-a6fa-4544-816b-9db3eedd1180"
+				},
+				{
+				  "name": "Ouranos vert feet armor",
+				  "attribute": "generic.armor",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "c7da23a3-cb0c-4c23-bdec-da612f26aaf0"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.leather_boots","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Ouranos","color":"green","italic":"false"}]
@@ -88,10 +188,27 @@
           "name": "minecraft:iron_helmet",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:55925,UUIDLeast:227231,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:44540,UUIDLeast:981304,Slot:\"head\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Gaia vert head armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 1,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "de04e030-97f2-4f01-9c90-aa6db76a94b0"
+				},
+				{
+				  "name": "Gaia vert head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "28604370-e198-4963-b5b2-0568c01dd0f0"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.iron_helmet","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Ga\u00efa","color":"green","italic":"false"}]
@@ -108,10 +225,27 @@
           "name": "minecraft:iron_chestplate",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:55924,UUIDLeast:227230,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUIDMost:44549,UUIDLeast:981303,Slot:\"chest\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Gaia vert chest armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 1,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "de04e031-97f2-4f01-9c90-aa6db76a94b0"
+				},
+				{
+				  "name": "Gaia vert chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 7,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "28604371-e198-4963-b5b2-0568c01dd0f0"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.iron_chestplate","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Ga\u00efa","color":"green","italic":"false"}]
@@ -128,10 +262,27 @@
           "name": "minecraft:iron_leggings",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:55922,UUIDLeast:227239,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:44548,UUIDLeast:981302,Slot:\"legs\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Gaia vert legs armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 1,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "de04e032-97f2-4f01-9c90-aa6db76a94b0"
+				},
+				{
+				  "name": "Gaia vert legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 6,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "28604372-e198-4963-b5b2-0568c01dd0f0"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.iron_leggings","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Ga\u00efa","color":"green","italic":"false"}]
@@ -148,10 +299,27 @@
           "name": "minecraft:iron_boots",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:55929,UUIDLeast:227237,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:44547,UUIDLeast:981301,Slot:\"feet\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Gaia vert feet armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 1,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "de04e033-97f2-4f01-9c90-aa6db76a94b0"
+				},
+				{
+				  "name": "Gaia vert feet armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "28604373-e198-4963-b5b2-0568c01dd0f0"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.iron_boots","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Ga\u00efa","color":"green","italic":"false"}]
@@ -168,10 +336,27 @@
           "name": "minecraft:chainmail_helmet",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.05,Operation:1,UUIDMost:13628,UUIDLeast:828297,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:75,UUIDLeast:228718,Slot:\"head\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Tartare vert head attack damage",
+				  "attribute": "generic.attack_damage",
+				  "amount": 0.05,
+				  "operation": "multiply_total",
+				  "slot": "head",
+				  "id": "21e3a4f0-3bc8-449f-9566-c1160e4b0940"
+				},
+				{
+				  "name": "Tartare vert head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "65e6d410-1ea4-4a4c-94fc-cf1fbc561f90"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.chainmail_helmet","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Tartare","color":"green","italic":"false"}]
@@ -188,10 +373,27 @@
           "name": "minecraft:chainmail_chestplate",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.05,Operation:1,UUIDMost:13627,UUIDLeast:828296,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:74,UUIDLeast:228717,Slot:\"chest\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Tartare vert chest attack damage",
+				  "attribute": "generic.attack_damage",
+				  "amount": 0.05,
+				  "operation": "multiply_total",
+				  "slot": "chest",
+				  "id": "21e3a4f1-3bc8-449f-9566-c1160e4b0940"
+				},
+				{
+				  "name": "Tartare vert chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 6,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "65e6d411-1ea4-4a4c-94fc-cf1fbc561f90"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.chainmail_chestplate","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Tartare","color":"green","italic":"false"}]
@@ -208,10 +410,27 @@
           "name": "minecraft:chainmail_leggings",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.05,Operation:1,UUIDMost:13626,UUIDLeast:828295,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUIDMost:73,UUIDLeast:228716,Slot:\"legs\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Tartare vert legs attack damage",
+				  "attribute": "generic.attack_damage",
+				  "amount": 0.05,
+				  "operation": "multiply_total",
+				  "slot": "legs",
+				  "id": "21e3a4f2-3bc8-449f-9566-c1160e4b0940"
+				},
+				{
+				  "name": "Tartare vert legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 5,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "65e6d412-1ea4-4a4c-94fc-cf1fbc561f90"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.chainmail_leggings","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Tartare","color":"green","italic":"false"}]
@@ -228,10 +447,27 @@
           "name": "minecraft:chainmail_boots",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.05,Operation:1,UUIDMost:13624,UUIDLeast:828293,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:72,UUIDLeast:228715,Slot:\"feet\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Tartare vert boots attack damage",
+				  "attribute": "generic.attack_damage",
+				  "amount": 0.05,
+				  "operation": "multiply_total",
+				  "slot": "feet",
+				  "id": "21e3a4f3-3bc8-449f-9566-c1160e4b0940"
+				},
+				{
+				  "name": "Tartare vert boots armor",
+				  "attribute": "generic.armor",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "65e6d413-1ea4-4a4c-94fc-cf1fbc561f90"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.chainmail_boots","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Tartare","color":"green","italic":"false"}]
@@ -248,10 +484,27 @@
           "name": "minecraft:golden_helmet",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.05,Operation:1,UUIDMost:89842,UUIDLeast:897053,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:47565,UUIDLeast:288519,Slot:\"head\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Thetys vert head attack speed",
+				  "attribute": "generic.attack_speed",
+				  "amount": 0.05,
+				  "operation": "multiply_total",
+				  "slot": "head",
+				  "id": "533821c0-4352-4df0-a504-15c457179d40"
+				},
+				{
+				  "name": "Thetys vert head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "6c8f5940-03f8-4cc8-b887-6ca03865f890"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.golden_helmet","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Th\u00e9tys","color":"green","italic":"false"}]
@@ -268,10 +521,27 @@
           "name": "minecraft:golden_chestplate",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.05,Operation:1,UUIDMost:89841,UUIDLeast:897052,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:47564,UUIDLeast:288518,Slot:\"chest\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Thetys vert chest attack speed",
+				  "attribute": "generic.attack_speed",
+				  "amount": 0.05,
+				  "operation": "multiply_total",
+				  "slot": "chest",
+				  "id": "533821c1-4352-4df0-a504-15c457179d40"
+				},
+				{
+				  "name": "Thetys vert chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 6,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "6c8f5941-03f8-4cc8-b887-6ca03865f890"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.golden_chestplate","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Th\u00e9tys","color":"green","italic":"false"}]
@@ -288,10 +558,27 @@
           "name": "minecraft:golden_leggings",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.05,Operation:1,UUIDMost:89849,UUIDLeast:897058,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUIDMost:47563,UUIDLeast:288517,Slot:\"legs\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Thetys vert legs attack speed",
+				  "attribute": "generic.attack_speed",
+				  "amount": 0.05,
+				  "operation": "multiply_total",
+				  "slot": "legs",
+				  "id": "533821c2-4352-4df0-a504-15c457179d40"
+				},
+				{
+				  "name": "Thetys vert legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 4,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "6c8f5942-03f8-4cc8-b887-6ca03865f890"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.golden_leggings","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Th\u00e9tys","color":"green","italic":"false"}]
@@ -308,10 +595,27 @@
           "name": "minecraft:golden_boots",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.05,Operation:1,UUIDMost:89845,UUIDLeast:897054,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:47562,UUIDLeast:288516,Slot:\"feet\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Thetys vert feet attack speed",
+				  "attribute": "generic.attack_speed",
+				  "amount": 0.05,
+				  "operation": "multiply_total",
+				  "slot": "feet",
+				  "id": "533821c3-4352-4df0-a504-15c457179d40"
+				},
+				{
+				  "name": "Thetys vert feet armor",
+				  "attribute": "generic.armor",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "6c8f5943-03f8-4cc8-b887-6ca03865f890"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.golden_boots","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Th\u00e9tys","color":"green","italic":"false"}]
@@ -328,10 +632,35 @@
           "name": "minecraft:diamond_helmet",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:1,Operation:0,UUIDMost:83791,UUIDLeast:162253,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:38777,UUIDLeast:394656,Slot:\"head\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42828,UUIDLeast:116628,Slot:\"head\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ether vert head max health",
+				  "attribute": "generic.max_health",
+				  "amount": 1,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "3c4ca650-29a9-4d4d-a700-9d0d82c6f1b0"
+				},
+				{
+				  "name": "Ether vert head armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "67bff870-b551-4642-b26c-ce5504968b70"
+				},
+				{
+				  "name": "Ether vert head armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "head",
+				  "id": "70a87b10-d64f-4581-92b0-91adedf351e0"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.diamond_helmet","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Ether","color":"green","italic":"false"}]
@@ -348,10 +677,35 @@
           "name": "minecraft:diamond_chestplate",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:1,Operation:0,UUIDMost:83790,UUIDLeast:162252,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:38776,UUIDLeast:394655,Slot:\"chest\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42827,UUIDLeast:116627,Slot:\"chest\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ether vert chest max health",
+				  "attribute": "generic.max_health",
+				  "amount": 1,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "3c4ca651-29a9-4d4d-a700-9d0d82c6f1b0"
+				},
+				{
+				  "name": "Ether vert chest armor",
+				  "attribute": "generic.armor",
+				  "amount": 8,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "67bff871-b551-4642-b26c-ce5504968b70"
+				},
+				{
+				  "name": "Ether vert chest armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "chest",
+				  "id": "70a87b11-d64f-4581-92b0-91adedf351e0"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.diamond_chestplate","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Ether","color":"green","italic":"false"}]
@@ -368,10 +722,35 @@
           "name": "minecraft:diamond_leggings",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:1,Operation:0,UUIDMost:83799,UUIDLeast:162251,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:38775,UUIDLeast:394654,Slot:\"legs\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42826,UUIDLeast:116626,Slot:\"legs\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ether vert legs max health",
+				  "attribute": "generic.max_health",
+				  "amount": 1,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "3c4ca652-29a9-4d4d-a700-9d0d82c6f1b0"
+				},
+				{
+				  "name": "Ether vert legs armor",
+				  "attribute": "generic.armor",
+				  "amount": 6,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "67bff872-b551-4642-b26c-ce5504968b70"
+				},
+				{
+				  "name": "Ether vert legs armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "legs",
+				  "id": "70a87b12-d64f-4581-92b0-91adedf351e0"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.diamond_leggings","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Ether","color":"green","italic":"false"}]
@@ -388,10 +767,35 @@
           "name": "minecraft:diamond_boots",
           "weight": 1,
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:1,Operation:0,UUIDMost:83787,UUIDLeast:162256,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:38774,UUIDLeast:394653,Slot:\"feet\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42825,UUIDLeast:116625,Slot:\"feet\"}]}"
-            },
+			{
+			  "function": "minecraft:set_attributes",
+			  "modifiers": [
+				{
+				  "name": "Ether vert feet max health",
+				  "attribute": "generic.max_health",
+				  "amount": 1,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "3c4ca653-29a9-4d4d-a700-9d0d82c6f1b0"
+				},
+				{
+				  "name": "Ether vert feet armor",
+				  "attribute": "generic.armor",
+				  "amount": 3,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "67bff873-b551-4642-b26c-ce5504968b70"
+				},
+				{
+				  "name": "Ether vert feet armor toughness",
+				  "attribute": "generic.armor_toughness",
+				  "amount": 2,
+				  "operation": "addition",
+				  "slot": "feet",
+				  "id": "70a87b13-d64f-4581-92b0-91adedf351e0"
+				}
+			  ]
+			},
 			{
 			  "function": "minecraft:set_name",
 			  "name": [{"translate":"item.minecraft.diamond_boots","color":"green","italic":"false","bold":"true"},{"text":" "},{"text":"Ether","color":"green","italic":"false"}]

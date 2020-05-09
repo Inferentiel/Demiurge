@@ -1,0 +1,1 @@
+attribute @s minecraft:generic.attack_damage modifier add b7a7b8d2-343e-45a7-9b87-b41cd4e1eb52 "Grade 2 Damage" 1 add

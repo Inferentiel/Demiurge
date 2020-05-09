@@ -1,0 +1,1 @@
+execute as @a if predicate inferentiel:fall_end at @s in minecraft:overworld run tp ~ 500 ~

@@ -37,11 +37,11 @@
         }
       }
     },
-    "minecraft:zombie_pigman_b": {
+    "minecraft:zombified_piglin_b": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:zombie_pigman",
+          "type": "minecraft:zombified_piglin",
 		  "nbt": "{Tags:[\"Elite\"]}"
         }
       }
@@ -252,6 +252,33 @@
 		  "nbt": "{Tags:[\"Elite\"]}"
         }
       }
+    },
+	"minecraft:piglin_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+	"minecraft:hoglin_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:hoglin",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
+    },
+	"minecraft:zoglin_b": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zoglin",
+		  "nbt": "{Tags:[\"Elite\"]}"
+        }
+      }
     }
   },
   "requirements": [
@@ -262,7 +289,7 @@
       "minecraft:spider_b"
     ],
     [
-      "minecraft:zombie_pigman_b"
+      "minecraft:zombified_piglin_b"
     ],
     [
       "minecraft:enderman_b"
@@ -332,6 +359,15 @@
     ],
     [
       "minecraft:ravager_b"
+    ],
+    [
+      "minecraft:piglin_b"
+    ],
+    [
+      "minecraft:hoglin_b"
+    ],
+    [
+      "minecraft:zoglin_b"
     ]
   ]
 }

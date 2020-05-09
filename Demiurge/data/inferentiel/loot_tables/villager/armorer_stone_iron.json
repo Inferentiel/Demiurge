@@ -26,7 +26,7 @@
 						},
 						{
 						  "name": "vitesse grise",
-						  "attribute": "generic.movementSpeed",
+						  "attribute": "generic.movement_speed",
 						  "amount": {
 						    "min": -0.15,
 							"max": -0.05
@@ -69,7 +69,7 @@
 						},
 						{
 						  "name": "vitesse grise",
-						  "attribute": "generic.movementSpeed",
+						  "attribute": "generic.movement_speed",
 						  "amount": {
 						    "min": -0.15,
 							"max": -0.05
@@ -112,7 +112,7 @@
 						},
 						{
 						  "name": "vitesse grise",
-						  "attribute": "generic.movementSpeed",
+						  "attribute": "generic.movement_speed",
 						  "amount": {
 						    "min": -0.15,
 							"max": -0.05
@@ -155,7 +155,7 @@
 						},
 						{
 						  "name": "vitesse grise",
-						  "attribute": "generic.movementSpeed",
+						  "attribute": "generic.movement_speed",
 						  "amount": {
 						    "min": -0.15,
 							"max": -0.05

@@ -7,13 +7,16 @@
     "title": {
       "translate": "advancements.story.obtain_armor.title"
     },
-	"description": [{"text": "Overpower the beacon!"}],
+	"description": [{"text": "Overpower the beacon!\n"},{"translate":"item.minecraft.totem_of_undying","color":"gold"}],
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "rewards": {
+  "recipes": [
+	  "inferentiel:totem_of_undying"
+    ],
     "experience": 1000
   },
   "criteria": {
