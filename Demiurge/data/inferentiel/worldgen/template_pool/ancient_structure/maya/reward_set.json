@@ -1,0 +1,42 @@
+{
+  "name": "inferentiel:ancient_structure/maya/reward_set",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "inferentiel:ancient_structure/maya/reward_head",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "location": "inferentiel:ancient_structure/maya/reward_chest",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "location": "inferentiel:ancient_structure/maya/reward_legs",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "location": "inferentiel:ancient_structure/maya/reward_feet",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

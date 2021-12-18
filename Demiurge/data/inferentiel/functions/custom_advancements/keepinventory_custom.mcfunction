@@ -36,11 +36,11 @@ summon chest_minecart ~ ~ ~ {Tags:["keepInventory1"],Items:[{Slot:0b,id:"minecra
 summon chest_minecart ~ ~ ~ {Tags:["keepInventory2"],Items:[{Slot:0b,id:"minecraft:barrier",Count:1b}, {Slot:1b,id:"minecraft:barrier",Count:1b}, {Slot:2b,id:"minecraft:barrier",Count:1b}, {Slot:3b,id:"minecraft:barrier",Count:1b}, {Slot:4b,id:"minecraft:barrier",Count:1b}, {Slot:5b,id:"minecraft:barrier",Count:1b}, {Slot:6b,id:"minecraft:barrier",Count:1b}, {Slot:7b,id:"minecraft:barrier",Count:1b}, {Slot:8b,id:"minecraft:barrier",Count:1b}, {Slot:9b,id:"minecraft:barrier",Count:1b}, {Slot:10b,id:"minecraft:barrier",Count:1b}, {Slot:11b,id:"minecraft:barrier",Count:1b}, {Slot:12b,id:"minecraft:barrier",Count:1b}, {Slot:13b,id:"minecraft:barrier",Count:1b}, {Slot:14b,id:"minecraft:barrier",Count:1b}, {Slot:15b,id:"minecraft:barrier",Count:1b}, {Slot:16b,id:"minecraft:barrier",Count:1b}, {Slot:17b,id:"minecraft:barrier",Count:1b}, {Slot:18b,id:"minecraft:barrier",Count:1b}, {Slot:19b,id:"minecraft:barrier",Count:1b}, {Slot:20b,id:"minecraft:barrier",Count:1b}, {Slot:21b,id:"minecraft:barrier",Count:1b}, {Slot:22b,id:"minecraft:barrier",Count:1b}, {Slot:23b,id:"minecraft:barrier",Count:1b}, {Slot:24b,id:"minecraft:barrier",Count:1b}, {Slot:25b,id:"minecraft:barrier",Count:1b}, {Slot:26b,id:"minecraft:barrier",Count:1b}]}
 
 give @s minecraft:potion{display:{Lore:["{\"text\":\"Xp low\"}"]}} 36
-execute unless entity @s[nbt={Inventory:[{Slot:-106b}]}] run replaceitem entity @s weapon.offhand minecraft:potion{display:{Lore:["{\"text\":\"Xp low\"}"]}}
-execute unless entity @s[nbt={Inventory:[{Slot:103b}]}] run replaceitem entity @s armor.head minecraft:leather_helmet{display:{Lore:["{\"text\":\"Xp low\"}"]}}
-execute unless entity @s[nbt={Inventory:[{Slot:102b}]}] run replaceitem entity @s armor.chest minecraft:leather_chestplate{display:{Lore:["{\"text\":\"Xp low\"}"]}}
-execute unless entity @s[nbt={Inventory:[{Slot:101b}]}] run replaceitem entity @s armor.legs minecraft:leather_leggings{display:{Lore:["{\"text\":\"Xp low\"}"]}}
-execute unless entity @s[nbt={Inventory:[{Slot:100b}]}] run replaceitem entity @s armor.feet minecraft:leather_boots{display:{Lore:["{\"text\":\"Xp low\"}"]}}
+execute unless entity @s[nbt={Inventory:[{Slot:-106b}]}] run item replace entity @s weapon.offhand with minecraft:potion{display:{Lore:["{\"text\":\"Xp low\"}"]}}
+execute unless entity @s[nbt={Inventory:[{Slot:103b}]}] run item replace entity @s armor.head with minecraft:leather_helmet{display:{Lore:["{\"text\":\"Xp low\"}"]}}
+execute unless entity @s[nbt={Inventory:[{Slot:102b}]}] run item replace entity @s armor.chest with minecraft:leather_chestplate{display:{Lore:["{\"text\":\"Xp low\"}"]}}
+execute unless entity @s[nbt={Inventory:[{Slot:101b}]}] run item replace entity @s armor.legs with minecraft:leather_leggings{display:{Lore:["{\"text\":\"Xp low\"}"]}}
+execute unless entity @s[nbt={Inventory:[{Slot:100b}]}] run item replace entity @s armor.feet with minecraft:leather_boots{display:{Lore:["{\"text\":\"Xp low\"}"]}}
 
 execute if entity @s[scores={niveau=..30}] run data modify entity @e[tag=keepInventory1,limit=1,distance=..1] Items[0].id set from entity @s Inventory[0].id
 execute if entity @s[scores={niveau=..30}] run data modify entity @e[tag=keepInventory1,limit=1,distance=..1] Items[1].id set from entity @s Inventory[1].id
@@ -166,89 +166,89 @@ execute if entity @s[scores={niveau=..120}] run data modify entity @e[tag=keepIn
 execute if entity @s[scores={niveau=..120}] run data modify entity @e[tag=keepInventory2,limit=1,distance=..1] Items[13].Count set from entity @s Inventory[39].Count
 execute if entity @s[scores={niveau=..120}] run data modify entity @e[tag=keepInventory2,limit=1,distance=..1] Items[14].Count set from entity @s Inventory[40].Count
 
-execute if entity @s[scores={niveau=..30}] run replaceitem entity @s hotbar.0 minecraft:air
-execute if entity @s[scores={niveau=..30}] run replaceitem entity @s hotbar.1 minecraft:air
-execute if entity @s[scores={niveau=..30}] run replaceitem entity @s hotbar.2 minecraft:air
-execute if entity @s[scores={niveau=..30}] run replaceitem entity @s hotbar.3 minecraft:air
-execute if entity @s[scores={niveau=..30}] run replaceitem entity @s hotbar.4 minecraft:air
-execute if entity @s[scores={niveau=..30}] run replaceitem entity @s hotbar.5 minecraft:air
-execute if entity @s[scores={niveau=..30}] run replaceitem entity @s hotbar.6 minecraft:air
-execute if entity @s[scores={niveau=..30}] run replaceitem entity @s hotbar.7 minecraft:air
-execute if entity @s[scores={niveau=..30}] run replaceitem entity @s hotbar.8 minecraft:air
-execute if entity @s[scores={niveau=..10}] run replaceitem entity @s inventory.0 minecraft:air
-execute if entity @s[scores={niveau=..10}] run replaceitem entity @s inventory.1 minecraft:air
-execute if entity @s[scores={niveau=..10}] run replaceitem entity @s inventory.2 minecraft:air
-execute if entity @s[scores={niveau=..10}] run replaceitem entity @s inventory.3 minecraft:air
-execute if entity @s[scores={niveau=..10}] run replaceitem entity @s inventory.4 minecraft:air
-execute if entity @s[scores={niveau=..10}] run replaceitem entity @s inventory.5 minecraft:air
-execute if entity @s[scores={niveau=..10}] run replaceitem entity @s inventory.6 minecraft:air
-execute if entity @s[scores={niveau=..10}] run replaceitem entity @s inventory.7 minecraft:air
-execute if entity @s[scores={niveau=..10}] run replaceitem entity @s inventory.8 minecraft:air
-execute if entity @s[scores={niveau=..60}] run replaceitem entity @s inventory.9 minecraft:air
-execute if entity @s[scores={niveau=..60}] run replaceitem entity @s inventory.10 minecraft:air
-execute if entity @s[scores={niveau=..60}] run replaceitem entity @s inventory.11 minecraft:air
-execute if entity @s[scores={niveau=..60}] run replaceitem entity @s inventory.12 minecraft:air
-execute if entity @s[scores={niveau=..60}] run replaceitem entity @s inventory.13 minecraft:air
-execute if entity @s[scores={niveau=..60}] run replaceitem entity @s inventory.14 minecraft:air
-execute if entity @s[scores={niveau=..60}] run replaceitem entity @s inventory.15 minecraft:air
-execute if entity @s[scores={niveau=..60}] run replaceitem entity @s inventory.16 minecraft:air
-execute if entity @s[scores={niveau=..60}] run replaceitem entity @s inventory.17 minecraft:air
-execute if entity @s[scores={niveau=..255}] run replaceitem entity @s inventory.18 minecraft:air
-execute if entity @s[scores={niveau=..255}] run replaceitem entity @s inventory.19 minecraft:air
-execute if entity @s[scores={niveau=..255}] run replaceitem entity @s inventory.20 minecraft:air
-execute if entity @s[scores={niveau=..255}] run replaceitem entity @s inventory.21 minecraft:air
-execute if entity @s[scores={niveau=..255}] run replaceitem entity @s inventory.22 minecraft:air
-execute if entity @s[scores={niveau=..255}] run replaceitem entity @s inventory.23 minecraft:air
-execute if entity @s[scores={niveau=..255}] run replaceitem entity @s inventory.24 minecraft:air
-execute if entity @s[scores={niveau=..255}] run replaceitem entity @s inventory.25 minecraft:air
-execute if entity @s[scores={niveau=..255}] run replaceitem entity @s inventory.26 minecraft:air
-execute if entity @s[scores={niveau=..120}] run replaceitem entity @s weapon.offhand minecraft:air
-execute if entity @s[scores={niveau=..120}] run replaceitem entity @s armor.head minecraft:air
-execute if entity @s[scores={niveau=..120}] run replaceitem entity @s armor.chest minecraft:air
-execute if entity @s[scores={niveau=..120}] run replaceitem entity @s armor.legs minecraft:air
-execute if entity @s[scores={niveau=..120}] run replaceitem entity @s armor.feet minecraft:air
+execute if entity @s[scores={niveau=..30}] run item replace entity @s hotbar.0 with minecraft:air
+execute if entity @s[scores={niveau=..30}] run item replace entity @s hotbar.1 with minecraft:air
+execute if entity @s[scores={niveau=..30}] run item replace entity @s hotbar.2 with minecraft:air
+execute if entity @s[scores={niveau=..30}] run item replace entity @s hotbar.3 with minecraft:air
+execute if entity @s[scores={niveau=..30}] run item replace entity @s hotbar.4 with minecraft:air
+execute if entity @s[scores={niveau=..30}] run item replace entity @s hotbar.5 with minecraft:air
+execute if entity @s[scores={niveau=..30}] run item replace entity @s hotbar.6 with minecraft:air
+execute if entity @s[scores={niveau=..30}] run item replace entity @s hotbar.7 with minecraft:air
+execute if entity @s[scores={niveau=..30}] run item replace entity @s hotbar.8 with minecraft:air
+execute if entity @s[scores={niveau=..10}] run item replace entity @s inventory.0 with minecraft:air
+execute if entity @s[scores={niveau=..10}] run item replace entity @s inventory.1 with minecraft:air
+execute if entity @s[scores={niveau=..10}] run item replace entity @s inventory.2 with minecraft:air
+execute if entity @s[scores={niveau=..10}] run item replace entity @s inventory.3 with minecraft:air
+execute if entity @s[scores={niveau=..10}] run item replace entity @s inventory.4 with minecraft:air
+execute if entity @s[scores={niveau=..10}] run item replace entity @s inventory.5 with minecraft:air
+execute if entity @s[scores={niveau=..10}] run item replace entity @s inventory.6 with minecraft:air
+execute if entity @s[scores={niveau=..10}] run item replace entity @s inventory.7 with minecraft:air
+execute if entity @s[scores={niveau=..10}] run item replace entity @s inventory.8 with minecraft:air
+execute if entity @s[scores={niveau=..60}] run item replace entity @s inventory.9 with minecraft:air
+execute if entity @s[scores={niveau=..60}] run item replace entity @s inventory.10 with minecraft:air
+execute if entity @s[scores={niveau=..60}] run item replace entity @s inventory.11 with minecraft:air
+execute if entity @s[scores={niveau=..60}] run item replace entity @s inventory.12 with minecraft:air
+execute if entity @s[scores={niveau=..60}] run item replace entity @s inventory.13 with minecraft:air
+execute if entity @s[scores={niveau=..60}] run item replace entity @s inventory.14 with minecraft:air
+execute if entity @s[scores={niveau=..60}] run item replace entity @s inventory.15 with minecraft:air
+execute if entity @s[scores={niveau=..60}] run item replace entity @s inventory.16 with minecraft:air
+execute if entity @s[scores={niveau=..60}] run item replace entity @s inventory.17 with minecraft:air
+execute if entity @s[scores={niveau=..255}] run item replace entity @s inventory.18 with minecraft:air
+execute if entity @s[scores={niveau=..255}] run item replace entity @s inventory.19 with minecraft:air
+execute if entity @s[scores={niveau=..255}] run item replace entity @s inventory.20 with minecraft:air
+execute if entity @s[scores={niveau=..255}] run item replace entity @s inventory.21 with minecraft:air
+execute if entity @s[scores={niveau=..255}] run item replace entity @s inventory.22 with minecraft:air
+execute if entity @s[scores={niveau=..255}] run item replace entity @s inventory.23 with minecraft:air
+execute if entity @s[scores={niveau=..255}] run item replace entity @s inventory.24 with minecraft:air
+execute if entity @s[scores={niveau=..255}] run item replace entity @s inventory.25 with minecraft:air
+execute if entity @s[scores={niveau=..255}] run item replace entity @s inventory.26 with minecraft:air
+execute if entity @s[scores={niveau=..120}] run item replace entity @s weapon.offhand with minecraft:air
+execute if entity @s[scores={niveau=..120}] run item replace entity @s armor.head with minecraft:air
+execute if entity @s[scores={niveau=..120}] run item replace entity @s armor.chest with minecraft:air
+execute if entity @s[scores={niveau=..120}] run item replace entity @s armor.legs with minecraft:air
+execute if entity @s[scores={niveau=..120}] run item replace entity @s armor.feet with minecraft:air
 
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s weapon.offhand minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s armor.head minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s armor.chest minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s armor.legs minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s armor.feet minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:0b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s hotbar.0 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:1b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s hotbar.1 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:2b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s hotbar.2 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:3b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s hotbar.3 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:4b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s hotbar.4 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:5b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s hotbar.5 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:6b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s hotbar.6 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:7b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s hotbar.7 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:8b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s hotbar.8 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:9b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.0 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:10b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.1 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:11b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.2 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:12b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.3 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:13b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.4 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:14b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.5 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:15b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.6 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:16b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.7 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:17b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.8 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:18b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.9 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:19b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.10 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:20b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.11 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:21b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.12 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:22b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.13 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:23b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.14 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:24b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.15 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:25b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.16 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:26b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.17 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:27b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.18 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:28b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.19 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:29b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.20 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:30b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.21 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:31b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.22 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:32b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.23 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:33b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.24 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:34b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.25 minecraft:air
-execute if entity @s[nbt={Inventory:[{Slot:35b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run replaceitem entity @s inventory.26 minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s weapon.offhand with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s armor.head with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s armor.chest with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s armor.legs with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s armor.feet with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:0b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s hotbar.0 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:1b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s hotbar.1 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:2b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s hotbar.2 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:3b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s hotbar.3 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:4b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s hotbar.4 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:5b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s hotbar.5 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:6b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s hotbar.6 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:7b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s hotbar.7 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:8b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s hotbar.8 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:9b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.0 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:10b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.1 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:11b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.2 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:12b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.3 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:13b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.4 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:14b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.5 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:15b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.6 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:16b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.7 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:17b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.8 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:18b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.9 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:19b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.10 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:20b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.11 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:21b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.12 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:22b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.13 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:23b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.14 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:24b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.15 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:25b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.16 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:26b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.17 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:27b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.18 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:28b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.19 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:29b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.20 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:30b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.21 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:31b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.22 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:32b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.23 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:33b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.24 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:34b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.25 with minecraft:air
+execute if entity @s[nbt={Inventory:[{Slot:35b,tag:{display:{Lore:["{\"text\":\"Xp low\"}"]}}}]}] run item replace entity @s inventory.26 with minecraft:air
 
 kill @e[tag=keepInventory1,limit=1,distance=..1]
 kill @e[tag=keepInventory2,limit=1,distance=..1]

@@ -24,7 +24,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:torch"
+            "items": [
+				"minecraft:torch"
+			]
           }
         ]
       }

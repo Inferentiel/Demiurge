@@ -19,7 +19,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.05,Operation:1,UUIDMost:89842,UUIDLeast:897053,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:47565,UUIDLeast:288519,Slot:\"head\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.05,Operation:1,UUIDMost:89842,UUIDLeast:897053,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:47565,UUIDLeast:288519,Slot:\"head\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -47,7 +47,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.05,Operation:1,UUIDMost:89841,UUIDLeast:897052,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:47564,UUIDLeast:288518,Slot:\"chest\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.05,Operation:1,UUIDMost:89841,UUIDLeast:897052,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:47564,UUIDLeast:288518,Slot:\"chest\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -75,7 +75,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.05,Operation:1,UUIDMost:89849,UUIDLeast:897058,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUIDMost:47563,UUIDLeast:288517,Slot:\"legs\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.05,Operation:1,UUIDMost:89849,UUIDLeast:897058,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUIDMost:47563,UUIDLeast:288517,Slot:\"legs\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -103,7 +103,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.05,Operation:1,UUIDMost:89845,UUIDLeast:897054,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:47562,UUIDLeast:288516,Slot:\"feet\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.05,Operation:1,UUIDMost:89845,UUIDLeast:897054,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:47562,UUIDLeast:288516,Slot:\"feet\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -131,7 +131,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.05,Operation:1,UUIDMost:13628,UUIDLeast:828297,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:75,UUIDLeast:228718,Slot:\"head\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0.05,Operation:1,UUIDMost:13628,UUIDLeast:828297,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:75,UUIDLeast:228718,Slot:\"head\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -159,7 +159,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.05,Operation:1,UUIDMost:13627,UUIDLeast:828296,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:74,UUIDLeast:228717,Slot:\"chest\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0.05,Operation:1,UUIDMost:13627,UUIDLeast:828296,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:74,UUIDLeast:228717,Slot:\"chest\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -187,7 +187,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.05,Operation:1,UUIDMost:13626,UUIDLeast:828295,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUIDMost:73,UUIDLeast:228716,Slot:\"legs\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0.05,Operation:1,UUIDMost:13626,UUIDLeast:828295,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUIDMost:73,UUIDLeast:228716,Slot:\"legs\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -215,7 +215,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:0.05,Operation:1,UUIDMost:13624,UUIDLeast:828293,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:72,UUIDLeast:228715,Slot:\"feet\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0.05,Operation:1,UUIDMost:13624,UUIDLeast:828293,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:72,UUIDLeast:228715,Slot:\"feet\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -248,7 +248,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:55925,UUIDLeast:227231,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:44540,UUIDLeast:981304,Slot:\"head\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUIDMost:55925,UUIDLeast:227231,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:44540,UUIDLeast:981304,Slot:\"head\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -281,7 +281,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:55924,UUIDLeast:227230,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUIDMost:44549,UUIDLeast:981303,Slot:\"chest\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUIDMost:55924,UUIDLeast:227230,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUIDMost:44549,UUIDLeast:981303,Slot:\"chest\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -314,7 +314,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:55922,UUIDLeast:227239,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:44548,UUIDLeast:981302,Slot:\"legs\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUIDMost:55922,UUIDLeast:227239,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:44548,UUIDLeast:981302,Slot:\"legs\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -347,7 +347,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:1,Operation:0,UUIDMost:55929,UUIDLeast:227237,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:44547,UUIDLeast:981301,Slot:\"feet\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUIDMost:55929,UUIDLeast:227237,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:44547,UUIDLeast:981301,Slot:\"feet\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -380,7 +380,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-2,Operation:0,UUIDMost:83418,UUIDLeast:220066,Slot:\"head\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.05,Operation:1,UUIDMost:51436,UUIDLeast:943977,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:33673,UUIDLeast:207227,Slot:\"head\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-2,Operation:0,UUIDMost:83418,UUIDLeast:220066,Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUIDMost:51436,UUIDLeast:943977,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:33673,UUIDLeast:207227,Slot:\"head\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -413,7 +413,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-2,Operation:0,UUIDMost:83417,UUIDLeast:220065,Slot:\"chest\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.05,Operation:1,UUIDMost:51435,UUIDLeast:943967,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUIDMost:33672,UUIDLeast:207226,Slot:\"chest\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-2,Operation:0,UUIDMost:83417,UUIDLeast:220065,Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUIDMost:51435,UUIDLeast:943967,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUIDMost:33672,UUIDLeast:207226,Slot:\"chest\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -446,7 +446,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-2,Operation:0,UUIDMost:83416,UUIDLeast:220064,Slot:\"legs\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.05,Operation:1,UUIDMost:51434,UUIDLeast:943973,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:33671,UUIDLeast:207225,Slot:\"legs\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-2,Operation:0,UUIDMost:83416,UUIDLeast:220064,Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUIDMost:51434,UUIDLeast:943973,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:33671,UUIDLeast:207225,Slot:\"legs\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -479,7 +479,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:-2,Operation:0,UUIDMost:83428,UUIDLeast:220056,Slot:\"feet\"},{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:0.05,Operation:1,UUIDMost:51426,UUIDLeast:942977,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:33670,UUIDLeast:207224,Slot:\"feet\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-2,Operation:0,UUIDMost:83428,UUIDLeast:220056,Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUIDMost:51426,UUIDLeast:942977,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:33670,UUIDLeast:207224,Slot:\"feet\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -507,7 +507,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:1,Operation:0,UUIDMost:83791,UUIDLeast:162253,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:38777,UUIDLeast:394656,Slot:\"head\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42828,UUIDLeast:116628,Slot:\"head\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:1,Operation:0,UUIDMost:83791,UUIDLeast:162253,Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:38777,UUIDLeast:394656,Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUIDMost:42828,UUIDLeast:116628,Slot:\"head\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -535,7 +535,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:1,Operation:0,UUIDMost:83790,UUIDLeast:162252,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:38776,UUIDLeast:394655,Slot:\"chest\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42827,UUIDLeast:116627,Slot:\"chest\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:1,Operation:0,UUIDMost:83790,UUIDLeast:162252,Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUIDMost:38776,UUIDLeast:394655,Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUIDMost:42827,UUIDLeast:116627,Slot:\"chest\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -563,7 +563,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:1,Operation:0,UUIDMost:83799,UUIDLeast:162251,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:38775,UUIDLeast:394654,Slot:\"legs\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42826,UUIDLeast:116626,Slot:\"legs\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:1,Operation:0,UUIDMost:83799,UUIDLeast:162251,Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUIDMost:38775,UUIDLeast:394654,Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUIDMost:42826,UUIDLeast:116626,Slot:\"legs\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",
@@ -591,7 +591,7 @@
 				  "functions": [
 					{
 					  "function": "set_nbt",
-					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:1,Operation:0,UUIDMost:83787,UUIDLeast:162256,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:38774,UUIDLeast:394653,Slot:\"feet\"},{AttributeName:\"generic.armorToughness\",Name:\"generic.armorToughness\",Amount:2,Operation:0,UUIDMost:42825,UUIDLeast:116625,Slot:\"feet\"}]}"
+					  "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:1,Operation:0,UUIDMost:83787,UUIDLeast:162256,Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUIDMost:38774,UUIDLeast:394653,Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUIDMost:42825,UUIDLeast:116625,Slot:\"feet\"}]}"
 					},
 					{
 					  "function": "minecraft:set_name",

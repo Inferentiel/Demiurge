@@ -24,7 +24,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:lava_bucket"
+            "items": [
+				"minecraft:lava_bucket"
+			]
           }
         ]
       }

@@ -24,7 +24,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:campfire"
+            "items": [
+				"minecraft:campfire"
+			]
           }
         ]
       }

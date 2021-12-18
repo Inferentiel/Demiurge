@@ -64,21 +64,6 @@
 				"type": "loot_table",
 				"name": "inferentiel:bonus/bonus_chest",
 				"weight": 10
-			},
-			{
-				"type": "item",
-				"name": "minecraft:chest",
-				"weight": 1,
-				"functions": [
-				  {
-					"function": "set_name",
-					"name": [{"translate":"entity.minecraft.zoglin","color":"dark_red","italic":"false"}]
-				  },
-				  {
-					"function": "set_nbt",
-					"tag": "{BlockEntityTag:{LootTable:\"inferentiel:bonus/zoglin\"}}"
-				  }
-				]
 			}
 		]
 	}

@@ -1,0 +1,42 @@
+{
+  "name": "inferentiel:ancient_structure/skyship/reward_set",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "inferentiel:ancient_structure/skyship/reward_head",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "location": "inferentiel:ancient_structure/skyship/reward_chest",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "location": "inferentiel:ancient_structure/skyship/reward_legs",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "location": "inferentiel:ancient_structure/skyship/reward_feet",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

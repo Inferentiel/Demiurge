@@ -1,0 +1,7 @@
+{
+  "config": {
+    "start_pool": "inferentiel:ancient_structure/maya",
+    "size": 7
+  },
+  "type": "minecraft:pillager_outpost"
+}

@@ -904,6 +904,22 @@
               "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.target\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:target\"]}"
             }
           ]
+        },
+		{
+          "type": "item",
+          "name": "minecraft:knowledge_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"[{\\\"translate\\\":\\\"item.minecraft.knowledge_book\\\",\\\"italic\\\":\\\"false\\\"},{\\\"text\\\":\\\" : \\\"},{\\\"translate\\\":\\\"block.minecraft.candle\\\",\\\"color\\\":\\\"green\\\"}]\"},Recipes:[\"minecraft:candle\"]}"
+            }
+          ]
+        },
+		{
+          "type": "loot_table",
+          "name": "inferentiel:chests/tier_iv/candles",
+          "weight": 1
         }
       ]
     }

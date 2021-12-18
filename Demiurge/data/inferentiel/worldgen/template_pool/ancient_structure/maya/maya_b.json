@@ -1,0 +1,15 @@
+{
+  "name": "inferentiel:ancient_structure/maya/maya_b",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "inferentiel:ancient_structure/maya/maya_b",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

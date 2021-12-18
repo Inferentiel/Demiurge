@@ -1,0 +1,67 @@
+{
+  "parent": "minecraft:husbandry/safely_harvest_honey",
+  "display": {
+    "icon": {
+      "item": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "advancements.husbandry.wax_on.title"
+    },
+    "description": [{
+      "translate": "advancements.husbandry.wax_on.description"
+    },{"text":"\n"},{"translate":"item.minecraft.magenta_dye","color":"gold"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100,
+	"recipes": [
+      "minecraft:magenta_dye_from_allium",
+	  "minecraft:magenta_dye_from_blue_red_pink",
+	  "minecraft:magenta_dye_from_blue_red_white_dye",
+	  "minecraft:magenta_dye_from_lilac",
+	  "minecraft:magenta_dye_from_purple_and_pink"
+    ]
+  },
+  "criteria": {
+    "wax_on": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:copper_block",
+              "minecraft:exposed_copper",
+              "minecraft:weathered_copper",
+              "minecraft:oxidized_copper",
+              "minecraft:cut_copper",
+              "minecraft:exposed_cut_copper",
+              "minecraft:weathered_cut_copper",
+              "minecraft:oxidized_cut_copper",
+              "minecraft:cut_copper_slab",
+              "minecraft:exposed_cut_copper_slab",
+              "minecraft:weathered_cut_copper_slab",
+              "minecraft:oxidized_cut_copper_slab",
+              "minecraft:cut_copper_stairs",
+              "minecraft:exposed_cut_copper_stairs",
+              "minecraft:weathered_cut_copper_stairs",
+              "minecraft:oxidized_cut_copper_stairs"
+            ]
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wax_on"
+    ]
+  ]
+}

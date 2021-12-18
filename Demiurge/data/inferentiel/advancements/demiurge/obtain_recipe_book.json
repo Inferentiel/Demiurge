@@ -24,7 +24,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:knowledge_book"
+            "items": [
+				"minecraft:knowledge_book"
+			]
           }
         ]
       }

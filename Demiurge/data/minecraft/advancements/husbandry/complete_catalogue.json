@@ -7,7 +7,7 @@
     "title": {
       "translate": "advancements.husbandry.complete_catalogue.title"
     },
-    "description": [{"translate": "advancements.husbandry.complete_catalogue.description"},{"text":"\n"},{"translate":"item.minecraft.light_gray_dye","color":"gold"},
+    "description": [{"translate": "advancements.husbandry.complete_catalogue.description"},
 	{"text":"\n"},{"translate":"item.minecraft.gray_dye","color":"gold"}],
     "frame": "challenge",
     "show_toast": true,
@@ -17,11 +17,6 @@
   "rewards": {
     "experience": 50,
 	"recipes": [
-      "minecraft:light_gray_dye_from_azure_bluet",
-	  "minecraft:light_gray_dye_from_black_white_dye",
-	  "minecraft:light_gray_dye_from_gray_white_dye",
-	  "minecraft:light_gray_dye_from_oxeye_daisy",
-	  "minecraft:light_gray_dye_from_white_tulip",
 	  "minecraft:gray_dye"
     ]
   },
