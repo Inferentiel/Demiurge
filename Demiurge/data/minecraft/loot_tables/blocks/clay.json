@@ -53,74 +53,8 @@
               "type": "loot_table",
               "conditions": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:wooden_shovel"
-                  }
-                },
-				{
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.05
-                }
-              ],
-              "name": "inferentiel:bonus/bonus_clay"
-            },
-			{
-              "type": "loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:stone_shovel"
-                  }
-                },
-				{
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.05
-                }
-              ],
-              "name": "inferentiel:bonus/bonus_clay"
-            },
-			{
-              "type": "loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:iron_shovel"
-                  }
-                },
-				{
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.05
-                }
-              ],
-              "name": "inferentiel:bonus/bonus_clay"
-            },
-			{
-              "type": "loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:golden_shovel"
-                  }
-                },
-				{
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.05
-                }
-              ],
-              "name": "inferentiel:bonus/bonus_clay"
-            },
-			{
-              "type": "loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:diamond_shovel"
-                  }
+                  "condition": "reference",
+                  "name": "inferentiel:shovel"
                 },
 				{
                   "condition": "minecraft:random_chance",

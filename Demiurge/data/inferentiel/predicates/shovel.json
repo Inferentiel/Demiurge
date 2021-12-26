@@ -4,37 +4,37 @@
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:wooden_shovel"
+          "items": ["minecraft:wooden_shovel"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:stone_shovel"
+          "items": ["minecraft:stone_shovel"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:iron_shovel"
+          "items": ["minecraft:iron_shovel"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:golden_shovel"
+          "items": ["minecraft:golden_shovel"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:diamond_shovel"
+          "items": ["minecraft:diamond_shovel"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:netherite_shovel"
+          "items": ["minecraft:netherite_shovel"]
         }
 	  }
 	]

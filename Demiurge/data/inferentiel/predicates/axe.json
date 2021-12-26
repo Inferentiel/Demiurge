@@ -4,37 +4,37 @@
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:wooden_axe"
+          "items": ["minecraft:wooden_axe"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:stone_axe"
+          "items": ["minecraft:stone_axe"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:iron_axe"
+          "items": ["minecraft:iron_axe"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:golden_axe"
+          "items": ["minecraft:golden_axe"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:diamond_axe"
+          "items": ["minecraft:diamond_axe"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:netherite_axe"
+          "items": ["minecraft:netherite_axe"]
         }
 	  }
 	]

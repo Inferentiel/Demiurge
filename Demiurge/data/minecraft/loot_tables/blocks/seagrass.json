@@ -11,58 +11,12 @@
               "type": "loot_table",
               "conditions": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:wooden_sword"
-                  }
-                }
-              ],
-              "name": "inferentiel:bonus/bonus_grass"
-            },
-			{
-              "type": "loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:stone_sword"
-                  }
-                }
-              ],
-              "name": "inferentiel:bonus/bonus_grass"
-            },
-			{
-              "type": "loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:iron_sword"
-                  }
-                }
-              ],
-              "name": "inferentiel:bonus/bonus_grass"
-            },
-			{
-              "type": "loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:golden_sword"
-                  }
-                }
-              ],
-              "name": "inferentiel:bonus/bonus_grass"
-            },
-			{
-              "type": "loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:diamond_sword"
-                  }
+                  "condition": "reference",
+                  "name": "inferentiel:sword"
+                },
+				{
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.01
                 }
               ],
               "name": "inferentiel:bonus/bonus_grass"
@@ -73,7 +27,7 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "item": "minecraft:shears"
+                    "items": ["minecraft:shears"]
                   }
                 }
               ],

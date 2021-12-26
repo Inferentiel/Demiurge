@@ -42,29 +42,9 @@
 		  "condition": "minecraft:alternative",
 		  "terms" : [
 			{
-			  "condition": "minecraft:match_tool",
-			  "predicate": {
-				"item": "minecraft:wooden_hoe"
-			  }
-			},
-			{
-			  "condition": "minecraft:match_tool",
-			  "predicate": {
-				"item": "minecraft:stone_hoe"
-			  }
-			},
-			{
-			  "condition": "minecraft:match_tool",
-			  "predicate": {
-				"item": "minecraft:golden_hoe"
-			  }
-			},
-			{
-			  "condition": "minecraft:match_tool",
-			  "predicate": {
-				"item": "minecraft:diamond_hoe"
-			  }
-			}
+                 "condition": "reference",
+                 "name": "inferentiel:hoe"
+            }
 		  ]
 		}
 	  ],

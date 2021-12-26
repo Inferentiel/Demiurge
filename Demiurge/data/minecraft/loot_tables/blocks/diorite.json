@@ -41,62 +41,12 @@
               "type": "loot_table",
               "conditions": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:stone_pickaxe"
-                  }
+                  "condition": "reference",
+                  "name": "inferentiel:pickaxe"
                 },
 				{
                   "condition": "minecraft:random_chance",
                   "chance": 0.06
-                }
-              ],
-              "name": "inferentiel:bonus/bonus_stone"
-            },
-			{
-              "type": "loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:iron_pickaxe"
-                  }
-                },
-				{
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.07
-                }
-              ],
-              "name": "inferentiel:bonus/bonus_stone"
-            },
-			{
-              "type": "loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:golden_pickaxe"
-                  }
-                },
-				{
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.1
-                }
-              ],
-              "name": "inferentiel:bonus/bonus_stone"
-            },
-			{
-              "type": "loot_table",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "item": "minecraft:diamond_pickaxe"
-                  }
-                },
-				{
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.075
                 }
               ],
               "name": "inferentiel:bonus/bonus_stone"

@@ -4,37 +4,37 @@
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:wooden_pickaxe"
+          "items": ["minecraft:wooden_pickaxe"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:stone_pickaxe"
+          "items": ["minecraft:stone_pickaxe"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:iron_pickaxe"
+          "items": ["minecraft:iron_pickaxe"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:golden_pickaxe"
+          "items": ["minecraft:golden_pickaxe"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:diamond_pickaxe"
+          "items": ["minecraft:diamond_pickaxe"]
         }
 	  },
 	  {
 	    "condition": "minecraft:match_tool",
         "predicate": {
-          "item": "minecraft:netherite_pickaxe"
+          "items": ["minecraft:netherite_pickaxe"]
         }
 	  }
 	]

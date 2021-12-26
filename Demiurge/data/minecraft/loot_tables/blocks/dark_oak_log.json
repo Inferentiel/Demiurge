@@ -11,10 +11,8 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-				    "item": "minecraft:wooden_axe"
-                  }
+                  "condition": "reference",
+                  "name": "inferentiel:axe"
                 },
 				{
                   "condition": "minecraft:random_chance",
@@ -27,122 +25,8 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-				    "item": "minecraft:wooden_axe"
-                  }
-                }
-              ],
-              "name": "minecraft:stripped_dark_oak_log"
-            },
-			{
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-				    "item": "minecraft:stone_axe"
-                  }
-                },
-				{
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.05
-                }
-              ],
-              "name": "minecraft:dark_oak_log"
-            },
-			{
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-				    "item": "minecraft:stone_axe"
-                  }
-                }
-              ],
-              "name": "minecraft:stripped_dark_oak_log"
-            },
-			{
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-				    "item": "minecraft:iron_axe"
-                  }
-                },
-				{
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.05
-                }
-              ],
-              "name": "minecraft:dark_oak_log"
-            },
-			{
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-				    "item": "minecraft:iron_axe"
-                  }
-                }
-              ],
-              "name": "minecraft:stripped_dark_oak_log"
-            },
-			{
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-				    "item": "minecraft:golden_axe"
-                  }
-                },
-				{
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.05
-                }
-              ],
-              "name": "minecraft:dark_oak_log"
-            },
-			{
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-				    "item": "minecraft:golden_axe"
-                  }
-                }
-              ],
-              "name": "minecraft:stripped_dark_oak_log"
-            },
-			{
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-				    "item": "minecraft:diamond_axe"
-                  }
-                },
-				{
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.05
-                }
-              ],
-              "name": "minecraft:dark_oak_log"
-            },
-			{
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-				    "item": "minecraft:diamond_axe"
-                  }
+                  "condition": "reference",
+                  "name": "inferentiel:axe"
                 }
               ],
               "name": "minecraft:stripped_dark_oak_log"

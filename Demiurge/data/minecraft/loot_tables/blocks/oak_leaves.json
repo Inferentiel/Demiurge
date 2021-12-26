@@ -16,7 +16,7 @@
                     {
                       "condition": "minecraft:match_tool",
                       "predicate": {
-                        "item": "minecraft:shears"
+                        "items": ["minecraft:shears"]
                       }
                     },
                     {
@@ -103,7 +103,7 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "item": "minecraft:shears"
+                  "items": ["minecraft:shears"]
                 }
               },
               {
@@ -157,7 +157,7 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "item": "minecraft:shears"
+                  "items": ["minecraft:shears"]
                 }
               },
               {
@@ -188,35 +188,9 @@
 		      "condition": "alternative",
 		  	  "terms": [
 		  	    {
-			      "condition": "match_tool",
-				  "predicate": {
-				    "item": "minecraft:wooden_sword"
-				  }
-			    },
-			    {
-			      "condition": "match_tool",
-				  "predicate": {
-				    "item": "minecraft:stone_sword"
-				  }
-			    },
-			    {
-			      "condition": "match_tool",
-				  "predicate": {
-				    "item": "minecraft:iron_sword"
-				  }
-			    },
-			    {
-			      "condition": "match_tool",
-				  "predicate": {
-				    "item": "minecraft:golden_sword"
-				  }
-			    },
-			    {
-			      "condition": "match_tool",
-				  "predicate": {
-				    "item": "minecraft:diamond_sword"
-				  }
-			    }
+                  "condition": "reference",
+                  "name": "inferentiel:sword"
+                }
 			  ]
 		    },
 		    {
